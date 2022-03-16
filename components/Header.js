@@ -100,7 +100,7 @@ export default function Header() {
                                                   </div>
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/dedicated.svg"
-                                                           alt="Dedicated Server">
+                                                           alt="Dedicated Server" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="dedicated"
                                                                  data-i18n="[html]submenu.dedicated"> </a>
