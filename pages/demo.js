@@ -30,6 +30,8 @@ export default function Home() {
                 </div>
                 <Header />
 
+                //Body
+
                 <section id="owl-demo" className="owl-carousel owl-theme owl-loaded owl-drag slider-02 scrollme">
                     <div className="full h-100 sec-bg6 bg-colorstyle">
                         <div className="vc-parent">
@@ -108,6 +110,9 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
+
+
+                //Body close
 
             <Footer />
             </div>
