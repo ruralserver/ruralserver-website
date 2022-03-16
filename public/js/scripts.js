@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     backtotop();
     owldemo();
     isotope();
-    livechat();
+    //livechat();
     contactform();
     popover();
     scrollgoto();
