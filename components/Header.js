@@ -291,7 +291,7 @@
                                           </div>
                                       </li>
                                      <li className="menu-item menu-item-has-children menu-last">
-                                          <a className="v-stroke" href="#" data-i18n="[html]header.support"></a>
+                                          <a className="v-stroke" href="#" data-i18n="[html]header.support">Support</a>
                                           <div className="sub-menu megamenu">
                                               <div className="container">
                                                   <div className="row">
