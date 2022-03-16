@@ -25,7 +25,6 @@ export default function Header() {
                   </div>
               </div>
           </div>
-          <!-- ***** NAV MENU DESKTOP ****** -->
           <div className="menu-wrap">
               <div className="nav-menu">
                   <div className="container">
@@ -517,7 +516,6 @@ export default function Header() {
                   </div>
               </div>
           </div>
-          <!-- ***** NAV MENU MOBILE ****** -->
           <div className="menu-wrap mobile">
               <div className="container">
                   <div className="row">
@@ -658,7 +656,6 @@ export default function Header() {
                   </div>
               </div>
           </div>
-          <!-- ***** TRANSLATION ****** -->
           <section id="drop-lng" className="btn-group btn-group-toggle toplang">
               <label data-lng="en-US" htmlFor="option1" className="btn btn-secondary me-2">
                   <input type="radio" name="options" id="option1" checked /> EN
