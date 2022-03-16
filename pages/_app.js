@@ -1,4 +1,5 @@
 import '@styles/globals.css'
+import "@styles/fonts/cloudicon/cloudicon.css";
 
 
 function Application({ Component, pageProps }) {
