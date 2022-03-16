@@ -227,42 +227,42 @@ a {
 
 /* Patterns */
 .exapath {
-    background-image: url("public/patterns/exapath.svg");
+    background-image: url("patterns/exapath.svg");
     background-repeat: repeat;
 }
 
 .cpupath {
-    background-image: url("public/patterns/cpupath.svg");
+    background-image: url("patterns/cpupath.svg");
     background-repeat: repeat;
 }
 
 .motpath {
-    background-image: url("public/patterns/motpath.svg");
+    background-image: url("patterns/motpath.svg");
     background-repeat: repeat;
 }
 
 .promopath {
-    background-image: url("public/patterns/promopath.svg");
+    background-image: url("patterns/promopath.svg");
     background-repeat: repeat;
 }
 
 .exapath-w {
-    background-image: url("public/patterns/exapath-w.svg");
+    background-image: url("patterns/exapath-w.svg");
     background-repeat: repeat;
 }
 
 .cpupath-w {
-    background-image: url("public/patterns/cpupath-w.svg");
+    background-image: url("patterns/cpupath-w.svg");
     background-repeat: repeat;
 }
 
 .motpath-w {
-    background-image: url("public/patterns/motpath-w.svg");
+    background-image: url("patterns/motpath-w.svg");
     background-repeat: repeat;
 }
 
 .promo-w {
-    background-image: url("public/patterns/promo-w.svg");
+    background-image: url("patterns/promo-w.svg");
     background-repeat: repeat;
 }
 
@@ -7790,12 +7790,12 @@ svg {
 }
 
 [data-background="light"] .box-container .cpupath {
-    background-image: url(public/patterns/cpupath.svg) !important;
+    background-image: url(patterns/cpupath.svg) !important;
     background-color: #fff !important;
 }
 
 [data-background="light"] .box-container .motpath {
-    background-image: url(public/patterns/motpath.svg);
+    background-image: url(patterns/motpath.svg);
 }
 
 [data-background="light"] .box-container .tabs.motpath {
@@ -7803,7 +7803,7 @@ svg {
 }
 
 [data-background="light"] .box-container .exapath {
-    background-image: url(public/patterns/exapath.svg);
+    background-image: url(patterns/exapath.svg);
 }
 
 [data-background="light"] .box-container #features.exapath {
@@ -8251,12 +8251,12 @@ svg {
 }
 
 [data-background="dark"] .box-container .cpupath {
-    background-image: url(public/patterns/cpupath.svg) !important;
+    background-image: url(patterns/cpupath.svg) !important;
     background-color: #fff !important;
 }
 
 [data-background="dark"] .box-container .motpath {
-    background-image: url(public/patterns/motpath.svg);
+    background-image: url(patterns/motpath.svg);
 }
 
 [data-background="dark"] .box-container .tabs.motpath {
@@ -8264,7 +8264,7 @@ svg {
 }
 
 [data-background="dark"] .box-container .exapath {
-    background-image: url(public/patterns/exapath.svg);
+    background-image: url(patterns/exapath.svg);
 }
 
 [data-background="dark"] .box-container #features.exapath {
