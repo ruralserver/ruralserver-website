@@ -495,11 +495,6 @@
                                               </div>
                                           </div>
                                       </li>
-                                      <div className="tech-box">
-                                          <img className="svg" src="img/menu.svg" alt="" data-bs-toggle="offcanvas"
-                                               data-bs-target="#offcanvasWithBackdrop"
-                                               aria-controls="offcanvasWithBackdrop" />
-                                      </div>
                                       <li className="menu-item">
                                           <a className="pe-0 me-0" href="login">
                                               <div className="btn btn-default-yellow-fill question"><span
