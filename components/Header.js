@@ -62,16 +62,7 @@
                                                                   iste natus</p>
                                                           </div>
                                                   </div>
-                                                  <div className="service">
-                                                      <img className="svg" src="fonts/svg/reseller.svg"
-                                                           alt="Cloud Reseller" />
-                                                          <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="reseller"
-                                                                 data-i18n="[html]submenu.reseller"> </a>
-                                                              <p className="seccolor">Lorem ipsum dolor sit amet,
-                                                                  consectetur</p>
-                                                          </div>
-                                                  </div>
+
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/dedicated.svg"
                                                            alt="Dedicated Server" />
@@ -93,16 +84,7 @@
                                                                   odio</p>
                                                           </div>
                                                   </div>
-                                                  <div className="service">
-                                                      <img className="svg" src="fonts/svg/wordpress.svg"
-                                                           alt="WordPress Hosting" />
-                                                          <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="wordpress"
-                                                                 data-i18n="[html]submenu.wordpress"> </a>
-                                                              <p className="seccolor">On the other hand, we denounce
-                                                                  with</p>
-                                                          </div>
-                                                  </div>
+
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/domains.svg" alt="Domains" />
                                                           <div className="media-body">
@@ -112,16 +94,7 @@
                                                                   consectetur</p>
                                                           </div>
                                                   </div>
-                                                  <div className="service">
-                                                      <img className="svg" src="fonts/svg/code.svg"
-                                                           alt="Developer Hosting" />
-                                                          <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="developer"
-                                                                 data-i18n="[html]submenu.developer"> </a>
-                                                              <p className="seccolor">ed ut perspiciatis unde omnis iste
-                                                                  natus</p>
-                                                          </div>
-                                                  </div>
+
                                               </div>
                                           </div>
                                       </li>
