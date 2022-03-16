@@ -326,13 +326,13 @@ export default function Header() {
                                                       </div>
                                                       <div className="start-offer col-md-3">
                                                           <div className="inner">
-                                                              <h4 className="title my-3">Cloud VPS SSD <br>Get 50%
+                                                              <h4 className="title my-3">Cloud VPS SSD <br/>Get 50%
                                                                   Discount</h4>
                                                               <div className="inner-content mb-4">Enjoy increased
                                                                   flexibility and get the performance you need with SSD
                                                                   Storage.
                                                               </div>
-                                                              <span className="m-0">Before <del className="c-pink">$20.00 /mo</del></span><br>
+                                                              <span className="m-0">Before <del className="c-pink">$20.00 /mo</del></span><br/>
                                                               <h4 className="m-0"><b>Now</b> <b className="c-pink">$9.99
                                                                   /mo</b></h4>
                                                               <a href="vps" className="btn btn-default-pink-fill mt-4">See
