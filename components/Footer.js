@@ -56,7 +56,7 @@ export default function Footer() {
                                 <div className="col-md-6 offset-md-3">
                                     <div className="general-input">
                                         <input className="fill-input" type="email" name="email"
-                                               data-i18n="[placeholder]header.login">
+                                               data-i18n="[placeholder]header.login" />
                                             <input type="submit" value="SUBSCRIBE" className="btn btn-default-yellow-fill" />
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ export default function Footer() {
                                 <ul className="footer-menu">
                                     <li id="drop-lng" className="btn-group btn-group-toggle">
                                         <label data-lng="en-US" htmlFor="option1" className="btn btn-secondary">
-                                            <input type="radio" name="options" id="option1" checked> EN
+                                            <input type="radio" name="options" id="option1" checked /> EN
                                         </label>
                                         <label data-lng="pt-PT" htmlFor="option2" className="btn btn-secondary">
                                             <input type="radio" name="options" id="option2" /> PT

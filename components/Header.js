@@ -111,7 +111,7 @@ export default function Header() {
                                                           </div>
                                                   </div>
                                                   <div className="service">
-                                                      <img className="svg" src="fonts/svg/vps.svg" alt="Cloud VPS">
+                                                      <img className="svg" src="fonts/svg/vps.svg" alt="Cloud VPS" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="vps"
                                                                  data-i18n="[html]submenu.vps"> </a>
@@ -122,7 +122,7 @@ export default function Header() {
                                                   </div>
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/wordpress.svg"
-                                                           alt="WordPress Hosting">
+                                                           alt="WordPress Hosting" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="wordpress"
                                                                  data-i18n="[html]submenu.wordpress"> </a>
@@ -131,7 +131,7 @@ export default function Header() {
                                                           </div>
                                                   </div>
                                                   <div className="service">
-                                                      <img className="svg" src="fonts/svg/domains.svg" alt="Domains">
+                                                      <img className="svg" src="fonts/svg/domains.svg" alt="Domains" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="domains"
                                                                  data-i18n="[html]submenu.domains"> </a>
@@ -141,7 +141,7 @@ export default function Header() {
                                                   </div>
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/code.svg"
-                                                           alt="Developer Hosting">
+                                                           alt="Developer Hosting" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="developer"
                                                                  data-i18n="[html]submenu.developer"> </a>
@@ -164,7 +164,7 @@ export default function Header() {
                                                                       <div className="top-head">
                                                                           <img className="svg"
                                                                                src="fonts/svg/favorite.svg"
-                                                                               alt="Services">
+                                                                               alt="Services" />
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
                                                                                   data-i18n="[html]submenu.services"></div>
@@ -219,7 +219,7 @@ export default function Header() {
                                                                       <div className="top-head">
                                                                           <img className="svg"
                                                                                src="fonts/svg/infrastructure.svg"
-                                                                               alt="Infrastructure">
+                                                                               alt="Infrastructure" />
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
                                                                                   data-i18n="[html]submenu.infrastructure"></div>
@@ -268,7 +268,7 @@ export default function Header() {
                                                                   <div className="media-body">
                                                                       <div className="top-head">
                                                                           <img className="svg"
-                                                                               src="fonts/svg/global.svg" alt="Global">
+                                                                               src="fonts/svg/global.svg" alt="Global"/>
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
                                                                                   data-i18n="[html]submenu.others"></div>
@@ -401,7 +401,7 @@ export default function Header() {
                                                               <div className="col-4 service">
                                                                   <div className="media-left">
                                                                       <img className="svg" src="fonts/svg/bookmark.svg"
-                                                                           alt="Knowledgebase">
+                                                                           alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor"
@@ -414,7 +414,7 @@ export default function Header() {
                                                               <div className="col-4 service">
                                                                   <div className="media-left">
                                                                       <img className="svg" src="fonts/svg/book.svg"
-                                                                           alt="Knowledgebase">
+                                                                           alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor"
@@ -427,7 +427,7 @@ export default function Header() {
                                                               <div className="col-4 service">
                                                                   <div className="media-left">
                                                                       <img className="svg" src="fonts/svg/emailopen.svg"
-                                                                           alt="Knowledgebase">
+                                                                           alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="contact"
@@ -439,7 +439,7 @@ export default function Header() {
                                                               <div className="col-4 service">
                                                                   <div className="media-left">
                                                                       <img className="svg" src="fonts/svg/compare.svg"
-                                                                           alt="Knowledgebase">
+                                                                           alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="legal"
@@ -453,7 +453,7 @@ export default function Header() {
                                                               <div className="col-4 service">
                                                                   <div className="media-left">
                                                                       <img className="svg" src="fonts/svg/blog.svg"
-                                                                           alt="Knowledgebase">
+                                                                           alt="Knowledgebase"/>
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <div>
@@ -471,7 +471,7 @@ export default function Header() {
                                                               <div className="col-4 service">
                                                                   <div className="media-left">
                                                                       <img className="svg" src="fonts/svg/question.svg"
-                                                                           alt="Knowledgebase">
+                                                                           alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="faq"
@@ -523,15 +523,15 @@ export default function Header() {
                   <div className="row">
                       <div className="col-6">
                           <a href="index"><img className="svg logo-menu d-block" src="img/logo.svg"
-                                               alt="logo Antler"></a>
+                                               alt="logo Antler"/></a>
                           <a href="index"><img className="svg logo-menu d-none" src="img/logo-light.svg"
-                                               alt="logo Antler"></a>
+                                               alt="logo Antler"/></a>
                       </div>
                       <div className="col-6">
                           <nav className="nav-menu float-end d-flex">
                               <div className="tech-box">
                                   <img className="svg" src="img/menu.svg" alt="" data-bs-toggle="offcanvas"
-                                       data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
+                                       data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"/>
                               </div>
                               <button id="nav-toggle" className="menu-toggle">
                                   <span className="icon"></span>
@@ -661,18 +661,13 @@ export default function Header() {
           <!-- ***** TRANSLATION ****** -->
           <section id="drop-lng" className="btn-group btn-group-toggle toplang">
               <label data-lng="en-US" htmlFor="option1" className="btn btn-secondary me-2">
-                  <input type="radio" name="options" id="option1" checked> EN
+                  <input type="radio" name="options" id="option1" checked /> EN
               </label>
               <label data-lng="pt-PT" htmlFor="option2" className="btn btn-secondary">
                   <input type="radio" name="options" id="option2" /> PT
               </label>
           </section>
-          <!-- Javascript -->
-          <script>
-              $("#nav-toggle").click(function(){
-              $(".menu-wrap.mobile, .menu-toggle").toggleClass("active");
-          });
-          </script>
+
       </>
   )
 }
