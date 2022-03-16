@@ -168,7 +168,7 @@ export default function Header() {
                                                                                   className="menu-item c-grey mergecolor"
                                                                                   data-i18n="[html]submenu.services"></div>
                                                                       </div>
-                                                                      <hr>
+                                                                      <hr/>
                                                                           <ul>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor"
@@ -223,7 +223,7 @@ export default function Header() {
                                                                                   className="menu-item c-grey mergecolor"
                                                                                   data-i18n="[html]submenu.infrastructure"></div>
                                                                       </div>
-                                                                      <hr>
+                                                                      <hr/>
                                                                           <ul>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor" href="ddos"
@@ -272,7 +272,7 @@ export default function Header() {
                                                                                   className="menu-item c-grey mergecolor"
                                                                                   data-i18n="[html]submenu.others"></div>
                                                                       </div>
-                                                                      <hr>
+                                                                      <hr/>
                                                                           <ul>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor" href="payments"
