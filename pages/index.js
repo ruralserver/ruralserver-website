@@ -2,21 +2,16 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Js from '@components/Js'
-import Html from 'next/document'
 
 export default function Home() {
     return (
         <>
-            <Html>
             <Head>
                 <title>Next.js Starter!</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-                <body data-layout="wide" data-color="green" data-background="dark" data-font="opensans" data-header="fixed" data-textdirection="ltr">
 
-                <div className="box-container limit-width">
-
-                <section id="settings"></section>
+            <div className="box-container limit-width">
 
                 <div id="spinner-area">
                     <div className="spinner">
@@ -117,8 +112,6 @@ export default function Home() {
             </div>
             <a href="#0" className="cd-top"> <i className="fas fa-angle-up"></i> </a>
             <Js />
-            </body>
-            </Html>
         </>
     )
 }
