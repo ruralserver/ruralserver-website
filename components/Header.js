@@ -41,38 +41,14 @@
                                       <span className="icon"></span>
                                   </button>
                                   <ul className="main-menu nav navbar-nav navbar-right">
-                                      <li className="menu-item menu-item-has-children me-2">
-                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.home"> </a>
+                                      <li className="menu-item me-2">
+                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.home">Home </a>
                                           <div className="badge bg-pink me-4 wow animated shake delay-1s visible">NEW
                                           </div>
-                                          <ul className="sub-menu dropdown bg-colorstyle">
-                                              <li className="menu-item"><a className="mergecolor" href="index"
-                                                                           data-i18n="[html]submenu.homedefault"> </a>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor" href="homevideo"
-                                                                           data-i18n="[html]submenu.homevideo"> </a>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor" href="homeimage"
-                                                                           data-i18n="[html]submenu.homeimage"> </a>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor" href="homegaming"
-                                                                           data-i18n="[html]submenu.homegaming"> </a>
-                                                  <div className="menu badge feat bg-purple">NEW</div>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor" href="home3d"
-                                                                           data-i18n="[html]submenu.home3d"> </a>
-                                                  <div className="menu badge feat bg-purple">NEW</div>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor"
-                                                                           href="http://inebur.com/whmcs/?systpl=antler-rtl&language=arabic"
-                                                                           target="_blank">WHMCS (RTL) </a>
-                                                  <div className="menu badge feat bg-pink">HOT</div>
-                                              </li>
-                                          </ul>
-                                      </li>
+                                          </li>
                                       <li className="menu-item menu-item-has-children me-2">
                                           <a className="m-0 pe-1 v-stroke" href="#"
-                                             data-i18n="[html]header.services"> </a>
+                                             data-i18n="[html]header.services"> Hosting</a>
                                           <div className="badge bg-pink me-4">PRO</div>
                                           <div className="sub-menu menu-large bg-colorstyle">
                                               <div className="service-list">
@@ -150,7 +126,7 @@
                                           </div>
                                       </li>
                                       <li className="menu-item menu-item-has-children">
-                                          <a className="v-stroke" href="#" data-i18n="[html]header.pages"> </a>
+                                          <a className="v-stroke" href="#" data-i18n="[html]header.pages"> Security </a>
                                           <div className="sub-menu megamenu-list">
                                               <div className="container">
                                                   <div className="row">
