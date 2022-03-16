@@ -32,8 +32,8 @@ export default function Header() {
                       <div className="row">
                           <div className="col-2 col-md-2">
                               <a href="index">
-                                  <img className="svg logo-menu d-block" src="img/logo.svg" alt="logo Antler">
-                                      <img className="svg logo-menu d-none" src="img/logo-light.svg" alt="logo Antler">
+                                  <img className="svg logo-menu d-block" src="img/logo.svg" alt="logo Antler" />
+                                      <img className="svg logo-menu d-none" src="img/logo-light.svg" alt="logo Antler" />
                               </a>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
@@ -81,7 +81,7 @@ export default function Header() {
                                               <div className="service-list">
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/cloudfiber.svg"
-                                                           alt="Shared Hosting">
+                                                           alt="Shared Hosting" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="hosting"
                                                                  data-i18n="[html]submenu.hosting"> </a>
@@ -91,7 +91,7 @@ export default function Header() {
                                                   </div>
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/reseller.svg"
-                                                           alt="Cloud Reseller">
+                                                           alt="Cloud Reseller" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="reseller"
                                                                  data-i18n="[html]submenu.reseller"> </a>
@@ -501,7 +501,7 @@ export default function Header() {
                                       <div className="tech-box">
                                           <img className="svg" src="img/menu.svg" alt="" data-bs-toggle="offcanvas"
                                                data-bs-target="#offcanvasWithBackdrop"
-                                               aria-controls="offcanvasWithBackdrop">
+                                               aria-controls="offcanvasWithBackdrop" />
                                       </div>
                                       <li className="menu-item">
                                           <a className="pe-0 me-0" href="login">
@@ -664,7 +664,7 @@ export default function Header() {
                   <input type="radio" name="options" id="option1" checked> EN
               </label>
               <label data-lng="pt-PT" htmlFor="option2" className="btn btn-secondary">
-                  <input type="radio" name="options" id="option2"> PT
+                  <input type="radio" name="options" id="option2" /> PT
               </label>
           </section>
           <!-- Javascript -->

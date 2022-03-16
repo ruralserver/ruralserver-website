@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
         <footer className="footer">
-            <img className="logo-bg logo-footer" src="img/symbol.svg" alt="logo">
+            <img className="logo-bg logo-footer" src="img/symbol.svg" alt="logo" />
                 <div className="container">
                     <div className="footer-top">
                         <div className="row">
@@ -36,8 +36,8 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3">
-                                <a><img className="svg logo-footer d-block" src="img/logo.svg" alt="logo"></a>
-                                <a><img className="svg logo-footer d-none" src="img/logo-light.svg" alt="logo"></a>
+                                <a><img className="svg logo-footer d-block" src="img/logo.svg" alt="logo" /></a>
+                                <a><img className="svg logo-footer d-none" src="img/logo-light.svg" alt="logo" /></a>
                                 <div className="copyrigh">©2022 Antler - All rights reserved</div>
                                 <div className="soc-icons">
                                     <a href=""><i className="fab fa-facebook-f withborder noshadow"></i></a>
@@ -57,8 +57,7 @@ export default function Footer() {
                                     <div className="general-input">
                                         <input className="fill-input" type="email" name="email"
                                                data-i18n="[placeholder]header.login">
-                                            <input type="submit" value="SUBSCRIBE"
-                                                   className="btn btn-default-yellow-fill">
+                                            <input type="submit" value="SUBSCRIBE" className="btn btn-default-yellow-fill" />
                                     </div>
                                 </div>
                                 <div className="col-md-6 offset-md-3 text-center pt-4">
@@ -78,7 +77,7 @@ export default function Footer() {
                                             <input type="radio" name="options" id="option1" checked> EN
                                         </label>
                                         <label data-lng="pt-PT" htmlFor="option2" className="btn btn-secondary">
-                                            <input type="radio" name="options" id="option2"> PT
+                                            <input type="radio" name="options" id="option2" /> PT
                                         </label>
                                     </li>
                                     <li className="menu-item by">Hybrid Design With <span className="c-pink">♥</span> by
