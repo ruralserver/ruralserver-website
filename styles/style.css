@@ -268,133 +268,133 @@ a {
 
 /* Background image */
 .item1 {
-	background-image: url("public/img/topbanner01.jpg");
+	background-image: url("img/topbanner01.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item2 {
-	background-image: url("public/img/topbanner02.jpg");
+	background-image: url("img/topbanner02.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item3 {
-	background-image: url("public/img/topbanner03.jpg");
+	background-image: url("img/topbanner03.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item4 {
-	background-image: url("public/img/topbanner04.jpg");
+	background-image: url("img/topbanner04.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item5 {
-	background-image: url("public/img/topbanner05.jpg");
+	background-image: url("img/topbanner05.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item6 {
-	background-image: url("public/img/topbanner06.jpg");
+	background-image: url("img/topbanner06.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item7 {
-	background-image: url("public/img/topbanner07.jpg");
+	background-image: url("img/topbanner07.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item8 {
-	background-image: url("public/img/topbanner08.jpg");
+	background-image: url("img/topbanner08.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item9 {
-	background-image: url("public/img/topbanner09.jpg");
+	background-image: url("img/topbanner09.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item10 {
-	background-image: url("public/img/topbanner10.jpg");
+	background-image: url("img/topbanner10.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item11 {
-	background-image: url("public/img/topbanner11.jpg");
+	background-image: url("img/topbanner11.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item12 {
-	background-image: url("public/img/topbanner12.jpg");
+	background-image: url("img/topbanner12.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item13 {
-	background-image: url("public/img/topbanner13.jpg");
+	background-image: url("img/topbanner13.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item14 {
-	background-image: url("public/img/topbanner14.jpg");
+	background-image: url("img/topbanner14.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item15 {
-	background-image: url("public/img/topbanner15.jpg");
+	background-image: url("img/topbanner15.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item16 {
-	background-image: url("public/img/topbanner16.jpg");
+	background-image: url("img/topbanner16.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item17 {
-	background-image: url("public/img/topbanner17.jpg");
+	background-image: url("img/topbanner17.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item18 {
-	background-image: url("public/img/topbanner18.jpg");
+	background-image: url("img/topbanner18.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .item19 {
-	background-image: url("public/img/topbanner19.jpg");
+	background-image: url("img/topbanner19.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -1942,7 +1942,7 @@ nav .tech-box svg:hover{
 }
 
 .pricing.slider .slides-toggle .slide-prev {
-	background-image: url("public/img/arrow-left-2.png");
+	background-image: url("img/arrow-left-2.png");
 	left: -83px;
 }
 
@@ -1959,11 +1959,11 @@ nav .tech-box svg:hover{
 }
 
 .pricing.slider .slides-toggle .slide-prev:hover {
-	background-image: url("public/img/arrow-left-2-act.png");
+	background-image: url("img/arrow-left-2-act.png");
 }
 
 .pricing.slider .slides-toggle .slide-next {
-	background-image: url("public/img/arrow-right-2.png");
+	background-image: url("img/arrow-right-2.png");
 	left: 0px;
 }
 
