@@ -14,14 +14,29 @@ export default function Home() {
         <link href="img/favicon.ico" rel="shortcut icon"/>
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+        <div className="box-container limit-width">
+            <section id="settings"></section>
+            <div id="spinner-area">
+                <div className="spinner">
+                    <div className="double-bounce1"></div>
+                    <div className="double-bounce2"></div>
+                    <div className="spinner-txt">Antler...</div>
+                </div>
+            </div>
 
-      <Footer />
+            <div className="body-borders" data-border="20">
+                <div className="top-border bg-white"></div>
+                <div className="right-border bg-white"></div>
+                <div className="bottom-border bg-white"></div>
+                <div className="left-border bg-white"></div>
+            </div>
+
+            <Header/>
+           </div>
+
+        <a href="#0" className="cd-top"> <i className="fas fa-angle-up"></i> </a>
+
+
     </div>
   )
 }
