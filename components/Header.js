@@ -99,7 +99,7 @@
                                           </div>
                                       </li>
                                       <li className="menu-item menu-item-has-children">
-                                          <a className="v-stroke" href="#" data-i18n="[html]header.pages"> Security </a>
+                                          <a className="v-stroke" href="#" data-i18n="[html]header.pages"> Others </a>
                                           <div className="sub-menu megamenu-list">
                                               <div className="container">
                                                   <div className="row">
@@ -454,16 +454,13 @@
                                           className="badge bg-purple">PRO</div></a>
                                       <div className="dropdown-menu">
                                           <a className="dropdown-item menu-item" href="hosting">Shared Hosting</a>
-                                          <a className="dropdown-item menu-item" href="reseller">Cloud Reseller</a>
                                           <a className="dropdown-item menu-item" href="dedicated">Dedicated Server</a>
                                           <a className="dropdown-item menu-item" href="vps">Cloud VPS</a>
-                                          <a className="dropdown-item menu-item" href="wordpress">WordPress Hosting</a>
-                                          <a className="dropdown-item menu-item" href="domains">Domain Names</a>
-                                          <a className="dropdown-item menu-item" href="developer">Developer Hosting</a>
+
                                       </div>
                                   </div>
                                   <div className="menu-item">
-                                      <a className="mergecolor" href="#" data-bs-toggle="dropdown">Pages</a>
+                                      <a className="mergecolor" href="#" data-bs-toggle="dropdown">Others</a>
                                       <div className="dropdown-menu">
                                           <a className="dropdown-item menu-item" href="emailsecurity">Email Security</a>
                                           <a className="dropdown-item menu-item" href="ssl">SSL Certificates</a>
