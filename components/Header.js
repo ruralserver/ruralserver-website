@@ -317,54 +317,7 @@
                                               </div>
                                           </div>
                                       </li>
-                                      <li className="menu-item menu-item-has-children">
-                                          <a className="v-stroke" href="#" data-i18n="[html]header.features"></a>
-                                          <ul className="sub-menu bg-colorstyle">
-                                              <li className="menu-item"><a className="mergecolor"
-                                                                           href="http://inebur.com/whmcs/?systpl=antler"
-                                                                           target="_blank"
-                                                                           data-i18n="[html]submenu.whmcs"> </a>
-                                                  <div className="menu badge feat bg-pink">HOT</div>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor"
-                                                                           href="http://inebur.com/whmcs/cart.php?carttpl=antler&systpl=antler"
-                                                                           target="_blank"
-                                                                           data-i18n="[html]submenu.orderform"> </a>
-                                                  <div className="menu badge feat bg-grey">TOP</div>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor"
-                                                                           href="http://inebur.com/antler/email/"
-                                                                           target="_blank"
-                                                                           data-i18n="[html]submenu.whmcsemail"> </a>
-                                                  <div className="menu badge feat bg-grey">TOP</div>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor"
-                                                                           href="http://inebur.com/antler/newsletter/"
-                                                                           target="_blank"
-                                                                           data-i18n="[html]submenu.whmcsnewsletter"> </a>
-                                                  <div className="menu badge feat bg-grey">TOP</div>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor" href="pricing"
-                                                                           data-i18n="[html]submenu.pricing"> </a></li>
-                                              <li className="menu-item"><a className="mergecolor" href="sliders"
-                                                                           data-i18n="[html]submenu.sliders"> </a></li>
-                                              <li className="menu-item"><a className="mergecolor" href="configurator"
-                                                                           data-i18n="[html]submenu.config"> </a>
-                                                  <div className="menu badge feat bg-pink">NEW</div>
-                                              </li>
-                                              <li className="menu-item"><a className="mergecolor" href="404"
-                                                                           data-i18n="[html]submenu.error"> </a></li>
-                                              <li className="menu-item"><a className="mergecolor" href="login"
-                                                                           data-i18n="[html]submenu.register"> </a></li>
-                                              <li className="menu-item"><a className="mergecolor" href="login"
-                                                                           data-i18n="[html]header.login"> </a></li>
-                                              <li className="menu-item"><a className="mergecolor" href="elements"
-                                                                           data-i18n="[html]submenu.elements"> </a></li>
-                                              <li className="menu-item"><a className="mergecolor" href="sections"
-                                                                           data-i18n="[html]submenu.sections"> </a></li>
-                                          </ul>
-                                      </li>
-                                      <li className="menu-item menu-item-has-children menu-last">
+                                     <li className="menu-item menu-item-has-children menu-last">
                                           <a className="v-stroke" href="#" data-i18n="[html]header.support"></a>
                                           <div className="sub-menu megamenu">
                                               <div className="container">
