@@ -42,7 +42,7 @@
                                   </button>
                                   <ul className="main-menu nav navbar-nav navbar-right">
                                       <li className="menu-item me-2">
-                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.home">Home </a>
+                                          <a className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home </a>
                                           <div className="badge bg-pink me-4 wow animated shake delay-1s visible">NEW
                                           </div>
                                           </li>
