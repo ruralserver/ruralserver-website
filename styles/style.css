@@ -1942,7 +1942,6 @@ nav .tech-box svg:hover{
 }
 
 .pricing.slider .slides-toggle .slide-prev {
-	background-image: url("img/arrow-left-2.png");
 	left: -83px;
 }
 
@@ -1959,11 +1958,10 @@ nav .tech-box svg:hover{
 }
 
 .pricing.slider .slides-toggle .slide-prev:hover {
-	background-image: url("img/arrow-left-2-act.png");
+
 }
 
 .pricing.slider .slides-toggle .slide-next {
-	background-image: url("img/arrow-right-2.png");
 	left: 0px;
 }
 
