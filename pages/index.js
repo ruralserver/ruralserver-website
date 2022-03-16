@@ -112,6 +112,7 @@ export default function Home() {
             <Footer />
             </div>
             <a href="#0" className="cd-top"> <i className="fas fa-angle-up"></i> </a>
+            <Js />
         </>
     )
 }
