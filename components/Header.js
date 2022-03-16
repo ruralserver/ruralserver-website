@@ -523,32 +523,6 @@
                                               className="badge inside bg-pink ms-2">HOT</div></a>
                                       </div>
                                   </div>
-                                  <div className="menu-item">
-                                      <a className="mergecolor" href="#" data-bs-toggle="dropdown">Features</a>
-                                      <div className="dropdown-menu">
-                                          <a className="dropdown-item menu-item"
-                                             href="http://inebur.com/whmcs/?systpl=antler" target="_blank">WHMCS
-                                              Template <div className="badge inside bg-pink">HOT</div></a>
-                                          <a className="dropdown-item menu-item"
-                                             href="http://inebur.com/whmcs/cart.php?carttpl=antler&systpl=antler"
-                                             target="_blank">Order Form Template <div
-                                              className="badge inside bg-grey">TOP</div></a>
-                                          <a className="dropdown-item menu-item" href="http://inebur.com/antler/email/"
-                                             target="_blank">HMCS Email Template <div
-                                              className="badge inside bg-grey">TOP</div></a>
-                                          <a className="dropdown-item menu-item"
-                                             href="http://inebur.com/antler/newsletter/" target="_blank">WHMCS
-                                              Newsletter Template <div className="badge inside bg-grey">TOP</div></a>
-                                          <a className="dropdown-item menu-item" href="pricing">Pricing Options</a>
-                                          <a className="dropdown-item menu-item" href="sliders">Content Sliders</a>
-                                          <a className="dropdown-item menu-item" href="configurator">Configurator</a>
-                                          <a className="dropdown-item menu-item" href="404">404 Error</a>
-                                          <a className="dropdown-item menu-item" href="login">Register</a>
-                                          <a className="dropdown-item menu-item" href="login">Client Area</a>
-                                          <a className="dropdown-item menu-item" href="elements">Elements</a>
-                                          <a className="dropdown-item menu-item" href="sections">Sections</a>
-                                      </div>
-                                  </div>
                                   <div className="menu-item menu-last">
                                       <a className="mergecolor" href="#" data-bs-toggle="dropdown">Support</a>
                                       <div className="dropdown-menu">
