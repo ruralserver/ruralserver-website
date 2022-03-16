@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="box-container limit-width">
       <Head>
         <meta charSet="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,8 +13,6 @@ export default function Home() {
         <meta name="description" content="" />
         <link href="img/favicon.ico" rel="shortcut icon"/>
       </Head>
-
-        <div className="box-container limit-width">
             <section id="settings"></section>
             <div id="spinner-area">
                 <div className="spinner">
@@ -32,11 +30,10 @@ export default function Home() {
             </div>
 
             <Header/>
-           </div>
 
         <a href="#0" className="cd-top"> <i className="fas fa-angle-up"></i> </a>
 
-
+        <Footer />
     </div>
   )
 }
