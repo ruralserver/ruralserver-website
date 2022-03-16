@@ -1,11 +1,11 @@
-import "@public/fonts/cloudicon/cloudicon.css";
-import "@public/fonts/fontawesome/css/all.css";
-import "@public/css/bootstrap.min.css";
-import "@public/css/owl.carousel.min.css";
-import "@public/css/swiper.min.css";
-import "@public/css/animate.min.css";
-import "@public/css/style.min.css";
-import "@public/css/custom.css";
+import "fonts/cloudicon/cloudicon.css";
+import "fonts/fontawesome/css/all.css";
+import "css/bootstrap.min.css";
+import "css/owl.carousel.min.css";
+import "css/swiper.min.css";
+import "css/animate.min.css";
+import "css/style.min.css";
+import "css/custom.css";
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
