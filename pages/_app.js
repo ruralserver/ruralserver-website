@@ -4,6 +4,7 @@ import "@styles/fonts/fontawesome/css/all.css";
 import "@styles/bootstrap.min.css";
 import "@styles/owl.carousel.min.css";
 import "@styles/swiper.min.css";
+import "@styles/animate.min.css";
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
