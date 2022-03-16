@@ -200,7 +200,7 @@ return (
     <Footer />
 </div>
 
-<a href="#0" class="cd-top"> <i class="fas fa-angle-up"></i> </a>
+<a href="#" class="cd-top"> <i class="fas fa-angle-up"></i> </a>
 
 </body>
 
