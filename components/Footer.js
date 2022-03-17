@@ -36,7 +36,7 @@ export default function Footer() {
                             <div className="col-sm-6 col-md-3">
                                 <a><img className="svg logo-footer d-block" src="img/logo.svg" alt="logo" /></a>
                                 <a><img className="svg logo-footer d-none" src="img/logo-light.svg" alt="logo" /></a>
-                                <div className="copyrigh">©2022 Antler - All rights reserved</div>
+                                <div className="copyrigh">©2013 - 2022 RuralServer - All rights reserved</div>
                                 <div className="soc-icons">
                                     <a href=""><i className="fab fa-facebook-f withborder noshadow"></i></a>
                                     <a href=""><i className="fab fa-youtube withborder noshadow"></i></a>
