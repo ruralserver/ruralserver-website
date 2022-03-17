@@ -72,10 +72,10 @@ export default function Footer() {
                                 <ul className="footer-menu">
                                     <li id="drop-lng" className="btn-group btn-group-toggle">
                                         <label data-lng="en-US" htmlFor="option1" className="btn btn-secondary">
-                                            <input type="radio" name="options" id="option1" checked /> EN
+                                            <input type="radio" name="options" id="option1" checked /> INR
                                         </label>
                                         <label data-lng="pt-PT" htmlFor="option2" className="btn btn-secondary">
-                                            <input type="radio" name="options" id="option2" /> PT
+                                            <input type="radio" name="options" id="option2" /> USD
                                         </label>
                                     </li>
                                     <li className="menu-item by">Hybrid Design With <span className="c-pink">♥</span> by
