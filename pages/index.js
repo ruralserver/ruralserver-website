@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="spinner">
                         <div className="double-bounce1"></div>
                         <div className="double-bounce2"></div>
-                        <div className="spinner-txt">Antler...</div>
+                        <div className="spinner-txt">RuralServer...</div>
                     </div>
                 </div>
 
