@@ -522,14 +522,6 @@
                   </div>
               </div>
           </div>
-          <section id="drop-lng" className="btn-group btn-group-toggle toplang">
-              <label data-lng="en-US" htmlFor="option1" className="btn btn-secondary me-2">
-                  <input type="radio" name="options" id="option1" checked /> EN
-              </label>
-              <label data-lng="pt-PT" htmlFor="option2" className="btn btn-secondary">
-                  <input type="radio" name="options" id="option2" /> PT
-              </label>
-          </section>
 
       </>
   )
