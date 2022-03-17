@@ -401,7 +401,7 @@
                                       <li className="menu-item">
                                           <a className="pe-0 me-0" href="login">
                                               <div className="btn btn-default-yellow-fill question"><span
-                                                  data-i18n="[html]header.login"></span> <i
+                                                  data-i18n="[html]header.login">Client Area</span> <i
                                                   className="fas fa-lock ps-1"></i></div>
                                           </a>
                                       </li>
