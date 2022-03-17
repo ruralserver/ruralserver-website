@@ -7,8 +7,12 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Next.js Starter!</title>
-                <link rel="icon" href="/favicon.ico" />
+            <meta charSet="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>RuralServer - Web Hosting India, India’s No.1 Web Hosting Company</title>
+            <meta name="description" content="" />
+            <link href="img/favicon.ico" rel="shortcut icon" />
             </Head>
 
             <div className="box-container limit-width">
