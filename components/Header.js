@@ -56,9 +56,8 @@
                                                            alt="Shared Hosting" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="hosting"
-                                                                 data-i18n="[html]submenu.hosting"> </a>
-                                                              <p className="seccolor">Sed ut perspiciatis unde omnis
-                                                                  iste natus</p>
+                                                                 data-i18n="[html]submenu.hosting">Linux Shared Hosting </a>
+                                                              <p className="seccolor">Directadmin fast shared hosting</p>
                                                           </div>
                                                   </div>
 
