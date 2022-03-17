@@ -398,7 +398,7 @@
                                           </div>
                                       </li>
                                       <li className="menu-item">
-                                          <a className="pe-0 me-0" href="login">
+                                          <a className="pe-0 me-0" href="https://client.ruralserver.com/" target="_blank">
                                               <div className="btn btn-default-yellow-fill question"><span
                                                   data-i18n="[html]header.login">Client Area</span> <i
                                                   className="fas fa-lock ps-1"></i></div>
@@ -512,7 +512,7 @@
                                       <p className="c-grey-light seccolor"><small>Email: antler@mail.com</small></p>
                                   </div>
                                   <div>
-                                      <a href="login">
+                                      <a href="login" href="https://client.ruralserver.com/" target="_blank">
                                           <div className="btn btn-default-yellow-fill mt-3">CLIENT AREA</div>
                                       </a>
                                   </div>
