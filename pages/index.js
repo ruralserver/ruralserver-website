@@ -247,7 +247,7 @@ export default function Home() {
                         <div className="service-wrap">
                             <div className="row">
                                 <div className="col-sm-12 text-center">
-                                    <h2 className="section-heading">Why Choose Antler?</h2>
+                                    <h2 className="section-heading">Why Choose Ruralserver?</h2>
                                     <p className="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing
                                         elit, sed do eiusmod tempor incididunt.</p>
                                 </div>
