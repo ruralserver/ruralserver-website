@@ -17,7 +17,7 @@ export default function Home() {
 
             <div className="box-container limit-width">
 
-                <div id="spinner-area">
+                <div id="spinner-area" className="hide d-none">
                     <div className="spinner">
                         <div className="double-bounce1"></div>
                         <div className="double-bounce2"></div>
