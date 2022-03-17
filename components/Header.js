@@ -45,7 +45,7 @@
                                           <a className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home </a>
 
                                           </li>
-                                      <li className="menu-item menu-item-has-children me-2">
+                                      <li className="menu-item menu-item-has-children">
                                           <a className="m-0 pe-1 v-stroke" href="#"
                                              data-i18n="[html]header.services"> Hosting</a>
                                           <div className="badge bg-pink me-4">PRO</div>
