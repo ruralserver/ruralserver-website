@@ -1,6 +1,7 @@
 export default function Js() {
   return (
     <>
+        <script src="js/theme-change.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/typed.js"></script>
         <script defer src="js/popper.min.js"></script>
@@ -16,7 +17,6 @@ export default function Js() {
         <script src="js/wow.min.js"></script>
         <script>new WOW().init();</script>
         <script defer src="js/scripts.js"></script>
-        <script defer src="js/theme-change.js"></script>
     </>
   )
 }
