@@ -122,10 +122,12 @@
 
 .mode-container i.gg-sun {
   display: none;
+  color: #ffffff;
 }
 
 .mode-container i.gg-moon {
   display: block;
+  color: #000000;
 }
 
 input:checked + .mode-container i.gg-sun {
