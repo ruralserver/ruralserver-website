@@ -433,8 +433,15 @@
                       <div className="col-6">
                           <nav className="nav-menu float-end d-flex">
                               <div className="tech-box">
-                                  <img className="svg" src="img/menu.svg" alt="" data-bs-toggle="offcanvas"
-                                       data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"/>
+                                  <div className="theme-switch-wrapper">
+                                      <label className="theme-switch">
+                                          <input type="checkbox" className="theme-switcher"/>
+                                          <div className="mode-container">
+                                              <i className="gg-sun"></i>
+                                              <i className="gg-moon"></i>
+                                          </div>
+                                      </label>
+                                  </div>
                               </div>
                               <button id="nav-toggle" className="menu-toggle">
                                   <span className="icon"></span>
