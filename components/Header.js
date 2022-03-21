@@ -396,6 +396,17 @@
                                               </div>
                                           </div>
                                       </li>
+                                      <div className="tech-box">
+                                          <div className="theme-switch-wrapper">
+                                              <label className="theme-switch">
+                                                  <input type="checkbox" className="theme-switcher"/>
+                                                      <div className="mode-container">
+                                                          <i className="gg-sun"></i>
+                                                          <i className="gg-moon"></i>
+                                                      </div>
+                                              </label>
+                                          </div>
+                                      </div>
                                       <li className="menu-item">
                                           <a className="pe-0 me-0" href="https://client.ruralserver.com/" target="_blank">
                                               <div className="btn btn-default-yellow-fill question"><span
