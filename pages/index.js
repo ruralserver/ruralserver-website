@@ -248,8 +248,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-sm-12 text-center">
                                     <h2 className="section-heading">Why Choose Ruralserver?</h2>
-                                    <p className="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt.</p>
+                                    <p className="section-subheading">Solutions to meet every Web Design & Development need Powering 1800+ Web Professionals globally with confidence. </p>
                                 </div>
                                 <div className="col-md-12 col-lg-4 wow animated fadeInUp fast">
                                     <div className="service-section bg-colorstyle noshadow">
