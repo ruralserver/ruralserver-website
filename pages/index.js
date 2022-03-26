@@ -409,8 +409,7 @@ export default function Home() {
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Live Chat</div>
-                                                <div className="description seccolor">Lorem Ipsum is simply dummy text
-                                                    printing.
+                                                <div className="description seccolor">Live chat support 9:30 AM - 6:30 PM IST
                                                 </div>
                                             </div>
                                         </a>
@@ -425,8 +424,7 @@ export default function Home() {
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Send Ticket</div>
-                                                <div className="description seccolor">Lorem Ipsum is simply dummy text
-                                                    printing.
+                                                <div className="description seccolor">Open ticket for sale and support department.
                                                 </div>
                                             </div>
                                         </a>
@@ -440,8 +438,7 @@ export default function Home() {
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Knowledge base</div>
-                                                <div className="description seccolor">Lorem Ipsum is simply dummy text
-                                                    printing.
+                                                <div className="description seccolor">Knowledge Base and FAQ
                                                 </div>
                                             </div>
                                         </a>
