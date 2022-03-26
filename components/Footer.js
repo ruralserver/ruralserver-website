@@ -27,10 +27,11 @@ export default function Footer() {
                             <div className="col-sm-6 col-md-3">
                                 <div className="heading">Company</div>
                                 <ul className="footer-menu">
-                                    <li className="menu-item"><a href="about">About Us</a></li>
-                                    <li className="menu-item"><a href="elements">Features</a></li>
-                                    <li className="menu-item"><a href="blog-details">Blog</a></li>
-                                    <li className="menu-item"><a href="legal">Legal</a></li>
+                                    <li className="menu-item"><a href="about"> About RuralServer</a></li>
+                                    <li className="menu-item"><a href="elements"> Terms of Service</a></li>
+                                    <li className="menu-item"><a href="blog-details">Acceptable Use Policy</a></li>
+                                    <li className="menu-item"><a href="legal">Privacy Policy</a></li>
+                                    <li className="menu-item"><a href="legal">DMCA/Abuse Report</a></li>
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3">
