@@ -19,9 +19,9 @@ export default function Footer() {
                                 <div className="heading">Support</div>
                                 <ul className="footer-menu">
                                     <li className="menu-item"><a href="https://client.ruralserver.com/" target="_blank">Client Area</a></li>
-                                    <li className="menu-item"><a href="https://client.ruralserver.com/index.php?rp=/knowledgebase" target="_blank">Knowledge Base</a></li>
+                                    <li className="menu-item"><a href="https://client.ruralserver.com/knowledgebase.php" target="_blank">Knowledge Base</a></li>
                                     <li className="menu-item"><a href="https://client.ruralserver.com/contact.php" target="_blank">Contact Us</a></li>
-                                    <li className="menu-item"><a href="https://client.ruralserver.com/index.php?rp=/announcements" target="_blank">Announcements</a></li>
+                                    <li className="menu-item"><a href="https://client.ruralserver.com/announcements.php" target="_blank">Announcements</a></li>
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3">
