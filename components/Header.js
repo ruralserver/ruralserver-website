@@ -64,20 +64,18 @@
                                                            alt="Dedicated Server" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="dedicated"
-                                                                 data-i18n="[html]submenu.dedicated"> </a>
+                                                                 data-i18n="[html]submenu.dedicated">Dedicated Servers</a>
                                                               <div className="menu badge feat bg-pink">FILTER</div>
-                                                              <p className="seccolor">But I must explain to you how all
-                                                                  this</p>
+                                                              <p className="seccolor">Fats and cheap plan for self/managed server</p>
                                                           </div>
                                                   </div>
                                                   <div className="service">
                                                       <img className="svg" src="fonts/svg/vps.svg" alt="Cloud VPS" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="vps"
-                                                                 data-i18n="[html]submenu.vps"> </a>
+                                                                 data-i18n="[html]submenu.vps">VPS</a>
                                                               <div className="menu badge feat bg-grey">SSD</div>
-                                                              <p className="seccolor">At vero eos et accusamus et iusto
-                                                                  odio</p>
+                                                              <p className="seccolor">Fast OpenVZ/KVM multi location's server</p>
                                                           </div>
                                                   </div>
 
@@ -85,9 +83,8 @@
                                                       <img className="svg" src="fonts/svg/domains.svg" alt="Domains" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="domains"
-                                                                 data-i18n="[html]submenu.domains"> </a>
-                                                              <p className="seccolor">Lorem ipsum dolor sit amet,
-                                                                  consectetur</p>
+                                                                 data-i18n="[html]submenu.domains">Domains</a>
+                                                              <p className="seccolor">Get name for your business</p>
                                                           </div>
                                                   </div>
 
