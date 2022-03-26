@@ -14,7 +14,7 @@
                       </div>
                       <div className="col-md-6 link">
                           <div className="infonews-nav float-end">
-                              <a href="blog-grid">knowledgebase</a>
+                              <a href="blog-grid">Knowledge Base</a>
                               <a href="contact">Support</a>
                           </div>
                       </div>
