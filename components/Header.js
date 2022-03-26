@@ -302,10 +302,9 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor"
-                                                                         href="knowledgebase-list"
-                                                                         data-i18n="[html]submenu.knowlist"> </a>
-                                                                      <p className="seccolor">Lorem ipsum dolor sit
-                                                                          amet, consectetur adipiscing</p>
+                                                                         href="https://client.ruralserver.com/knowledgebase.php" target="_blank"
+                                                                         data-i18n="[html]submenu.knowlist">Knowledge Base</a>
+                                                                      <p className="seccolor">Knowledge Base and FAQ</p>
                                                                   </div>
                                                               </div>
                                                               <div className="col-4 service">
@@ -315,10 +314,9 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor"
-                                                                         href="knowledgebase-article"
-                                                                         data-i18n="[html]submenu.knowarticle"> </a>
-                                                                      <p className="seccolor">Eaque ipsa quae ab illo
-                                                                          inventore veritatis et quasi</p>
+                                                                         href="https://api.whatsapp.com/send?phone=917982377273&text=Hello"
+                                                                         data-i18n="[html]submenu.knowarticle">Whatsapp Support</a>
+                                                                      <p className="seccolor">Whatsapp: +91-7982377273</p>
                                                                   </div>
                                                               </div>
                                                               <div className="col-4 service">
@@ -328,9 +326,8 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="contact"
-                                                                         data-i18n="[html]submenu.contact"> </a>
-                                                                      <p className="seccolor">Lorem ipsum dolor sit
-                                                                          amet, consectetur adipiscing</p>
+                                                                         data-i18n="[html]submenu.contact">Ticket and mail support</a>
+                                                                      <p className="seccolor">Open ticket for sale and support department</p>
                                                                   </div>
                                                               </div>
                                                               <div className="col-4 service">
@@ -381,14 +378,11 @@
                                                       </div>
                                                       <div className="start-offer col-md-3">
                                                           <div className="inner">
-                                                              <h4 className="title my-3">Support Premium</h4>
-                                                              <div className="inner-content"><span>Call us:</span> <b>+
-                                                                  (123) 1300-656-1046</b> HeadQuarters - No.01 - 399-0
-                                                                  Lorem Street City Melbourne
+                                                              <h4 className="title my-3">Live Chat</h4>
+                                                              <div className="inner-content"><span>Live chat support 9:30 AM - 6:30 PM IST</span>
                                                               </div>
                                                               <a href="contact"
-                                                                 className="btn btn-default-yellow-fill mt-4">Contact
-                                                                  Us</a>
+                                                                 className="btn btn-default-yellow-fill mt-4" onclick="OverlayChatWidgetV2.Show();">Chat now</a>
                                                           </div>
                                                       </div>
                                                   </div>
