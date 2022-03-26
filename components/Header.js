@@ -376,7 +376,7 @@
                                                       <div className="start-offer col-md-3">
                                                           <div className="inner">
                                                               <h4 className="title my-3">Live Chat</h4>
-                                                              <div className="inner-content"><span>Live chat support 9:30 AM - 6:30 PM IST</span>
+                                                              <div className="inner-content"><span>Live chat support <br/>9:30 AM - 6:30 PM IST</span>
                                                               </div>
                                                               <a href="contact"
                                                                  className="btn btn-default-yellow-fill mt-4" onclick="OverlayChatWidgetV2.Show();">Chat now</a>
