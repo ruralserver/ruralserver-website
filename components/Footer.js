@@ -48,26 +48,8 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="subcribe news">
-                    <div className="container">
-                        <div className="row">
-                            <form action="#" className="w-100">
-                                <div className="col-md-6 offset-md-3">
-                                    <div className="general-input">
-                                        <input className="fill-input" type="email" name="email"
-                                               data-i18n="[placeholder]header.login" />
-                                            <input type="submit" value="SUBSCRIBE" className="btn btn-default-yellow-fill" />
-                                    </div>
-                                </div>
-                                <div className="col-md-6 offset-md-3 text-center pt-4">
-                                    <p>Subscribe to our newsletter to receive news and updates</p>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div className="footer-bottom">
-                    <div className="container">
+                <div className="footer-bottom pt-35">
+                    <div className="container pt-35">
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul className="footer-menu">
@@ -81,8 +63,7 @@ export default function Footer() {
                                             className="fa-duotone fa-dollar-sign"></i> USD
                                         </label>
                                     </li>
-                                    <li className="menu-item by">Hybrid Design With <span className="c-pink">♥</span> by
-                                        <a href="https://www.srapsware.com/" target="_blank">Srapsware</a>
+                                    <li className="menu-item by">Hybrid Design With <span className="c-pink">♥</span> by <a href="https://www.srapsware.com/" target="_blank">Srapsware</a>
                                     </li>
                                 </ul>
                             </div>
