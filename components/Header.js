@@ -325,7 +325,7 @@
                                                                            alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
-                                                                      <a className="menu-item mergecolor" href="contact"
+                                                                      <a className="menu-item mergecolor" href="https://client.ruralserver.com/submitticket.php"
                                                                          data-i18n="[html]submenu.ticketandmailsupport">Ticket and mail support</a>
                                                                       <p className="seccolor">Open ticket for sale and support department</p>
                                                                   </div>
