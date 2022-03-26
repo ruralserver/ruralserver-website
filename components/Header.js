@@ -337,11 +337,10 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="legal"
-                                                                         data-i18n="[html]submenu.legal"> </a>
+                                                                         data-i18n="[html]submenu.legal">Terms of Service</a>
                                                                       <div className="badge inside bg-grey ms-1">NEW
                                                                       </div>
-                                                                      <p className="seccolor">Eaque ipsa quae ab illo
-                                                                          inventore veritatis et quasi</p>
+                                                                      <p className="seccolor">Know here your basic and easy terms and condition </p>
                                                                   </div>
                                                               </div>
                                                               <div className="col-4 service">
@@ -353,13 +352,12 @@
                                                                       <div>
                                                                           <a className="menu-item mergecolor"
                                                                              href="blog-details"
-                                                                             data-i18n="[html]submenu.blogdetails"> </a>
+                                                                             data-i18n="[html]submenu.blogdetails">Acceptable Use Policy</a>
                                                                           <div
-                                                                              className="badge inside bg-pink ms-1">HOT
+                                                                              className="badge inside bg-pink ms-1">Updated
                                                                           </div>
                                                                       </div>
-                                                                      <p className="seccolor">Lorem ipsum dolor sit
-                                                                          amet, consectetur adipiscing</p>
+                                                                      <p className="seccolor">Check uses the policy</p>
                                                                   </div>
                                                               </div>
                                                               <div className="col-4 service">
@@ -369,9 +367,8 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="faq"
-                                                                         data-i18n="[html]submenu.faq"> </a>
-                                                                      <p className="seccolor">Eaque ipsa quae ab illo
-                                                                          inventore veritatis et quasi</p>
+                                                                         data-i18n="[html]submenu.faq">Privacy Policy</a>
+                                                                      <p className="seccolor">We care about your privacy</p>
                                                                   </div>
                                                               </div>
                                                           </div>
