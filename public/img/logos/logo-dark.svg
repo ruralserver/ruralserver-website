@@ -23,7 +23,7 @@
 <g>
 	<circle id="svg-ico" class="logodarkround2" cx="5.2" cy="69.6" r="4"/>
 	
-		<animateMotion  accumulate="none" additive="replace" begin="0s" calcMode="paced" dur="9s" fill="remove" path="M210,0 0 0 260,0" repeatCount="indefinite" restart="always">
+		<animateMotion  accumulate="none" additive="replace" begin="0s" calcMode="paced" dur="7s" fill="remove" path="M210,0 0 0 260,0" repeatCount="indefinite" restart="always">
 		</animateMotion>
 </g>
 </svg>
