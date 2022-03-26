@@ -26,7 +26,7 @@
                   <div className="container">
                       <div className="row">
                           <div className="col-2 col-md-2">
-                              <a href="index">
+                              <a href="/">
                                   <img className="svg logo-menu d-block" src="img/logos/logo.svg" alt="logo Ruralserver" />
                                       <img className="svg logo-menu d-none" src="img/logos/logo-dark.svg" alt="logo Ruralserver" />
                               </a>
