@@ -43,6 +43,7 @@ export default function Footer() {
                                     <a href=""><i className="fab fa-twitter withborder noshadow"></i></a>
                                     <a href=""><i className="fab fa-instagram withborder noshadow"></i></a>
                                 </div>
+                                <a className="deploys-status" href="https://app.netlify.com/sites/ruralserver/deploys" target="_blank"><img src="https://api.netlify.com/api/v1/badges/5a613e66-9a5a-4bef-bca4-02042be43c08/deploy-status" /></a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +82,7 @@ export default function Footer() {
                                         </label>
                                     </li>
                                     <li className="menu-item by">Hybrid Design With <span className="c-pink">♥</span> by
-                                        <a href="https://inebur.com/" target="_blank">Inebur</a>
+                                        <a href="https://www.srapsware.com/" target="_blank">Srapsware</a>
                                     </li>
                                 </ul>
                             </div>
