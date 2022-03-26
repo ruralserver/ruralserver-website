@@ -309,7 +309,7 @@
                                                               </div>
                                                               <div className="col-4 service">
                                                                   <div className="media-left">
-                                                                      <img className="svg" src="fonts/svg/book.svg"
+                                                                      <img className="svg" src="fonts/svg/whatsapp.svg"
                                                                            alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
