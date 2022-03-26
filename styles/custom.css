@@ -18,3 +18,19 @@
 [data-background="light"] .logo-menu.d-block {
     display: none !important;
 }
+.footer .logo-bg {
+    top: 42%;
+    left: 45%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    bottom: 0;
+    width: 400px;
+    position: absolute;
+    opacity: .1;
+    margin: 40px 0 0;
+    z-index: -1;
+}
+[data-background=light] .box-container .footer .logo-bg {
+    opacity: .1;
+}
