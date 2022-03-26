@@ -303,7 +303,7 @@
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor"
                                                                          href="https://client.ruralserver.com/knowledgebase.php" target="_blank"
-                                                                         data-i18n="[html]submenu.knowlist">Knowledge Base</a>
+                                                                         data-i18n="[html]submenu.knowledgebase">Knowledge Base</a>
                                                                       <p className="seccolor">Knowledge Base and FAQ</p>
                                                                   </div>
                                                               </div>
@@ -315,7 +315,7 @@
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor"
                                                                          href="https://api.whatsapp.com/send?phone=917982377273&text=Hello"
-                                                                         data-i18n="[html]submenu.knowarticle">Whatsapp Support</a>
+                                                                         data-i18n="[html]submenu.whatsapsupport">Whatsapp Support</a>
                                                                       <p className="seccolor">Whatsapp: +91-7982377273</p>
                                                                   </div>
                                                               </div>
@@ -326,7 +326,7 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="contact"
-                                                                         data-i18n="[html]submenu.contact">Ticket and mail support</a>
+                                                                         data-i18n="[html]submenu.ticketandmailsupport">Ticket and mail support</a>
                                                                       <p className="seccolor">Open ticket for sale and support department</p>
                                                                   </div>
                                                               </div>
@@ -337,7 +337,7 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="legal"
-                                                                         data-i18n="[html]submenu.legal">Terms of Service</a>
+                                                                         data-i18n="[html]submenu.termsofservice">Terms of Service</a>
                                                                       <div className="badge inside bg-grey ms-1">NEW
                                                                       </div>
                                                                       <p className="seccolor">Know here your basic and easy terms and condition </p>
@@ -352,7 +352,7 @@
                                                                       <div>
                                                                           <a className="menu-item mergecolor"
                                                                              href="blog-details"
-                                                                             data-i18n="[html]submenu.blogdetails">Acceptable Use Policy</a>
+                                                                             data-i18n="[html]submenu.usespolicy">Acceptable Use Policy</a>
                                                                           <div
                                                                               className="badge inside bg-pink ms-1">Updated
                                                                           </div>
@@ -367,7 +367,7 @@
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <a className="menu-item mergecolor" href="faq"
-                                                                         data-i18n="[html]submenu.faq">Privacy Policy</a>
+                                                                         data-i18n="[html]submenu.privacypolicy">Privacy Policy</a>
                                                                       <p className="seccolor">We care about your privacy</p>
                                                                   </div>
                                                               </div>

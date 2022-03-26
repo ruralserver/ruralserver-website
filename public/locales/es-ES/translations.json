@@ -60,6 +60,12 @@
     "gaming": "Gaming Server",
     "radiostream": "Radio Stream",
     "promos": "Specials",
-    "blackfriday": "Blackfriday"
+    "blackfriday": "Blackfriday",
+    "knowledgebase": "Knowledge Base",
+    "whatsapsupport": "Whatsapp Support",
+    "ticketandmailsupport": "Ticket and mail support",
+    "termsofservice": "Terms of Service",
+    "usespolicy": "Acceptable Use Policy",
+    "privacypolicy": "Privacy Policy",
   }
 }
