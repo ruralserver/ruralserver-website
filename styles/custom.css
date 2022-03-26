@@ -11,3 +11,10 @@
     height: 0px;
     width: 0px;
 }
+
+[data-background="light"] .logo-menu.d-none {
+    display: block !important;
+}
+[data-background="light"] .logo-menu.d-block {
+    display: none !important;
+}
