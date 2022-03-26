@@ -257,7 +257,7 @@ export default function Home() {
                                         <img className="svg" src="fonts/svg/helpdesk.svg" alt="" />
                                             <div className="title mergecolor">Support 24x7x365</div>
                                             <p className="subtitle seccolor">
-                                                Excepteur sint occaecat cupidatat non proident voluptate
+                                                Get instant help from our rapid support team
                                             </p>
                                             <a href="" className="btn btn-default-yellow-fill">Read more</a>
                                     </div>
@@ -266,9 +266,9 @@ export default function Home() {
                                     <div className="service-section bg-colorstyle noshadow">
                                         <div className="plans badge feat bg-pink">Control Panel</div>
                                         <img className="svg" src="fonts/svg/window.svg" alt="" />
-                                            <div className="title mergecolor">Free WHM &amp; cPanel</div>
+                                            <div className="title mergecolor">Directadmin fast hosting</div>
                                             <p className="subtitle seccolor">
-                                                Excepteur sint occaecat cupidatat non proident dolor
+                                                Included Softaculous, CloudLinux and Jetbackup
                                             </p>
                                             <a href="" className="btn btn-default-yellow-fill">Read more</a>
                                     </div>
@@ -277,9 +277,7 @@ export default function Home() {
                                     <div className="service-section bg-colorstyle noshadow">
                                         <img className="svg" src="fonts/svg/cloudmanaged.svg" alt="" />
                                             <div className="title mergecolor">Perfomance Optimized</div>
-                                            <p className="subtitle seccolor">
-                                                Excepteur sint occaecat cupidatat non proident voluptate
-                                            </p>
+                                            <p className="subtitle seccolor">All shared hosting optimised with CloudLinux</p>
                                             <a href="" className="btn btn-default-yellow-fill">Read more</a>
                                     </div>
                                 </div>
