@@ -27,8 +27,8 @@
                       <div className="row">
                           <div className="col-2 col-md-2">
                               <a href="index">
-                                  <img className="svg logo-menu d-block" src="img/logo.svg" alt="logo Antler" />
-                                      <img className="svg logo-menu d-none" src="img/logo-light.svg" alt="logo Antler" />
+                                  <img className="svg logo-menu d-block" src="img/logos/logo.svg" alt="logo Ruralserver" />
+                                      <img className="svg logo-menu d-none" src="img/logo-light.svg" alt="logo Ruralserver" />
                               </a>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
