@@ -14,9 +14,8 @@
                       </div>
                       <div className="col-md-6 link">
                           <div className="infonews-nav float-end">
-                              <a href="blog-grid">Blog</a>
+                              <a href="blog-grid">knowledgebase</a>
                               <a href="contact">Support</a>
-                              <a href="tel:1300-656-1046">+ (123) 1300-656-1046</a>
                           </div>
                       </div>
                   </div>
