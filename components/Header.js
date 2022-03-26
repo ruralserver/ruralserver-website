@@ -352,7 +352,7 @@
                                                                       <div>
                                                                           <a className="menu-item mergecolor"
                                                                              href="blog-details"
-                                                                             data-i18n="[html]submenu.usespolicy">Acceptable Use Policy</a>
+                                                                             data-i18n="[html]submenu.usespolicy">Uses Policy</a>
                                                                           <div
                                                                               className="badge inside bg-pink ms-1">Updated
                                                                           </div>
