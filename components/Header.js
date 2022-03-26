@@ -415,9 +415,9 @@
               <div className="container">
                   <div className="row">
                       <div className="col-6">
-                          <a href="index"><img className="svg logo-menu d-block" src="img/logo.svg"
+                          <a href="index"><img className="svg logo-menu d-block" src="img/logos/logo.svg"
                                                alt="logo Antler"/></a>
-                          <a href="index"><img className="svg logo-menu d-none" src="img/logo-light.svg"
+                          <a href="index"><img className="svg logo-menu d-none" src="img/logos/logo-dark.svg"
                                                alt="logo Antler"/></a>
                       </div>
                       <div className="col-6">
