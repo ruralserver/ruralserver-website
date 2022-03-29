@@ -258,7 +258,7 @@ export default function Home() {
                                             <p className="subtitle seccolor">
                                                 Get instant help from our rapid support team
                                             </p>
-                                            <a href="" className="btn btn-default-yellow-fill">Read more</a>
+                                            <a href="/about-ruralserver/" className="btn btn-default-yellow-fill">Read more</a>
                                     </div>
                                 </div>
                                 <div className="col-md-12 col-lg-4 wow animated fadeInUp">
@@ -269,7 +269,7 @@ export default function Home() {
                                             <p className="subtitle seccolor">
                                                 Included Softaculous, CloudLinux and Jetbackup
                                             </p>
-                                            <a href="" className="btn btn-default-yellow-fill">Read more</a>
+                                            <a href="/about-ruralserver/" className="btn btn-default-yellow-fill">Read more</a>
                                     </div>
                                 </div>
                                 <div className="col-md-12 col-lg-4 wow animated fadeInUp fast">
@@ -277,7 +277,7 @@ export default function Home() {
                                         <img className="svg" src="fonts/svg/cloudmanaged.svg" alt="" />
                                             <div className="title mergecolor">Perfomance Optimized</div>
                                             <p className="subtitle seccolor">All shared hosting optimised with CloudLinux</p>
-                                            <a href="" className="btn btn-default-yellow-fill">Read more</a>
+                                            <a href="/about-ruralserver/" className="btn btn-default-yellow-fill">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -361,7 +361,7 @@ export default function Home() {
                                                                     <div className="mb-3"> Michael Jones - Executive
                                                                         Director
                                                                     </div>
-                                                                    <a href="casestudy/casestudy-everthgroup.pdf"
+                                                                    <a href="#"
                                                                        className="btn btn-default-yellow-fill mb-2">Case
                                                                         Study Download</a>
                                                                 </div>
