@@ -414,7 +414,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-4">
                                     <div className="help-container bg-seccolorstyle noshadow">
-                                        <a href="contact.html" className="help-item">
+                                        <a href="https://client.ruralserver.com/contact.php" className="help-item">
                                             <div className="img">
                                                 <img className="svg ico" src="fonts/svg/emailopen.svg" height="65"
                                                      alt=""/>
@@ -429,7 +429,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-4">
                                     <div className="help-container bg-seccolorstyle noshadow">
-                                        <a href="knowledgebase.html" className="help-item">
+                                        <a href="https://client.ruralserver.com/knowledgebase.php" className="help-item">
                                             <div className="img">
                                                 <img className="svg ico" src="fonts/svg/book.svg" height="65" alt=""/>
                                             </div>
