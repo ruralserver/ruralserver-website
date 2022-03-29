@@ -367,16 +367,11 @@ export default function Home() {
                                                                 </div>
                                                             </div>
                                                             <div className="swiper-slide">
-                                                                <h3 className="author">Growtop Company</h3>
+                                                                <h3 className="author">RuralServer</h3>
                                                                 <div className="content-info">
-                                                                    <p>Sed ut perspiciatis unde omnis iste natus error
-                                                                        sit voluptatem accusantium doloremque
-                                                                        laudantium, totamer rem aperiam, eaque ipsa quae
-                                                                        ab illo inventore.</p>
-                                                                    <div className="mb-3"> Matt Radford -
-                                                                        President &amp; Managing Director
-                                                                    </div>
-                                                                    <a href="casestudy/casestudy-growtop.pdf"
+                                                                    <p>RuralServer is a leading provider of web hosting, reseller hosting, VPS hosting, cloud hosting and dedicated servers. We provide our clients a complete suite of products that help them establish & grow their online presence.</p>
+
+                                                                    <a href="#f"
                                                                        className="btn btn-default-yellow-fill mb-2">Case
                                                                         Study Download</a>
                                                                 </div>
