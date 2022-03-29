@@ -14,8 +14,8 @@
                       </div>
                       <div className="col-md-6 link">
                           <div className="infonews-nav float-end">
-                              <a href="blog-grid">Knowledge Base</a>
-                              <a href="contact">Support</a>
+                              <a href="https://client.ruralserver.com/knowledgebase.php">Knowledge Base</a>
+                              <a href="https://client.ruralserver.com/contact.php">Support</a>
                           </div>
                       </div>
                   </div>
