@@ -328,9 +328,9 @@ $(".mobile .menu-item")
 // i18next translate
 //----------------------------------------------------/
 function translate() {
-    $.getScript('js/lib/i18next.min.js', function() {
-        $.getScript('js/lib/i18nextXHRBackend.min.js', function() {
-            $.getScript('js/lib/jquery-i18next.min.js', function() {
+    $.getScript('/js/lib/i18next.min.js', function() {
+        $.getScript('/js/lib/i18nextXHRBackend.min.js', function() {
+            $.getScript('/js/lib/jquery-i18next.min.js', function() {
 
                 var language = localStorage.getItem('lng');
                 if (!language) {
