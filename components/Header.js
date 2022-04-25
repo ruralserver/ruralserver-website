@@ -8,7 +8,7 @@
                           <div className="m-0 h6">
                               <div className="badge bg-purple me-2">news</div>
                               <small className="text-light">Gaming Servers Page Already Available. <a
-                                  className="c-yellow" href="gaming">See Live Demo <i
+                                  className="c-yellow" href="/">See Live Demo <i
                                   className="fas fa-arrow-circle-right"></i></a></small>
                           </div>
                       </div>
