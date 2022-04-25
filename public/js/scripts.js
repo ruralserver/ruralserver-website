@@ -342,7 +342,7 @@ function translate() {
                     lng: language,
                     fallbackLng: 'en-US',
                     backend: {
-                        loadPath: 'locales/{{lng}}/translations.json'
+                        loadPath: '/locales/{{lng}}/translations.json'
                     }
                 }, function(err, t) {
                     jqueryI18next.init(i18next, $, {
