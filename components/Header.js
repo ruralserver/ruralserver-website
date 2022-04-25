@@ -53,7 +53,7 @@
                                                       <img className="svg" src="fonts/svg/cloudfiber.svg"
                                                            alt="Shared Hosting" />
                                                           <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="/shared-linux-hosting/"
+                                                              <a className="menu-item mergecolor" href="/web-hosting/shared-linux-hosting/"
                                                                  data-i18n="[html]submenu.hosting">Linux Shared Hosting </a>
                                                               <p className="seccolor">Directadmin fast shared hosting</p>
                                                           </div>
