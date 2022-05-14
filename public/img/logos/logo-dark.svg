@@ -21,7 +21,7 @@
 <path class="logodark1" d="M 261.9 17.2 L 261.7 12.7 L 257.45 12.7 L 257.45 35.7 L 262.45 35.7 L 262.45 23.45 A 6.362 6.362 0 0 1 266.304 17.495 A 7.143 7.143 0 0 1 269 17 A 7.328 7.328 0 0 1 269.636 17.026 C 270.144 17.07 270.551 17.169 270.958 17.311 A 8.053 8.053 0 0 1 271.2 17.4 L 271.6 12.4 A 8.687 8.687 0 0 0 270.825 12.297 C 270.472 12.266 270.094 12.25 269.7 12.25 C 265.6 12.25 262.85 14.5 261.9 17.2 Z" id="11" vector-effect="non-scaling-stroke"/>
 </g>
 <g>
-	<circle id="svg-ico" class="logodarkround2" cx="5.2" cy="69.6" r="4"/>
+	<circle id="svg-ico" class="logodarkround2" cx="5.2" cy="69.6" r="7"/>
 	
 		<animateMotion  accumulate="none" additive="replace" begin="0s" calcMode="paced" dur="7s" fill="remove" path="M210,0 0 0 260,0" repeatCount="indefinite" restart="always">
 		</animateMotion>
