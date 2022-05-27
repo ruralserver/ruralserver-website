@@ -66,7 +66,7 @@
                                                               <a className="menu-item mergecolor" href="dedicated"
                                                                  data-i18n="[html]submenu.dedicated">Dedicated Servers</a>
                                                               <div className="menu badge feat bg-pink">FILTER</div>
-                                                              <p className="seccolor">Fats and cheap plan for self/managed server</p>
+                                                              <p className="seccolor">Fast and cheap plan for self/managed server</p>
                                                           </div>
                                                   </div>
                                                   <div className="service">
