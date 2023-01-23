@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '@components/Meta'
+import Meta from '@components/Meta'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Js from '@components/Js'
@@ -9,6 +9,7 @@ export default function Home() {
     return (
         <>
 
+            <Meta />
             <Head>
 
             <title>Shared linux hosting</title>
