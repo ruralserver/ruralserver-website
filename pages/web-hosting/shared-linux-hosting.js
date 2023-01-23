@@ -168,7 +168,7 @@ export default function Home() {
                                             of <a href="#" className="golink">denouncing pleasure</a> and praising pain
                                             was born and I will.</p>
                                     </div>
-                                    <a href="" className="btn btn-default-yellow-fill mt-3">Learn more</a>
+                                    <a href="#" className="btn btn-default-yellow-fill mt-3">Learn more</a>
                                 </div>
                             </div>
                             <hr/>
