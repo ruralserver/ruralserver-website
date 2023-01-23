@@ -27,40 +27,6 @@ export default function Home() {
                                     <h2 className="section-heading">404 Page Not Found!</h2>
                                     <p className="section-subheading">Please check your url.</p>
                                 </div>
-                                <div className="col-sm-12 text-center pt-1">
-                                    <h2 className="section-heading">Why Choose Ruralserver?</h2>
-                                    <p className="section-subheading">Solutions to meet every Web Design & Development need Powering 1800+ Web Professionals globally with confidence. </p>
-                                </div>
-                                <div className="col-md-12 col-lg-4 wow animated fadeInUp fast">
-                                    <div className="service-section bg-colorstyle noshadow">
-                                        <div className="plans badge feat bg-pink">Premium</div>
-                                        <img className="svg" src="/fonts/svg/helpdesk.svg" alt="" />
-                                        <div className="title mergecolor">Support 24x7x365</div>
-                                        <p className="subtitle seccolor">
-                                            Get instant help from our rapid support team
-                                        </p>
-                                        <a href="/about-ruralserver/" className="btn btn-default-yellow-fill">Read more</a>
-                                    </div>
-                                </div>
-                                <div className="col-md-12 col-lg-4 wow animated fadeInUp">
-                                    <div className="service-section bg-colorstyle noshadow">
-                                        <div className="plans badge feat bg-pink">Control Panel</div>
-                                        <img className="svg" src="/fonts/svg/window.svg" alt="" />
-                                        <div className="title mergecolor">Directadmin fast hosting</div>
-                                        <p className="subtitle seccolor">
-                                            Included Softaculous, CloudLinux and Jetbackup
-                                        </p>
-                                        <a href="/about-ruralserver/" className="btn btn-default-yellow-fill">Read more</a>
-                                    </div>
-                                </div>
-                                <div className="col-md-12 col-lg-4 wow animated fadeInUp fast">
-                                    <div className="service-section bg-colorstyle noshadow">
-                                        <img className="svg" src="/fonts/svg/cloudmanaged.svg" alt="" />
-                                        <div className="title mergecolor">Perfomance Optimized</div>
-                                        <p className="subtitle seccolor">All shared hosting optimised with CloudLinux</p>
-                                        <a href="/about-ruralserver/" className="btn btn-default-yellow-fill">Read more</a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
