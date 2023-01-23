@@ -46,7 +46,7 @@ export default function Footer() {
                                     <a href="https://www.facebook.com/ruralserver/" target="_blank"><i className="fab fa-facebook-f withborder noshadow"></i></a>
                                     <a href="https://www.youtube.com/@Ruralserverhosting" target="_blank"><i className="fab fa-youtube withborder noshadow"></i></a>
                                     <a href="https://twitter.com/ruralserver" target="_blank"><i className="fab fa-twitter withborder noshadow"></i></a>
-                                    <a href="https://www.linkedin.com/company/5120417/admin/" target="_blank"><i className="fab linkedin withborder noshadow"></i></a>
+                                    <a href="https://www.linkedin.com/company/5120417/admin/" target="_blank"><i className="fab fa-linkedin withborder noshadow"></i></a>
                                 </div>
                                 <a className="deploys-status" href="https://app.netlify.com/sites/ruralserver/deploys" target="_blank"><img src="https://api.netlify.com/api/v1/badges/5a613e66-9a5a-4bef-bca4-02042be43c08/deploy-status" /></a>
                             </div>
