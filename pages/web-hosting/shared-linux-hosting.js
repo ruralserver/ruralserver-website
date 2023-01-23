@@ -210,6 +210,56 @@ export default function Home() {
                     </path>
                 </svg>
 
+                <section className="services sec-normal motpath sec-bg4 scrollme">
+                    <div className="container">
+                        <div className="service-wrap">
+                            <div className="row">
+                                <div className="col-sm-12 text-center">
+                                    <h2 className="section-heading">Why choose Antler for your hosting?</h2>
+                                    <p className="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
+                                     data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
+                                    <div className="service-section bg-colorstyle">
+                                        <div className="plans badge feat bg-pink">Softaculous</div>
+                                        <img className="svg" src="/fonts/svg/select.svg" height="60" alt="" />
+                                        <div className="title mergecolor">Easy 1-click-installer</div>
+                                        <p className="subtitle seccolor">
+                                            Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
+                                            dolor sit amet, consectetur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
+                                     data-to="0" data-opacity="1" data-translatey="100" data-easeinout="0">
+                                    <div className="service-section bg-colorstyle">
+                                        <img className="svg" src="/fonts/svg/speed.svg" height="60" alt="" />
+                                        <div className="title mergecolor">Superfast Websites</div>
+                                        <p className="subtitle seccolor">
+                                            Excepteur sint occaecat cupidatat non proident dolor. Lorem ipsum dolor
+                                            sit amet, consectetur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
+                                     data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
+                                    <div className="service-section bg-colorstyle">
+                                        <div className="plans badge feat bg-pink">Free</div>
+                                        <img className="svg" src="/fonts/svg/inverse.svg" height="60" alt="" />
+                                        <div className="title mergecolor">Website Migrations</div>
+                                        <p className="subtitle seccolor">
+                                            Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
+                                            dolor sit amet, consectetur.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
 
                 <Footer />
             </div>
