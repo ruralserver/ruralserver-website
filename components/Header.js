@@ -426,10 +426,10 @@ export default function Header() {
               <div className="container">
                   <div className="row">
                       <div className="col-6">
-                          <a href="index"><img className="svg logo-menu d-block" src="img/logos/logo.svg"
-                                               alt="logo Antler"/></a>
-                          <a href="index"><img className="svg logo-menu d-none" src="img/logos/logo-dark.svg"
-                                               alt="logo Antler"/></a>
+                          <a href="/"><img className="svg logo-menu d-block" src="/img/logos/logo.svg"
+                                               alt="ruralserver"/></a>
+                          <a href="/"><img className="svg logo-menu d-none" src="/img/logos/logo-dark.svg"
+                                               alt="ruralserver"/></a>
                       </div>
                       <div className="col-6">
                           <nav className="nav-menu float-end d-flex">
@@ -451,7 +451,7 @@ export default function Header() {
                               </button>
                               <div className="main-menu bg-seccolorstyle">
                                   <div className="menu-item">
-                                      <a className="mergecolor" href="#" data-bs-toggle="dropdown">Home <div
+                                      <a className="mergecolor" href="/" data-bs-toggle="dropdown">Home <div
                                           className="badge bg-purple">NEW</div></a>
                                       <div className="dropdown-menu">
                                           <a className="dropdown-item menu-item" href="index">Home Default</a>
