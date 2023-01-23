@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '@components/Head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Js from '@components/Js'
@@ -7,13 +8,10 @@ import Js from '@components/Js'
 export default function Home() {
     return (
         <>
+            <Head />
             <Head>
-            <meta charSet="utf-8" />
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Shared linux hosting</title>
             <meta name="description" content="" />
-            <link href="/img/favicon.png" rel="shortcut icon" />
             </Head>
 
             <div className="box-container limit-width">
