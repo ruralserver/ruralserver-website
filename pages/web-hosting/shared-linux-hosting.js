@@ -171,7 +171,7 @@ export default function Home() {
                                     <a href="" className="btn btn-default-yellow-fill mt-3">Learn more</a>
                                 </div>
                             </div>
-                            <hr>
+                            <hr/>
                                 <div className="row">
                                     <div className="col-md-12 col-lg-6">
                                         <div className="info-content">
@@ -186,7 +186,7 @@ export default function Home() {
                                         <img className="svg second" src="assets/patterns/backups.svg" alt="backups" />
                                     </div>
                                 </div>
-                                <hr>
+                                <hr/>
                                     <div className="row">
                                         <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
                                             <img className="svg third" src="assets/patterns/monitoring.svg"
