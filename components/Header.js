@@ -92,7 +92,7 @@
                                           </div>
                                       </li>
                                       <li className="menu-item menu-item-has-children">
-                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.pages">Others </a>
+                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.pages">Others</a>
                                           <div className="badge bg-pink me-4 wow animated shake delay-1s visible">NEW</div>
                                           <div className="sub-menu megamenu-list">
                                               <div className="container">
