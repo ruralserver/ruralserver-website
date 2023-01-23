@@ -368,7 +368,7 @@ export default function Home() {
                                                     <i className="fa fa-minus c-pink"></i>
                                                 </div>
                                             </div>
-                                            <div className="panel-collapse" style="display: block;">
+                                            <div className="panel-collapse" >
                                                 <div className="wrapper-collapse">
                                                     <div className="info">
                                                         <ul className="list seccolor">
@@ -459,7 +459,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                
+
 
 
                 <Footer />
