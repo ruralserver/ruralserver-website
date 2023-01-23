@@ -321,9 +321,9 @@ export default function Home() {
                 <section className="casestudy sec-bg2 bg-colorstyle">
                     <div className="container">
                         <div className="sec-main sec-up bg-purple mb-0 nomargin">
-                            <img className="lazyload ltr-img d-block" src="img/casestudy.png"
+                            <img className="lazyload ltr-img d-block" src="/img/casestudy.png"
                                  data-src="/img/casestudy.png" alt="Case Study"/>
-                                <img className="lazyload rtl-img d-none" src="img/casestudy-rtl.png"
+                                <img className="lazyload rtl-img d-none" src="/img/casestudy-rtl.png"
                                      data-src="/img/casestudy-rtl.png" alt="Case Study"/>
                                     <div className="plans badge feat bg-dark">case study</div>
                                     <div className="row">
