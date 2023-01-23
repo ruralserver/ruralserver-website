@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 export default function Header() {
     return (
       <>
@@ -44,8 +43,8 @@ export default function Header() {
                       <div className="row">
                           <div className="col-2 col-md-2">
                               <a href="/">
-                                  <Image className="svg logo-menu d-block" src="/img/logos/logo.svg" alt="logo Ruralserver" />
-                                      <Image className="svg logo-menu d-none" src="/img/logos/logo-dark.svg" alt="logo Ruralserver" />
+                                  <img className="svg logo-menu d-block" src="/img/logos/logo.svg" alt="logo Ruralserver" />
+                                      <img className="svg logo-menu d-none" src="/img/logos/logo-dark.svg" alt="logo Ruralserver" />
                               </a>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
@@ -76,7 +75,7 @@ export default function Header() {
                                                   </div>
 
                                                   <div className="service">
-                                                      <Image className="svg" src="/fonts/svg/dedicated.svg"
+                                                      <img className="svg" src="/fonts/svg/dedicated.svg"
                                                            alt="Dedicated Server" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="dedicated"
@@ -86,7 +85,7 @@ export default function Header() {
                                                           </div>
                                                   </div>
                                                   <div className="service">
-                                                      <Image className="svg" src="/fonts/svg/vps.svg" alt="Cloud VPS" />
+                                                      <img className="svg" src="/fonts/svg/vps.svg" alt="Cloud VPS" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="vps"
                                                                  data-i18n="[html]submenu.vps">VPS</a>
@@ -96,7 +95,7 @@ export default function Header() {
                                                   </div>
 
                                                   <div className="service">
-                                                      <Image className="svg" src="/fonts/svg/domains.svg" alt="Domains" />
+                                                      <img className="svg" src="/fonts/svg/domains.svg" alt="Domains" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="domains"
                                                                  data-i18n="[html]submenu.domains">Domains</a>
@@ -118,8 +117,8 @@ export default function Header() {
                                                               <div className="col-4 service">
                                                                   <div className="media-body">
                                                                       <div className="top-head">
-                                                                          <Image className="svg"
-                                                                               src="/fonts/svg/favorite.svg"
+                                                                          <img className="svg"
+                                                                               src="fonts/svg/favorite.svg"
                                                                                alt="Services" />
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
