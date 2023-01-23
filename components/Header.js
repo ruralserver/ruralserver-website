@@ -45,7 +45,7 @@
                                           </li>
                                       <li className="menu-item menu-item-has-children">
                                           <a className="m-0 pe-1 v-stroke" href="#"
-                                             data-i18n="[html]header.services">Hosting</a>
+                                             data-i18n="[html]header.hosting">Hosting</a>
                                           <div className="badge bg-pink me-4">PRO</div>
                                           <div className="sub-menu menu-large bg-colorstyle">
                                               <div className="service-list">
@@ -54,7 +54,7 @@
                                                            alt="Shared Hosting" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="/web-hosting/shared-linux-hosting/"
-                                                                 data-i18n="[html]submenu.hosting">Linux Shared Hosting </a>
+                                                                 data-i18n="[html]submenu.sharedhosting">Linux Shared Hosting </a>
                                                               <p className="seccolor">Directadmin fast shared hosting</p>
                                                           </div>
                                                   </div>
@@ -92,7 +92,7 @@
                                           </div>
                                       </li>
                                       <li className="menu-item menu-item-has-children">
-                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.pages">Other</a>
+                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.other">Other</a>
                                           <div className="badge bg-pink me-4 wow animated shake delay-1s visible">NEW</div>
                                           <div className="sub-menu megamenu-list">
                                               <div className="container">
@@ -447,7 +447,7 @@
                                           <a className="dropdown-item menu-item" href="home3d">Home 3D <div
                                               className="badge inside bg-purple ms-2">NEW</div></a>
                                           <a className="dropdown-item menu-item"
-                                             href="http://inebur.com/whmcs/?systpl=antler-rtl&language=arabic"
+                                             href="#"
                                              target="_blank">WHMCS (RTL)
                                               <div className="badge inside bg-pink ms-2">HOT</div></a>
                                       </div>
