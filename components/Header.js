@@ -55,7 +55,7 @@
                                   </button>
                                   <ul className="main-menu nav navbar-nav navbar-right">
                                       <li className="menu-item me-2">
-                                          <Link className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home</Link>
+                                          <a className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home</a>
 
                                           </li>
                                       <li className="menu-item menu-item-has-children">
