@@ -258,6 +258,96 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
+                <section className="sec-normal sec-bg1 bg-colorstyle  nobottompadding">
+                    <div className="best-plans pricing">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-sm-12 text-center">
+                                    <h2 className="section-heading mergecolor">Hosting Technical Specifications</h2>
+                                    <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div className="col-sm-12">
+                                    <div className="table-responsive-lg">
+                                        <table className="table sample mt-5">
+                                            <thead>
+                                            <tr>
+                                                <td><span className="title">Software </span> <span
+                                                    className="badge bg-pink">PLUS</span></td>
+                                                <td>
+                                                    <div className="title">Databases</div>
+                                                </td>
+                                                <td>
+                                                    <div className="title">Additional Software</div>
+                                                </td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div className="title-table" data-bs-toggle="popover"
+                                                         data-bs-trigger="hover" data-bs-placement="top"
+                                                         data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                                        <span className="fas fa-check-circle me-2"></span> PHP
+                                                        5.5/5.6/7.0/7.1
+                                                    </div>
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2"></span> MySQL 5.6</td>
+                                                <td><span className="fas fa-check-circle me-2"></span> Zend Engine</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div className="title-table" data-bs-toggle="popover"
+                                                         data-bs-trigger="hover" data-bs-placement="top"
+                                                         data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                                        <span className="fas fa-check-circle me-2"></span> Perl
+                                                    </div>
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2"></span> phpMyAdmin 4.6.6
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2"></span> Zend Optimizer
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="title-table"><span
+                                                    className="fas fa-check-circle me-2"></span> Python 2.6.6
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2"></span> FTPES Supported
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2"></span> Zend Guard Loader
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="title-table"><span
+                                                    className="fas fa-check-circle me-3"></span> PostgreSQL
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2"></span> MSSQL Stored
+                                                    Procedures
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2"></span> ionCube Loader
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="border-0"><a href=""
+                                                                            className="btn btn-default-pink-fill">All
+                                                    Specs</a></td>
+                                                <td className="border-0"><a href=""
+                                                                            className="btn btn-default-pink-fill">All
+                                                    Specs</a></td>
+                                                <td className="border-0"><a href=""
+                                                                            className="btn btn-default-pink-fill">All
+                                                    Specs</a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <img className="blobright svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
+
 
 
 
