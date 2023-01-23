@@ -42,10 +42,10 @@ export default function Header() {
                   <div className="container">
                       <div className="row">
                           <div className="col-2 col-md-2">
-                              <Link href="/">
+                              <a href="/">
                                   <img className="svg logo-menu d-block" src="img/logos/logo.svg" alt="logo Ruralserver" />
                                       <img className="svg logo-menu d-none" src="img/logos/logo-dark.svg" alt="logo Ruralserver" />
-                              </Link>
+                              </a>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
                               <div className="navigation float-end">
@@ -68,8 +68,8 @@ export default function Header() {
                                                       <img className="svg" src="fonts/svg/cloudfiber.svg"
                                                            alt="Shared Hosting" />
                                                           <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="/web-hosting/shared-linux-hosting/"
-                                                                 data-i18n="[html]submenu.sharedhosting">Linux Shared Hosting </a>
+                                                              <Link className="menu-item mergecolor" href="/web-hosting/shared-linux-hosting/"
+                                                                 data-i18n="[html]submenu.sharedhosting">Linux Shared Hosting </Link>
                                                               <p className="seccolor">Directadmin fast shared hosting</p>
                                                           </div>
                                                   </div>
