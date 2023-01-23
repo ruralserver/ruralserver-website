@@ -24,7 +24,7 @@ export default function Home() {
                             <div className="vc-child">
                                 <div className="top-banner">
                                     <div className="container pe-5">
-                                        <img className="svg custom-element-right" src="patterns/ddoslayers.svg"
+                                        <img className="svg custom-element-right" src="/patterns/ddoslayers.svg"
                                              alt="DDos Monitoring" />
                                             <div className="wow animated fadeInUp fast col-sm-12 col-md-5">
                                                 <div className="heading mergecolor">DDoS <br/><span id="typed2"></span>
@@ -49,7 +49,7 @@ export default function Home() {
                             <div className="vc-child">
                                 <div className="top-banner">
                                     <div className="container pe-5">
-                                        <img className="svg custom-element-right" src="patterns/api.svg"
+                                        <img className="svg custom-element-right" src="/patterns/api.svg"
                                              alt="Dedicated Server" />
                                             <div className="col-sm-12 col-md-6">
                                                 <div className="heading mergecolor">Dedicated <br/>Server with <br/> <span
@@ -74,7 +74,7 @@ export default function Home() {
                             <div className="vc-child">
                                 <div className="top-banner">
                                     <div className="container pe-5">
-                                        <img className="svg custom-element-right" src="patterns/cloudvps.svg"
+                                        <img className="svg custom-element-right" src="/patterns/cloudvps.svg"
                                              alt="Cloud VPS Server" />
                                             <div className="col-sm-12 col-md-6">
                                                 <h1 className="heading mergecolor">Virtual <br/>Cloud <br/>Servers</h1>
@@ -96,7 +96,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <img className="blobleft svg d-none" src="img/background/blob.svg" alt="Blob Background" />
+                <img className="blobleft svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
 
                     <section className="pricing special sec-bg2 bg-colorstyle specialposition">
                         <div className="container">
@@ -105,7 +105,7 @@ export default function Home() {
                                     <div className="col-md-12 col-lg-4">
                                         <div className="wrapper first noshadow">
                                             <div className="top-content bg-seccolorstyle topradius">
-                                                <img className="svg mb-3" src="fonts/svg/cloudfiber.svg" alt="" />
+                                                <img className="svg mb-3" src="/fonts/svg/cloudfiber.svg" alt="" />
                                                     <div className="title">Shared Hosting</div>
                                                     <div className="fromer seccolor">Starting at:</div>
                                                     <div className="price seccolor"><sup>$</sup>8.19 <span
@@ -129,7 +129,7 @@ export default function Home() {
                                         <div className="wrapper noshadow">
                                             <div className="plans badge feat bg-pink">recommended</div>
                                             <div className="top-content bg-seccolorstyle topradius">
-                                                <img className="svg mb-3" src="fonts/svg/dedicated.svg" alt="" />
+                                                <img className="svg mb-3" src="/fonts/svg/dedicated.svg" alt="" />
                                                     <div className="title">Dedicated Server</div>
                                                     <div className="fromer seccolor">annually get (20% discount)</div>
                                                     <div className="price seccolor"><sup>$</sup>82.00 <span
@@ -153,7 +153,7 @@ export default function Home() {
                                     <div className="col-md-12 col-lg-4">
                                         <div className="wrapper third noshadow">
                                             <div className="top-content bg-seccolorstyle topradius">
-                                                <img className="svg mb-3" src="fonts/svg/vps.svg" alt="" />
+                                                <img className="svg mb-3" src="/fonts/svg/vps.svg" alt="" />
                                                     <div className="title">Cloud VPS</div>
                                                     <div className="fromer seccolor">Starting at:</div>
                                                     <div className="price seccolor"><sup>$</sup>9.99 <span
@@ -195,9 +195,9 @@ export default function Home() {
                                     <div className="wrap-service load">
                                         <div className="wow animated fadeInUp fast">
                                             <img className="svg mt-50 w-100 ltr-img d-block"
-                                                 src="patterns/balancing.svg" alt="Load Balancing" />
+                                                 src="/patterns/balancing.svg" alt="Load Balancing" />
                                                 <img className="svg mt-50 w-100 rtl-img d-none"
-                                                     src="patterns/balancing-rtl.svg" alt="Load Balancing"/>
+                                                     src="/patterns/balancing-rtl.svg" alt="Load Balancing"/>
                                         </div>
                                         <div className="row text-info text-center">
                                             <div className="col-md-4 pb-2 pt-5"><b className="c-purple">[1] Users</b>
@@ -238,7 +238,7 @@ export default function Home() {
                                 <div className="col-md-12 col-lg-4 wow animated fadeInUp fast">
                                     <div className="service-section bg-colorstyle noshadow">
                                         <div className="plans badge feat bg-pink">Premium</div>
-                                        <img className="svg" src="fonts/svg/helpdesk.svg" alt="" />
+                                        <img className="svg" src="/fonts/svg/helpdesk.svg" alt="" />
                                             <div className="title mergecolor">Support 24x7x365</div>
                                             <p className="subtitle seccolor">
                                                 Get instant help from our rapid support team
@@ -249,7 +249,7 @@ export default function Home() {
                                 <div className="col-md-12 col-lg-4 wow animated fadeInUp">
                                     <div className="service-section bg-colorstyle noshadow">
                                         <div className="plans badge feat bg-pink">Control Panel</div>
-                                        <img className="svg" src="fonts/svg/window.svg" alt="" />
+                                        <img className="svg" src="/fonts/svg/window.svg" alt="" />
                                             <div className="title mergecolor">Directadmin fast hosting</div>
                                             <p className="subtitle seccolor">
                                                 Included Softaculous, CloudLinux and Jetbackup
@@ -259,7 +259,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-md-12 col-lg-4 wow animated fadeInUp fast">
                                     <div className="service-section bg-colorstyle noshadow">
-                                        <img className="svg" src="fonts/svg/cloudmanaged.svg" alt="" />
+                                        <img className="svg" src="/fonts/svg/cloudmanaged.svg" alt="" />
                                             <div className="title mergecolor">Perfomance Optimized</div>
                                             <p className="subtitle seccolor">All shared hosting optimised with CloudLinux</p>
                                             <a href="/about-ruralserver/" className="btn btn-default-yellow-fill">Read more</a>
@@ -282,7 +282,7 @@ export default function Home() {
                                             className="c-pink">incididunt lorem ipsum</span> dolor sit amet</p>
                                 </div>
                                 <div className="col-md-12 pt-5 scrollme position-relative">
-                                    <img src="patterns/map.svg" className="lazyload w-10 animateme" alt="Load Balancing"
+                                    <img src="/patterns/map.svg" className="lazyload w-10 animateme" alt="Load Balancing"
                                          data-when="view" data-from="1" data-to="0" data-opacity="0" />
                                         <span className="datacenters montreal" data-bs-toggle="popover"
                                               data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
@@ -322,9 +322,9 @@ export default function Home() {
                     <div className="container">
                         <div className="sec-main sec-up bg-purple mb-0 nomargin">
                             <img className="lazyload ltr-img d-block" src="img/casestudy.png"
-                                 data-src="img/casestudy.png" alt="Case Study"/>
+                                 data-src="/img/casestudy.png" alt="Case Study"/>
                                 <img className="lazyload rtl-img d-none" src="img/casestudy-rtl.png"
-                                     data-src="img/casestudy-rtl.png" alt="Case Study"/>
+                                     data-src="/img/casestudy-rtl.png" alt="Case Study"/>
                                     <div className="plans badge feat bg-dark">case study</div>
                                     <div className="row">
                                         <div className="col-sm-12 col-md-12 col-lg-9">
@@ -381,7 +381,7 @@ export default function Home() {
                                     <div className="help-container bg-seccolorstyle noshadow">
                                         <a href="javascript:void(Tawk_API.toggle())" className="help-item">
                                             <div className="img">
-                                                <img className="svg ico" src="fonts/svg/livechat.svg" height="65"
+                                                <img className="svg ico" src="/fonts/svg/livechat.svg" height="65"
                                                      alt=""/>
                                             </div>
                                             <div className="inform">
@@ -396,7 +396,7 @@ export default function Home() {
                                     <div className="help-container bg-seccolorstyle noshadow">
                                         <a href="https://client.ruralserver.com/contact.php" className="help-item">
                                             <div className="img">
-                                                <img className="svg ico" src="fonts/svg/emailopen.svg" height="65"
+                                                <img className="svg ico" src="/fonts/svg/emailopen.svg" height="65"
                                                      alt=""/>
                                             </div>
                                             <div className="inform">
@@ -411,7 +411,7 @@ export default function Home() {
                                     <div className="help-container bg-seccolorstyle noshadow">
                                         <a href="https://client.ruralserver.com/knowledgebase.php" className="help-item">
                                             <div className="img">
-                                                <img className="svg ico" src="fonts/svg/book.svg" height="65" alt=""/>
+                                                <img className="svg ico" src="/fonts/svg/book.svg" height="65" alt=""/>
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Knowledge base</div>
