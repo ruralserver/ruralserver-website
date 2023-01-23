@@ -348,7 +348,118 @@ export default function Home() {
                 </section>
                 <img className="blobright svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
 
+                <section className="sec-normal sec-bg2 bg-colorstyle">
+                    <div className="faq">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-12 col-sm-12 text-center">
+                                    <h2 className="section-heading mergecolor">Frequently Asked Questions
+                                        Hosting</h2>
+                                    <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div className="col-sm-12">
+                                    <div className="accordion faq pt-5">
+                                        <div className="panel-wrap">
+                                            <div className="panel-title seccolor active">
+                                                <span>What is Cloud Hosting?</span>
+                                                <div className="float-end">
+                                                    <i className="fa fa-plus"></i>
+                                                    <i className="fa fa-minus c-pink"></i>
+                                                </div>
+                                            </div>
+                                            <div className="panel-collapse" style="display: block;">
+                                                <div className="wrapper-collapse">
+                                                    <div className="info">
+                                                        <ul className="list seccolor">
+                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                                labore et dolore magna.</p><p>Excepteur sint
+                                                                occaecat cupidatat non proident, sunt in culpa qui
+                                                                officia deserunt mollit anim id est laborum.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="panel-wrap">
+                                            <div className="panel-title seccolor">
+                                                <span>Does Shared Web Hosting include Email Hosting as well?</span>
+                                                <div className="float-end">
+                                                    <i className="fa fa-plus"></i>
+                                                    <i className="fa fa-minus c-pink"></i>
+                                                </div>
+                                            </div>
+                                            <div className="panel-collapse">
+                                                <div className="wrapper-collapse">
+                                                    <div className="info">
+                                                        <ul className="list seccolor">
+                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                                labore et dolore magna.</p><p>Excepteur sint
+                                                                occaecat cupidatat non proident, sunt in culpa qui
+                                                                officia deserunt mollit anim id est laborum.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="panel-wrap">
+                                            <div className="panel-title seccolor">
+                                                <span>Is an upgrade possible from my current Linux Shared Hosting Plan?</span>
+                                                <div className="float-end">
+                                                    <i className="fa fa-plus"></i>
+                                                    <i className="fa fa-minus c-pink"></i>
+                                                </div>
+                                            </div>
+                                            <div className="panel-collapse">
+                                                <div className="wrapper-collapse">
+                                                    <div className="info">
+                                                        <ul className="list seccolor">
+                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                                labore et dolore magna.</p><p>Excepteur sint
+                                                                occaecat cupidatat non proident, sunt in culpa qui
+                                                                officia deserunt mollit anim id est laborum.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="panel-wrap">
+                                            <div className="panel-title seccolor">
+                                                <span>Is there any money back guarantee with the Linux Web Hosting services?</span>
+                                                <div className="float-end">
+                                                    <i className="fa fa-plus"></i>
+                                                    <i className="fa fa-minus c-pink"></i>
+                                                </div>
+                                            </div>
+                                            <div className="panel-collapse">
+                                                <div className="wrapper-collapse">
+                                                    <div className="info">
+                                                        <ul className="list seccolor">
+                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                                labore et dolore magna.</p><p>Excepteur sint
+                                                                occaecat cupidatat non proident, sunt in culpa qui
+                                                                officia deserunt mollit anim id est laborum.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
+                
 
 
                 <Footer />
