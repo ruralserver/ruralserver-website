@@ -16,21 +16,7 @@ export default function Home() {
             </Head>
 
             <div className="box-container limit-width">
-
-                <div id="spinner-area" className="hide d-none">
-                    <div className="spinner">
-                        <div className="double-bounce1"></div>
-                        <div className="double-bounce2"></div>
-                        <div className="spinner-txt">RuralServer...</div>
-                    </div>
-                </div>
-
-                <div className="body-borders" data-border="20">
-                    <div className="top-border bg-white"></div>
-                    <div className="right-border bg-white"></div>
-                    <div className="bottom-border bg-white"></div>
-                    <div className="left-border bg-white"></div>
-                </div>
+                
                 <Header />
 
                 <section id="owl-demo" className="owl-carousel owl-theme owl-loaded owl-drag slider-02 scrollme">

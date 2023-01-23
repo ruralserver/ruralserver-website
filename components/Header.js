@@ -1,6 +1,21 @@
     export default function Header() {
     return (
       <>
+
+          <div id="spinner-area" className="hide d-none">
+              <div className="spinner">
+                  <div className="double-bounce1"></div>
+                  <div className="double-bounce2"></div>
+                  <div className="spinner-txt">RuralServer...</div>
+              </div>
+          </div>
+
+          <div className="body-borders" data-border="20">
+              <div className="top-border bg-white"></div>
+              <div className="right-border bg-white"></div>
+              <div className="bottom-border bg-white"></div>
+              <div className="left-border bg-white"></div>
+          </div>
           <div className="sec-bg3 p-2 pe-3 infonews">
               <div className="container-fluid">
                   <div className="row">
