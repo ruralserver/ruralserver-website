@@ -148,7 +148,67 @@ export default function Home() {
                     </div>
                 </section>
 
+                <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
+                    <div className="container">
+                        <div className="randomline">
+                            <div className="bigline"></div>
+                            <div className="smallline"></div>
+                        </div>
+                        <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
+                            <div className="row">
+                                <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
+                                    <img className="svg first" src="assets/patterns/dns.svg" alt="dns redundant" />
+                                </div>
+                                <div className="col-md-12 col-lg-6 offset-lg-1">
+                                    <div className="info-content">
+                                        <h1 className="fw-bold mb-3 mergecolor">Redundant DNS</h1>
+                                        <p className="seccolor">But I must explain to you how all this mistaken idea
+                                            of <a href="#" className="golink">denouncing pleasure</a> and praising pain
+                                            was born and I will.</p>
+                                    </div>
+                                    <a href="#" className="btn btn-default-yellow-fill mt-3">Learn more</a>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="row">
+                                <div className="col-md-12 col-lg-6">
+                                    <div className="info-content">
+                                        <h1 className="fw-bold mb-3 mergecolor">Remote Daily Backups</h1>
+                                        <p className="seccolor">But I must explain to you how all this mistaken idea
+                                            of <a href="#" className="golink">denouncing pleasure</a> and praising
+                                            pain was born and I will.</p>
+                                    </div>
+                                    <a href="" className="btn btn-default-yellow-fill mt-3">Backup now</a>
+                                </div>
+                                <div className="col-md-12 col-lg-5 offset-lg-1 wow animated fadeInUp fast">
+                                    <img className="svg second" src="assets/patterns/backups.svg" alt="backups" />
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="row">
+                                <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
+                                    <img className="svg third" src="assets/patterns/monitoring.svg"
+                                         alt="monitoring 24/7/365" />
+                                </div>
+                                <div className="col-md-12 col-lg-6 offset-lg-1">
+                                    <div className="info-content">
+                                        <h1 className="fw-bold mb-3 mergecolor">24/7/365 Monitoring</h1>
+                                        <p className="seccolor">But I must explain to you how all this mistaken
+                                            idea of <a href="#" className="golink">denouncing pleasure</a> and
+                                            praising pain was born and I will.</p>
+                                    </div>
+                                    <a href="" className="btn btn-default-yellow-fill mt-3">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
+                <svg className="division-ontop bg-white d-none" viewBox="0 0 1440 150">
+                    <path fill="#fdd700" fill-opacity="1"
+                          d="M0,96L120,85.3C240,75,480,53,720,53.3C960,53,1200,75,1320,85.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                    </path>
+                </svg>
 
 
                 <Footer />
