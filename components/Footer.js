@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
         <footer className="footer">
-            <img className="logo-bg logo-footer" src="/img/logos/symbol.png" alt="Ruralserver" />
+            <img className="logo-bg logo-footer" src="/img/logos/symbol.png" alt="Ruralserver Mono" />
                 <div className="container">
                     <div className="footer-top">
                         <div className="row">
@@ -39,8 +39,8 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3">
-                                <a><img className="svg logo-footer d-block" src="img/logos/logo.svg" alt="logo" /></a>
-                                <a><img className="svg logo-footer d-none" src="img/logos/logo-dark.svg" alt="logo" /></a>
+                                <a><img className="svg logo-footer d-block" src="/img/logos/logo.svg" alt="RuralServer" /></a>
+                                <a><img className="svg logo-footer d-none" src="/img/logos/logo-dark.svg" alt="RuralServer" /></a>
                                 <div className="copyrigh">©2013 - {getCurrentYear()} RuralServer - All rights reserved</div>
                                 <div className="soc-icons">
                                     <a href="https://www.facebook.com/ruralserver/" target="_blank"><i className="fab fa-facebook-f withborder noshadow"></i></a>
