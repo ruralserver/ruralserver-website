@@ -8,8 +8,8 @@ import Js from '@components/Js'
 export default function Home() {
     return (
         <>
-            <Meta />
             <Head>
+                <Meta />
             <title>RuralServer - Web Hosting India, India’s No.1 Web Hosting Company</title>
             <meta name="description" content="" />
 
