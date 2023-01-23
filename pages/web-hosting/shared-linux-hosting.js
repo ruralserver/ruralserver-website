@@ -57,12 +57,14 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <!-- ***** FEATURES DIVISION ***** -->
+
+
                 <a className="gocontent godown gocheck" href="#scroll">
                     <img className="svg" src="./assets/fonts/svg/arrowdown.svg" height="80" alt="features">
                         <span>Features</span>
                 </a>
-                <!-- ***** PRICING TABLES ***** -->
+
+
                 <section className="pricing special sec-uping pb-5 bg-colorstyle specialposition">
                     <div className="container">
                         <div className="randomline">
@@ -145,7 +147,8 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <!-- ***** FEATURES ***** -->
+
+
                 <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
                     <div className="container">
                         <div className="randomline">
@@ -208,7 +211,8 @@ export default function Home() {
                     </path>
                 </svg>
 
-                <!-- ***** WHY CHOOSE ANTLER ***** -->
+
+
                 <section className="services sec-normal motpath sec-bg4 scrollme">
                     <div className="container">
                         <div className="service-wrap">
@@ -257,7 +261,8 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <!-- ***** SPECIFICATIONS ***** -->
+
+
                 <section className="sec-normal sec-bg1 bg-colorstyle  nobottompadding">
                     <div className="best-plans pricing">
                         <div className="container">
@@ -347,7 +352,8 @@ export default function Home() {
                     </div>
                 </section>
                 <img className="blobright svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background">
-                    <!-- ***** FAQ ***** -->
+
+
                     <section className="sec-normal sec-bg2 bg-colorstyle">
                         <div className="faq">
                             <div className="container">
@@ -458,7 +464,8 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-                    <!-- ***** STATISTICS ***** -->
+
+                    
                     <section className="circle-section sec-normal sec-bg1 bg-seccolorstyle bottomhalfpadding">
                         <div className="container">
                             <div className="row">
