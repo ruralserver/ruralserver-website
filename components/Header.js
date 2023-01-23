@@ -43,8 +43,8 @@ export default function Header() {
                       <div className="row">
                           <div className="col-2 col-md-2">
                               <a href="/">
-                                  <img className="svg logo-menu d-block" src="img/logos/logo.svg" alt="logo Ruralserver" />
-                                      <img className="svg logo-menu d-none" src="img/logos/logo-dark.svg" alt="logo Ruralserver" />
+                                  <img className="svg logo-menu d-block" src="/img/logos/logo.svg" alt="logo Ruralserver" />
+                                      <img className="svg logo-menu d-none" src="/img/logos/logo-dark.svg" alt="logo Ruralserver" />
                               </a>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
@@ -65,7 +65,7 @@ export default function Header() {
                                           <div className="sub-menu menu-large bg-colorstyle">
                                               <div className="service-list">
                                                   <div className="service">
-                                                      <img className="svg" src="fonts/svg/cloudfiber.svg"
+                                                      <img className="svg" src="/fonts/svg/cloudfiber.svg"
                                                            alt="Shared Hosting" />
                                                           <div className="media-body">
                                                               <Link className="menu-item mergecolor" href="/web-hosting/shared-linux-hosting/"
@@ -75,7 +75,7 @@ export default function Header() {
                                                   </div>
 
                                                   <div className="service">
-                                                      <img className="svg" src="fonts/svg/dedicated.svg"
+                                                      <img className="svg" src="/fonts/svg/dedicated.svg"
                                                            alt="Dedicated Server" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="dedicated"
@@ -85,7 +85,7 @@ export default function Header() {
                                                           </div>
                                                   </div>
                                                   <div className="service">
-                                                      <img className="svg" src="fonts/svg/vps.svg" alt="Cloud VPS" />
+                                                      <img className="svg" src="/fonts/svg/vps.svg" alt="Cloud VPS" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="vps"
                                                                  data-i18n="[html]submenu.vps">VPS</a>

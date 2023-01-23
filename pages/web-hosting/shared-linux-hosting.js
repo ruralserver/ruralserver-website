@@ -13,7 +13,7 @@ export default function Home() {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Shared linux hosting</title>
             <meta name="description" content="" />
-            <link href="img/favicon.png" rel="shortcut icon" />
+            <link href="/img/favicon.png" rel="shortcut icon" />
             </Head>
 
             <div className="box-container limit-width">
