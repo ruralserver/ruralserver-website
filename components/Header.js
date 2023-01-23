@@ -40,12 +40,12 @@
                                   </button>
                                   <ul className="main-menu nav navbar-nav navbar-right">
                                       <li className="menu-item me-2">
-                                          <a className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home </a>
+                                          <a className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home</a>
 
                                           </li>
                                       <li className="menu-item menu-item-has-children">
                                           <a className="m-0 pe-1 v-stroke" href="#"
-                                             data-i18n="[html]header.services"> Hosting</a>
+                                             data-i18n="[html]header.services">Hosting</a>
                                           <div className="badge bg-pink me-4">PRO</div>
                                           <div className="sub-menu menu-large bg-colorstyle">
                                               <div className="service-list">
@@ -92,7 +92,7 @@
                                           </div>
                                       </li>
                                       <li className="menu-item menu-item-has-children">
-                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.pages">Others</a>
+                                          <a className="m-0 pe-1 v-stroke" href="#" data-i18n="[html]header.pages">Other</a>
                                           <div className="badge bg-pink me-4 wow animated shake delay-1s visible">NEW</div>
                                           <div className="sub-menu megamenu-list">
                                               <div className="container">
