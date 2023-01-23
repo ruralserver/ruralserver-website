@@ -97,13 +97,13 @@ export default function Home() {
                                                className="btn btn-default-yellow-fill">Order now</a>
                                     </div>
                                     <ul className="list-info">
-                                        <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br>
+                                        <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br/>
                                             <span>250GB SSD</span></li>
-                                        <li><i className="icon-speed"></i> <span className="c-purple">DATA</span><br>
+                                        <li><i className="icon-speed"></i> <span className="c-purple">DATA</span><br/>
                                             <span>1TB Bandwidth</span></li>
                                         <li><i className="icon-emailopen"></i> <span
-                                            className="c-purple">EMAIL</span><br> <span>120 Emails</span></li>
-                                        <li><i className="icon-domains"></i> <span className="c-purple">TLD</span><br>
+                                            className="c-purple">EMAIL</span><br/> <span>120 Emails</span></li>
+                                        <li><i className="icon-domains"></i> <span className="c-purple">TLD</span><br/>
                                             <span>30 Domains</span></li>
                                     </ul>
                                 </div>
@@ -133,13 +133,13 @@ export default function Home() {
                                                className="btn btn-default-yellow-fill">Order now</a>
                                     </div>
                                     <ul className="list-info bg-purple">
-                                        <li><i className="icon-drives"></i> <span className="c-pink">DISK</span><br>
+                                        <li><i className="icon-drives"></i> <span className="c-pink">DISK</span><br/>
                                             <span>2TB SSD</span></li>
-                                        <li><i className="icon-speed"></i> <span className="c-pink">DATA</span><br>
+                                        <li><i className="icon-speed"></i> <span className="c-pink">DATA</span><br/>
                                             <span>Unlimited Bandwidth</span></li>
-                                        <li><i className="icon-emailopen"></i> <span className="c-pink">EMAIL</span><br>
+                                        <li><i className="icon-emailopen"></i> <span className="c-pink">EMAIL</span><br/>
                                             <span>Unlimited Emails</span></li>
-                                        <li><i className="icon-domains"></i> <span className="c-pink">TLD</span><br>
+                                        <li><i className="icon-domains"></i> <span className="c-pink">TLD</span><br/>
                                             <span>Unlimited Domains</span></li>
                                     </ul>
                                 </div>
