@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
         <footer className="footer">
-            <img className="logo-bg logo-footer" src="img/logos/symbol.png" alt="logo" />
+            <img className="logo-bg logo-footer" src="/img/logos/symbol.png" alt="Ruralserver" />
                 <div className="container">
                     <div className="footer-top">
                         <div className="row">
