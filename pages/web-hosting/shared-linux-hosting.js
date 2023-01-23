@@ -368,7 +368,7 @@ export default function Home() {
                                                     <i className="fa fa-minus c-pink"></i>
                                                 </div>
                                             </div>
-                                            <div className="panel-collapse" >
+                                            <div className="panel-collapse inlinecss d-block" >
                                                 <div className="wrapper-collapse">
                                                     <div className="info">
                                                         <ul className="list seccolor">
@@ -459,7 +459,67 @@ export default function Home() {
                     </div>
                 </section>
 
-
+                <section className="circle-section sec-normal sec-bg1 bg-seccolorstyle bottomhalfpadding">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 col-sm-12 text-center">
+                                <h2 className="section-heading mergecolor">Our Statistics</h2>
+                                <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt consectetur adipiscing.</p>
+                            </div>
+                            <div className="col-sm-12 col-md-12 col-lg-12 text-center pt-5">
+                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
+                                    <div className="skill-section">
+                                        <div className="circle-wrapper">
+                                            <div className="circle-entry clearfix">
+                                                <div className="circle center-block color-dark-2"
+                                                     data-startdegree="0" data-dimension="180"
+                                                     data-text="<strong class='number seccolor'>19.322</strong><div class='title-round'>Clients</div>"
+                                                     data-width="5" data-fontsize="17" data-percent="90"
+                                                     data-fgcolor="#808080" data-bgcolor="transparent"
+                                                     data-bordersize="1"></div>
+                                            </div>
+                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
+                                    <div className="skill-section">
+                                        <div className="circle-wrapper">
+                                            <div className="circle-entry clearfix">
+                                                <div className="circle center-block color-dark-2 seccolor"
+                                                     data-startdegree="0" data-dimension="180"
+                                                     data-text="<strong class='number seccolor'>9.510</strong><div class='title-round'>Equipment</div>"
+                                                     data-width="5" data-fontsize="17" data-percent="65"
+                                                     data-fgcolor="#808080" data-bgcolor="transparent"
+                                                     data-bordersize="1"></div>
+                                            </div>
+                                            <p className="seccolor">Excepteur sint occaecat cupidatat non proident,
+                                                sunt in culpa qui officia deserunt mollit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
+                                    <div className="skill-section">
+                                        <div className="circle-wrapper">
+                                            <div className="circle-entry clearfix">
+                                                <div className="circle center-block color-dark-2 seccolor"
+                                                     data-startdegree="0" data-dimension="180"
+                                                     data-text="<strong class='number seccolor'>1231</strong><div class='title-round'>Projects</div>"
+                                                     data-width="5" data-fontsize="17" data-percent="45"
+                                                     data-fgcolor="#808080" data-bgcolor="transparent"
+                                                     data-bordersize="1"></div>
+                                            </div>
+                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
                 <Footer />
