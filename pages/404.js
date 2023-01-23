@@ -24,8 +24,10 @@ export default function Home() {
                         <div className="service-wrap">
                             <div className="row">
                                 <div className="col-sm-12 text-center pt-5">
-                                    <h1>404 Page Not Found!</h1>
-                                    <p>Please check your url.</p>
+                                    <h2 className="section-heading">404 Page Not Found!</h2>
+                                    <p className="section-subheading">Please check your url.</p>
+                                </div>
+                                <div className="col-sm-12 text-center pt-1">
                                     <h2 className="section-heading">Why Choose Ruralserver?</h2>
                                     <p className="section-subheading">Solutions to meet every Web Design & Development need Powering 1800+ Web Professionals globally with confidence. </p>
                                 </div>
