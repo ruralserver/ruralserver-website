@@ -10,7 +10,7 @@ export default function Home() {
         <>
 
             <Head>
-                <Meta />
+                
             <title>Shared linux hosting</title>
             <meta name="description" content="" />
             </Head>
