@@ -157,7 +157,7 @@ export default function Home() {
                         <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
                             <div className="row">
                                 <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
-                                    <img className="svg first" src="assets/patterns/dns.svg" alt="dns redundant" />
+                                    <img className="svg first" src="/patterns/dns.svg" alt="dns redundant" />
                                 </div>
                                 <div className="col-md-12 col-lg-6 offset-lg-1">
                                     <div className="info-content">
@@ -181,13 +181,13 @@ export default function Home() {
                                     <a href="" className="btn btn-default-yellow-fill mt-3">Backup now</a>
                                 </div>
                                 <div className="col-md-12 col-lg-5 offset-lg-1 wow animated fadeInUp fast">
-                                    <img className="svg second" src="assets/patterns/backups.svg" alt="backups" />
+                                    <img className="svg second" src="/patterns/backups.svg" alt="backups" />
                                 </div>
                             </div>
                             <hr/>
                             <div className="row">
                                 <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
-                                    <img className="svg third" src="assets/patterns/monitoring.svg"
+                                    <img className="svg third" src="/patterns/monitoring.svg"
                                          alt="monitoring 24/7/365" />
                                 </div>
                                 <div className="col-md-12 col-lg-6 offset-lg-1">
