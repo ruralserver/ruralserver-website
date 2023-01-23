@@ -96,6 +96,7 @@ export default function Home() {
                                             <a href="http://inebur.com/whmcs/cart.php?a=add&pid=9&carttpl=antler"
                                                className="btn btn-default-yellow-fill">Order now</a>
                                     </div>
+                                    
                                     <ul className="list-info">
                                         <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br/>
                                             <span>250GB SSD</span></li>
