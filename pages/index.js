@@ -16,7 +16,7 @@ export default function Home() {
             </Head>
 
             <div className="box-container limit-width">
-                
+
                 <Header />
 
                 <section id="owl-demo" className="owl-carousel owl-theme owl-loaded owl-drag slider-02 scrollme">
