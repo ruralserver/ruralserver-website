@@ -95,7 +95,7 @@ export default function Header() {
                                                   </div>
 
                                                   <div className="service">
-                                                      <img className="svg" src="fonts/svg/domains.svg" alt="Domains" />
+                                                      <img className="svg" src="/fonts/svg/domains.svg" alt="Domains" />
                                                           <div className="media-body">
                                                               <a className="menu-item mergecolor" href="domains"
                                                                  data-i18n="[html]submenu.domains">Domains</a>
