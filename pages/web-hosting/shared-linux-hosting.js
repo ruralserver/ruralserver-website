@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import Js from '@components/Js'
+import Head from 'next/head';
+import Link from 'next/link';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import Js from '@components/Js';
 
 export default function Home() {
     return (
