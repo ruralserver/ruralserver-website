@@ -8,8 +8,9 @@ import Js from '@components/Js'
 export default function Home() {
     return (
         <>
-            <Meta />
+
             <Head>
+                <Meta />
             <title>Shared linux hosting</title>
             <meta name="description" content="" />
             </Head>
