@@ -26,10 +26,10 @@
                   <div className="container">
                       <div className="row">
                           <div className="col-2 col-md-2">
-                              <a href="/">
+                              <Link href="/">
                                   <img className="svg logo-menu d-block" src="img/logos/logo.svg" alt="logo Ruralserver" />
                                       <img className="svg logo-menu d-none" src="img/logos/logo-dark.svg" alt="logo Ruralserver" />
-                              </a>
+                                  </Link>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
                               <div className="navigation float-end">
@@ -40,7 +40,7 @@
                                   </button>
                                   <ul className="main-menu nav navbar-nav navbar-right">
                                       <li className="menu-item me-2">
-                                          <a className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home</a>
+                                          <Link className="m-0 pe-1 v-stroke" href="/" data-i18n="[html]header.home">Home</Link>
 
                                           </li>
                                       <li className="menu-item menu-item-has-children">
