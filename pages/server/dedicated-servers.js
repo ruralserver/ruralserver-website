@@ -49,25 +49,25 @@ export default function Home() {
                                                 <ul className="radio-group radios-filter cd-filter-content list">
                                                     <li>
                                                         <input value="all" type="radio" name="radioButton" id="radio1"
-                                                               checked/>
+                                                               checked />
                                                         <label className="radio-label seccolor" htmlFor="radio1">All
                                                             Servers</label>
                                                     </li>
                                                     <li>
                                                         <input value=".linux" type="radio" name="radioButton"
-                                                               id="radio2">
+                                                               id="radio2" />
                                                             <label className="radio-label seccolor"
                                                                    htmlFor="radio2">Linux</label>
                                                     </li>
                                                     <li>
                                                         <input value=".windows" type="radio" name="radioButton"
-                                                               id="radio3">
+                                                               id="radio3" />
                                                             <label className="radio-label seccolor"
                                                                    htmlFor="radio3">Windows</label>
                                                     </li>
                                                     <li>
                                                         <input value=".managed" type="radio" name="radioButton"
-                                                               id="radio4">
+                                                               id="radio4" />
                                                             <label className="radio-label seccolor"
                                                                    htmlFor="radio4">Managed</label>
                                                     </li>
@@ -97,37 +97,37 @@ export default function Home() {
                                                 <ul className="cd-filter-content cd-filters list">
                                                     <li>
                                                         <input className="filter" value=".cores2" type="checkbox"
-                                                               id="checkbox1">
+                                                               id="checkbox1" />
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox1">2</label>
                                                     </li>
                                                     <li>
                                                         <input className="filter" value=".cores4" type="checkbox"
-                                                               id="checkbox2">
+                                                               id="checkbox2" />
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox2">4</label>
                                                     </li>
                                                     <li>
                                                         <input className="filter" value=".cores6" type="checkbox"
-                                                               id="checkbox3">
+                                                               id="checkbox3" />
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox3">6</label>
                                                     </li>
                                                     <li>
                                                         <input className="filter" value=".cores8" type="checkbox"
-                                                               id="checkbox4">
+                                                               id="checkbox4" />
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox4">8</label>
                                                     </li>
                                                     <li>
                                                         <input className="filter" value=".cores12" type="checkbox"
-                                                               id="checkbox5">
+                                                               id="checkbox5" />
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox5">12</label>
                                                     </li>
                                                     <li>
                                                         <input className="filter" value=".cores16" type="checkbox"
-                                                               id="checkbox6">
+                                                               id="checkbox6" />
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox6">16</label>
                                                     </li>
@@ -678,7 +678,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                
+
                 <section className="help pt-4 pb-80 bg-colorstyle">
                     <div className="container">
                         <div className="service-wrap">
