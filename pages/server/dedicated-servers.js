@@ -358,7 +358,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
-                                    <img className="svg" src="assets/patterns/os.svg" alt="dns redundant" />
+                                    <img className="svg" src="/patterns/os.svg" alt="dns redundant" />
                                 </div>
                             </div>
                             <div className="row">
@@ -375,7 +375,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
-                                    <img className="svg" src="assets/patterns/ssd.svg" alt="dns redundant" />
+                                    <img className="svg" src="/patterns/ssd.svg" alt="dns redundant" />
                                 </div>
                             </div>
                         </div>
@@ -420,7 +420,7 @@ export default function Home() {
                                                 <div className="tabs-item active">
                                                     <div className="row">
                                                         <div className="col-md-12 col-lg-5">
-                                                            <img className="svg" src="assets/patterns/controlpanel.svg"
+                                                            <img className="svg" src="/patterns/controlpanel.svg"
                                                                  alt="monitoring 24/7/365" />
                                                         </div>
                                                         <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -442,7 +442,7 @@ export default function Home() {
                                                 <div className="tabs-item">
                                                     <div className="row">
                                                         <div className="col-md-12 col-lg-5">
-                                                            <img className="svg" src="assets/patterns/performance.svg"
+                                                            <img className="svg" src="/patterns/performance.svg"
                                                                  alt="performance" />
                                                         </div>
                                                         <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -464,7 +464,7 @@ export default function Home() {
                                                 <div className="tabs-item">
                                                     <div className="row">
                                                         <div className="col-md-12 col-lg-5">
-                                                            <img className="svg" src="assets/patterns/ssl.svg"
+                                                            <img className="svg" src="/patterns/ssl.svg"
                                                                  alt="SSL Certificates" />
                                                         </div>
                                                         <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -487,7 +487,7 @@ export default function Home() {
                                                     <div className="row">
                                                         <div className="col-md-12 col-lg-5">
                                                             <img className="svg"
-                                                                 src="assets/patterns/protectvisitors.svg"
+                                                                 src="/patterns/protectvisitors.svg"
                                                                  alt="Protection" />
                                                         </div>
                                                         <div className="col-md-12 col-lg-6 offset-lg-1">
