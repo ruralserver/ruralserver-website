@@ -181,7 +181,7 @@ export default function Home() {
                                     <div className="wrapper text-start noshadow">
                                         <div className="plans badge feat bg-grey">linux</div>
                                         <div className="top-content bg-seccolorstyle topradius">
-                                            <img className="svg mb-3" src="./assets/fonts/svg/linuxserver.svg"
+                                            <img className="svg mb-3" src="/fonts/svg/linuxserver.svg"
                                                  alt="linux" />
                                                 <div className="title">Intel Xeon E3-1231 v5 / 4x 3.20Ghz</div>
                                                 <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
@@ -206,7 +206,7 @@ export default function Home() {
                                     <div className="wrapper text-start noshadow">
                                         <div className="plans badge feat bg-grey">windows</div>
                                         <div className="top-content bg-seccolorstyle topradius">
-                                            <img className="svg mb-3" src="./assets/fonts/svg/windowserver.svg"
+                                            <img className="svg mb-3" src="/fonts/svg/windowserver.svg"
                                                  alt="windows" />
                                                 <div className="title">Intel Xeon E3-1230 v6 / 6x 3.20Ghz</div>
                                                 <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
@@ -230,7 +230,7 @@ export default function Home() {
                                     <div className="wrapper text-start noshadow">
                                         <div className="plans badge feat bg-pink">special</div>
                                         <div className="top-content bg-seccolorstyle topradius">
-                                            <img className="svg mb-3" src="./assets/fonts/svg/managedserver.svg"
+                                            <img className="svg mb-3" src="/fonts/svg/managedserver.svg"
                                                  alt="managed" />
                                                 <div className="title">Intel Xeon E3-1231 v6 / 8x 3.30Ghz</div>
                                                 <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
@@ -255,7 +255,7 @@ export default function Home() {
                                     <div className="wrapper text-start noshadow">
                                         <div className="plans badge feat bg-grey">linux</div>
                                         <div className="top-content bg-seccolorstyle topradius">
-                                            <img className="svg mb-3" src="./assets/fonts/svg/linuxserver.svg"
+                                            <img className="svg mb-3" src="/fonts/svg/linuxserver.svg"
                                                  alt="linux" />
                                                 <div className="title">Intel Xeon E3-1231 v5 / 8x 3.40Ghz</div>
                                                 <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
@@ -279,7 +279,7 @@ export default function Home() {
                                     <div className="wrapper text-start noshadow">
                                         <div className="plans badge feat bg-grey">windows</div>
                                         <div className="top-content bg-seccolorstyle topradius">
-                                            <img className="svg mb-3" src="./assets/fonts/svg/windowserver.svg"
+                                            <img className="svg mb-3" src="/fonts/svg/windowserver.svg"
                                                  height="65" alt="windows" />
                                                 <div className="title">Intel Xeon E3-1230 v6 / 8x 3.20Ghz</div>
                                                 <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
@@ -304,7 +304,7 @@ export default function Home() {
                                     <div className="wrapper text-start noshadow">
                                         <div className="plans badge feat bg-grey">managed</div>
                                         <div className="top-content bg-seccolorstyle topradius">
-                                            <img className="svg mb-3" src="./assets/fonts/svg/managedserver.svg"
+                                            <img className="svg mb-3" src="/fonts/svg/managedserver.svg"
                                                  alt="managed" />
                                                 <div className="title">Intel Xeon E3-1231 v6 / 8x 3.30Ghz</div>
                                                 <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
@@ -689,7 +689,7 @@ export default function Home() {
                                             className="fas fa-long-arrow-alt-left"></i></div>
                                         <a href="hosting" className="help-item">
                                             <div className="img">
-                                                <img className="svg ico" src="./assets/fonts/svg/cloudfiber.svg" alt="" />
+                                                <img className="svg ico" src="/fonts/svg/cloudfiber.svg" alt="" />
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Go to Cloud Reseller</div>
@@ -706,7 +706,7 @@ export default function Home() {
                                             className="fas fa-long-arrow-alt-right"></i></div>
                                         <a href="vps" className="help-item">
                                             <div className="img">
-                                                <img className="svg ico" src="./assets/fonts/svg/vps.svg" alt="" />
+                                                <img className="svg ico" src="/fonts/svg/vps.svg" alt="" />
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Go to VPS Server</div>
