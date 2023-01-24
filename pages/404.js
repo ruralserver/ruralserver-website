@@ -25,7 +25,7 @@ export default function Home() {
                          data-translatey="-50">
                         <div className="row justify-content-center">
                             <div className="col-9">
-                                <img className="svg" src="/assets/patterns/notfound.svg" alt="Provisioning notfound" />
+                                <img className="svg" src="/patterns/notfound.svg" alt="Provisioning notfound" />
                             </div>
                         </div>
                         <div className="col-md-12 text-center pt-5">
