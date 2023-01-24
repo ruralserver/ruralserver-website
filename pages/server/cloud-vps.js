@@ -5,12 +5,12 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Js from '@components/Js'
 
-export default function Home() {
+export default function CloudVps() {
     return (
         <>
             <Meta />
             <Head>
-            <title>Shared linux hosting</title>
+            <title>Cloud VPS</title>
             <meta name="description" content="" />
             </Head>
 
