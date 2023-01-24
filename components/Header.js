@@ -43,10 +43,10 @@ export default function Header() {
                   <div className="container">
                       <div className="row">
                           <div className="col-2 col-md-2">
-                              <Link href="/">
-                                  <Image width="140px" height="47px" className="svg logo-menu d-block" src="/img/logos/logo.svg" alt="Ruralserver" />
-                                      <Image width="140px" height="47px" className="svg logo-menu d-none" src="/img/logos/logo-dark.svg" alt="Ruralserver" />
-                              </Link>
+                              <a href="/">
+                                  <Image width="140px" height="47px" className="svg logo-menu d-block" src="/img/logos/logo.svg" alt="logo Ruralserver" />
+                                      <Image width="140px" height="47px" className="svg logo-menu d-none" src="/img/logos/logo-dark.svg" alt="logo Ruralserver" />
+                              </a>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
                               <div className="navigation float-end">
