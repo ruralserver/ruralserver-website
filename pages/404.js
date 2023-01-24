@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import Meta from '@components/Meta'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
@@ -30,13 +31,14 @@ export default function Home() {
                         </div>
                         <div className="col-md-12 text-center pt-5">
                             <p className="text-white">Sorry, it appears that the page you’ve requested cannot be
-                                found.<br> Please press the button below to go home page or <a href="contact"
+                                found.<br/> Please press the button below to go home page or <Link href="contact"
                                                                                                className="golink">contact
-                                    us</a></p>
-                            <a href="/" className="btn btn-default-grad-purple-fill mt-3">Go Home Page</a>
+                                    us</Link></p>
+                            <Link href="/" className="btn btn-default-grad-purple-fill mt-3">Go Home Page</Link>
                         </div>
                     </div>
                 </section>
+
                 <Footer />
             </div>
             <a href="#0" className="cd-top"> <i className="fas fa-angle-up"></i> </a>
