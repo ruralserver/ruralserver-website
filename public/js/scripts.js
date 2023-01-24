@@ -5,7 +5,7 @@ Author: inebur (Rúben Rodrigues)
 Author URI: http://inebur.com/
 Author Envato: https://themeforest.net/user/inebur
 Copyright: 2022 inebur
-Version: 2.8
+Version: 3.0
 -------------------------------------------------------------------*/
 document.addEventListener('DOMContentLoaded', function() {
     "use strict";
@@ -26,9 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
     listenSlick();
     loader();
     backtotop();
-    owldemo();
     isotope();
-    //livechat();
+    livechat();
     contactform();
     popover();
     scrollgoto();
@@ -228,22 +227,27 @@ function setCookie(name,value,days) {
 antlerSettings.prototype.manageFont = function() {
     switch(this.font){
         case "opensans":
+            body.attr("data-font","opensans");
             addCss('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&display=swap');
             setCookie("font","opensans",365);
             break;
         case "poppins":
+            body.attr("data-font","poppins");
             addCss('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&display=swap');
             setCookie("font","poppins",365);
             break;
         case "nunito":
+            body.attr("data-font","nunito");
             addCss('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&display=swap');
             setCookie("font","nunito",365);
             break;
         case "raleway":
+            body.attr("data-font","raleway");
             addCss('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&display=swap');
             setCookie("font","raleway",365);
             break;
         default:
+            body.attr("data-font","opensans");
             addCss('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&display=swap');
             setCookie("font","opensans",365);
             break;
@@ -328,9 +332,9 @@ $(".mobile .menu-item")
 // i18next translate
 //----------------------------------------------------/
 function translate() {
-    $.getScript('/js/lib/i18next.min.js', function() {
-        $.getScript('/js/lib/i18nextXHRBackend.min.js', function() {
-            $.getScript('/js/lib/jquery-i18next.min.js', function() {
+    $.getScript('assets/js/lib/i18next.min.js', function() {
+        $.getScript('assets/js/lib/i18nextXHRBackend.min.js', function() {
+            $.getScript('assets/js/lib/jquery-i18next.min.js', function() {
 
                 var language = localStorage.getItem('lng');
                 if (!language) {
@@ -342,7 +346,7 @@ function translate() {
                     lng: language,
                     fallbackLng: 'en-US',
                     backend: {
-                        loadPath: '/locales/{{lng}}/translations.json'
+                        loadPath: 'assets/locales/{{lng}}/translations.json'
                     }
                 }, function(err, t) {
                     jqueryI18next.init(i18next, $, {
@@ -513,7 +517,7 @@ function contactform() {
     .on('submit', function(e) {
         $.ajax({
             type: "POST",
-            url: 'php/form-process.php',
+            url: 'assets/php/form-process.php',
             data: $(this)
             .serialize(),
             success: function() {
@@ -601,59 +605,33 @@ function isotope() {
     });
 }
 /*----------------------*/
-/*         OWL          */
+/*         FLICKITY     */
 /*----------------------*/
-function owldemo(){
-$('.owl-carousel').owlCarousel({
-    onInitialized:theThing, 
-    nav:false,
-    loop:false,
-    rtl:false,
-    singleItem:true,
-    autoHeight:true,
-    dots:true,
-    center:true,
-    margin:0,
-    padding:0,
-    video:true,
-    animateOut: 'fadeOut',
-
-    items:1,
-    autoPlay:5500,
-    stopOnHover:true,
-    center:true,
-    navigation:false,
-    pagination:false,
-    goToFirstSpeed : 1300,
-    singleItem:true,
-    autoHeight:true,
-    responsive:true,
-    responsiveRefreshRate:200,
-    responsiveBaseWidth: window,
-
-    autoplay:true,
-    autoplayTimeout:9000,
-    autoplayHoverPause:true,
-    navText: [
-    "<i class='fa fa-chevron-left'></i>",
-    "<i class='fa fa-chevron-right'></i>"
-    ],
-    responsive:{
-        0:{
-            items:1
-        },
-    }
+$('.header-main-slider').flickity({
+  fullscreen: true,
+  draggable: true,
+  prevNextButtons: false,
+  pageDots: true,
+  autoPlay: 6000,
+  fade: true
 });
-function theThing(event){
-  $(".active .owl-video-play-icon").trigger("click")
-}
+$('.header-main-nav').flickity({
+  asNavFor: '.header-main-slider',
+  prevNextButtons: false,
+  pageDots: false,
+  contain: true
+});
+$('.banner-slider').flickity({
+  prevNextButtons: false,
+  pageDots: true,
+});
 
-if($('.owl-carousel').length) {
-    $('.owl-carousel').data('owl.carousel').options.loop = getCookie("textDirection") === "rtl";
-    $('.owl-carousel').data('owl.carousel').options.rtl = getCookie("textDirection") === "rtl";
-    $('.owl-carousel').trigger( 'refresh.owl.carousel' )
-}
-}
+(function($) {
+    $('.carousel').flickity({
+        cellSelector: '.carousel-cell',
+    });
+})(jQuery);
+
 /*----------------------*/
 /*     Back to top      */
 /*----------------------*/
@@ -1329,3 +1307,5 @@ function sticky() {
         }
     }).scroll();
 }
+/* AOS Scroll Effect */
+AOS.init();

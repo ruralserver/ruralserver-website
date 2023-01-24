@@ -22,6 +22,9 @@ var maxSizeRangeInput = document.querySelector('[name="maxSize"]');
 var mixer = mixitup(mixcontainer, {
     animation: {
         duration: 350
+    },
+    multifilter: { 
+        enable: true
     }
 });
 function getRange() {
