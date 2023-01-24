@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 export default function Header() {
     return (
       <>
@@ -43,8 +44,8 @@ export default function Header() {
                       <div className="row">
                           <div className="col-2 col-md-2">
                               <a href="/">
-                                  <img className="svg logo-menu d-block" src="/img/logos/logo.svg" alt="logo Ruralserver" />
-                                      <img className="svg logo-menu d-none" src="/img/logos/logo-dark.svg" alt="logo Ruralserver" />
+                                  <Image width={140} height={47} className="svg logo-menu d-block" src="/img/logos/logo.svg" alt="logo Ruralserver" />
+                                      <Image width={140} height={47} className="svg logo-menu d-none" src="/img/logos/logo-dark.svg" alt="logo Ruralserver" />
                               </a>
                           </div>
                           <nav id="menu" className="col-10 col-md-10">
