@@ -78,8 +78,8 @@ export default function Header() {
                                                       <img className="svg" src="/fonts/svg/dedicated.svg"
                                                            alt="Dedicated Server" />
                                                           <div className="media-body">
-                                                              <Link className="menu-item mergecolor" href="/server/dedicated-servers"
-                                                                 data-i18n="[html]submenu.dedicated">Dedicated Servers</Link>
+                                                              <a className="menu-item mergecolor" href="/server/dedicated-servers"
+                                                                 data-i18n="[html]submenu.dedicated">Dedicated Servers</a>
                                                               <div className="menu badge feat bg-pink">FILTER</div>
                                                               <p className="seccolor">Fast and cheap plan for self/managed server</p>
                                                           </div>
