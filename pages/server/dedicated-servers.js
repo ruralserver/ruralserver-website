@@ -5,7 +5,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Js from '@components/Js'
 
-export default function Home() {
+export default function DedicatedServers() {
     return (
         <>
             <Meta />
