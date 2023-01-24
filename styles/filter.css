@@ -27,7 +27,7 @@ xtab-filter
 .cd-tab-filter {  /* tabbed navigation style on mobile - dropdown */
 position: relative; height: 50px; width: 140px; margin: 0 auto; z-index: 1; }
 .cd-tab-filter::after {  /* small arrow icon */
-content: ''; position: absolute; right: 14px; top: 50%; bottom: auto; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); display: inline-block; width: 16px; height: 16px; background: url("../img/filter/cd-icon-arrow.svg") no-repeat center center; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; pointer-events: none; }
+content: ''; position: absolute; right: 14px; top: 50%; bottom: auto; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); display: inline-block; width: 16px; height: 16px; background: url("/img/filter/cd-icon-arrow.svg") no-repeat center center; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; pointer-events: none; }
 .cd-tab-filter ul { position: absolute; top: 0; left: 0; background-color: #ffffff; box-shadow: inset 0 -2px 0 #a3d133; }
 .cd-tab-filter li { display: none; }
 .cd-tab-filter li:first-child {  /* this way the placehodler is alway visible */
@@ -129,7 +129,7 @@ border-color: transparent; background-color: #e6e6e6;  /* prevent jump - ios dev
 .cd-filter-block .cd-select {  /* select element wrapper */
 position: relative; }
 .cd-filter-block .cd-select::after {  /* switcher arrow for select element */
-content: ''; position: absolute; z-index: 1; right: 30px; top: 27px; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); display: block; width: 16px; height: 16px; background: url("../img/filter/cd-icon-arrow.svg") no-repeat center center; pointer-events: none; }
+content: ''; position: absolute; z-index: 1; right: 30px; top: 27px; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); display: block; width: 16px; height: 16px; background: url("/img/filter/cd-icon-arrow.svg") no-repeat center center; pointer-events: none; }
 .cd-filter-block select::-ms-expand { display: none; }
 .cd-filter-block .list li { position: relative; margin-bottom: .8em; }
 .cd-filter-block .list li:last-of-type { margin-bottom: 0; list-style: none; }
@@ -142,7 +142,7 @@ content: ''; display: block; position: absolute; top: 50%; -webkit-transform: tr
 .cd-filter-block .checkbox-label::after, .cd-filter-block .radio-label::after {  /* check mark - hidden */
 display: none; }
 .cd-filter-block .checkbox-label::after {  /* check mark style for check boxes */
-width: 16px; height: 16px; background: url("../img/filter/cd-icon-check.svg") no-repeat center center; }
+width: 16px; height: 16px; background: url("/img/filter/cd-icon-check.svg") no-repeat center center; }
 .cd-filter-block .radio-label::before, .cd-filter-block .radio-label::after { border-radius: 50%; }
 .cd-filter-block .radio-label::after {  /* check mark style for radio buttons */
 width: 6px; height: 6px; background-color: #ffffff; left: 5px; }
