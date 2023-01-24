@@ -1,9 +1,10 @@
 export default function Js() {
   return (
     <>
-        <script src="/js/theme-change.js"></script>
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/typed.js"></script>
+        <script defer src="/js/theme-change.js"></script>
+
+        <script defer src="/js/jquery.min.js"></script>
+        <script defer src="/js/typed.js"></script>
         <script defer src="/js/popper.min.js"></script>
         <script defer src="/js/bootstrap.min.js"></script>
         <script defer src="/js/jquery.countdown.js"></script>
@@ -15,6 +16,12 @@ export default function Js() {
         <script defer src="/js/swiper.min.js"></script>
         <script async src="/js/lazysizes.min.js"></script>
         <script src="/js/wow.min.js"></script>
+        <script defer src="/js/flickity.pkgd.min.js"></script>
+          <script defer src="/js/aos.min.js"></script>
+          <script defer src="/js/mixitup.min.js"></script>
+          <script defer src="/js/mixitup.multifilter.min.js"></script>
+          <script src="/js/filter.js"></script>
+          <script defer src="/js/mixevents.js"></script>
         <script>new WOW().init();</script>
         <script defer src="/js/scripts.js"></script>
     </>
