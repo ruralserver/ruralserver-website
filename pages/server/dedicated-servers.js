@@ -10,7 +10,7 @@ export default function Home() {
         <>
             <Meta />
             <Head>
-            <title>Shared linux hosting</title>
+            <title>Dedicated Servers</title>
             <meta name="description" content="" />
             </Head>
 
@@ -18,252 +18,510 @@ export default function Home() {
 
                 <Header />
 
-                <div className="top-header item5 overlay">
+                <div className="top-header item7 overlay">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 col-md-12">
                                 <div className="wrapper">
-                                    <h1 className="heading">Shared Hosting</h1>
-                                    <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure</h3>
-                                    <div id="run-switch" className="run-switch">
-                                        <div className="mo">Monthly Price</div>
-                                        <div className="switch"></div>
-                                        <div className="an active">Anually Price</div>
-                                    </div>
-                                    <div className="included">
-                                        <h4 className="mb-3">All plans include</h4>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> c-Panel or Plesk</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Unlimited email</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Free SSL certificate</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Redundant DNS</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Powerful SSD</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Support 24/7/365</li>
-                                        </ul>
-                                    </div>
+                                    <h1 className="heading">Dedicated Servers</h1>
+                                    <h3 className="subheading mb-3">High performance dedicated servers with cloud
+                                        flexibility and scalability.</h3>
+                                    <a href="#features" className="golink gocheck"> Features </a>
+                                    <a href="#addons" className="golink gocheck"> Add-Ons </a>
+                                    <a href="#highlights" className="golink gocheck"> Highlights</a><br/>
+                                    <a className="btn btn-default-pink-fill cd-filter-trigger wow animated shake delay-2s"><i
+                                        className="fa fa-filter"></i> Show Filter</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <a className="gocontent godown gocheck" href="#scroll">
-                    <img className="svg" src="/fonts/svg/arrowdown.svg" height="80" alt="features" />
-                    <span>Features</span>
-                </a>
-
-
-                <section className="pricing special sec-uping pb-5 bg-colorstyle specialposition">
-                    <div className="container">
-                        <div className="randomline">
-                            <div className="bigline"></div>
-                            <div className="smallline"></div>
-                        </div>
-                        <div className="row justify-content-end scrollme">
-                            <div className="col-sm-12 col-md-6 col-lg-4 animateme" data-when="enter" data-from="0"
-                                 data-to="1" data-opacity="1" data-translatey="-20">
-                                <div className="wrapper price-container text-start wow animated fadeInUp fast noshadow">
-                                    <div className="plans badge feat bg-pink">30% Discount</div>
-                                    <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/cloudlinux.svg" alt="" />
-                                        <div className="title">Business SSD</div>
-                                        <div className="fromer seccolor">annually get (30% discount)</div>
-                                        <div className="price-content">
-                                            <div className="price seccolor">
-                                                <del className="c-grey seccolor"><small><sup
-                                                    className="coin seccolor">$</sup> <span
-                                                    className="value seccolor">88.24</span></small></del>
-                                            </div>
-                                            <div className="price">
-                                                <sup className="coin mergecolor">$</sup>
-                                                <span className="discount mergecolor">62.00</span>
-                                                <small className="mergecolor">/</small><span
-                                                className="period annually mergecolor">year</span>
-                                            </div>
-                                        </div>
-                                        <a href="http://inebur.com/whmcs/cart.php?a=add&pid=9&carttpl=antler"
-                                           className="btn btn-default-yellow-fill">Order now</a>
-                                    </div>
-
-                                    <ul className="list-info">
-                                        <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br/>
-                                            <span>250GB SSD</span></li>
-                                        <li><i className="icon-speed"></i> <span className="c-purple">DATA</span><br/>
-                                            <span>1TB Bandwidth</span></li>
-                                        <li><i className="icon-emailopen"></i> <span
-                                            className="c-purple">EMAIL</span><br/> <span>120 Emails</span></li>
-                                        <li><i className="icon-domains"></i> <span className="c-purple">TLD</span><br/>
-                                            <span>30 Domains</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-sm-12 col-md-6 col-lg-4 animateme" data-when="span" data-from="0"
-                                 data-to="1" data-opacity="1" data-translatey="50">
-                                <div className="wrapper price-container text-start wow animated fadeInUp noshadow">
-                                    <div className="plans badge feat bg-grey">best value</div>
-                                    <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/cloudwindows.svg" alt="" />
-                                        <div className="title">Pro SSD</div>
-                                        <div className="fromer seccolor">annually get (20% discount)</div>
-                                        <div className="price-content">
-                                            <div className="price">
-                                                <del className="c-grey seccolor"><small><sup
-                                                    className="coin seccolor">$</sup> <span
-                                                    className="value seccolor">112.99</span></small></del>
-                                            </div>
-                                            <div className="price">
-                                                <sup className="coin mergecolor">$</sup>
-                                                <span className="discount mergecolor">90.00</span>
-                                                <small className="mergecolor">/</small><span
-                                                className="period annually mergecolor">year</span>
+                <section className="cd-main-content sec-up bg-seccolorstyle">
+                    <div className="cd-filter bg-seccolorstyle">
+                        <form>
+                            <div className="container">
+                                <div className="sec-main pb-5 sec-bg1 p-5 bg-seccolorstyle noshadow nopadding">
+                                    <div className="row">
+                                        <a href="#0" className="cd-close"><i className="fas fa-long-arrow-alt-left"></i></a>
+                                        <div className="col-md-6">
+                                            <div className="cd-filter-block" data-filter-group>
+                                                <h4 className="mergecolor">Choose Server</h4>
+                                                <ul className="radio-group radios-filter cd-filter-content list">
+                                                    <li>
+                                                        <input value="all" type="radio" name="radioButton" id="radio1"
+                                                               checked/>
+                                                        <label className="radio-label seccolor" htmlFor="radio1">All
+                                                            Servers</label>
+                                                    </li>
+                                                    <li>
+                                                        <input value=".linux" type="radio" name="radioButton"
+                                                               id="radio2">
+                                                            <label className="radio-label seccolor"
+                                                                   htmlFor="radio2">Linux</label>
+                                                    </li>
+                                                    <li>
+                                                        <input value=".windows" type="radio" name="radioButton"
+                                                               id="radio3">
+                                                            <label className="radio-label seccolor"
+                                                                   htmlFor="radio3">Windows</label>
+                                                    </li>
+                                                    <li>
+                                                        <input value=".managed" type="radio" name="radioButton"
+                                                               id="radio4">
+                                                            <label className="radio-label seccolor"
+                                                                   htmlFor="radio4">Managed</label>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <a href="http://inebur.com/whmcs/cart.php?a=add&pid=10&carttpl=antler"
-                                           className="btn btn-default-yellow-fill">Order now</a>
+                                        <div className="col-md-6">
+                                            <div className="cd-filter-block" data-filter-group>
+                                                <h4 className="mergecolor">Location</h4>
+                                                <div className="cd-filter-content cd-select">
+                                                    <select className="select-filter seccolor">
+                                                        <option value="all">Select Datacenter</option>
+                                                        <option value=".data1">New York</option>
+                                                        <option value=".data2">Montreal</option>
+                                                        <option value=".data3">Portugal</option>
+                                                        <option value=".data4">London</option>
+                                                        <option value=".data5">Moscow</option>
+                                                        <option value=".data6">Hong Kong</option>
+                                                        <option value=".data7">Singapure</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6">
+                                            <div className="cd-filter-block checkbox-group" data-filter-group>
+                                                <h4 className="mergecolor">CPU Cores</h4>
+                                                <ul className="cd-filter-content cd-filters list">
+                                                    <li>
+                                                        <input className="filter" value=".cores2" type="checkbox"
+                                                               id="checkbox1">
+                                                            <label className="checkbox-label seccolor"
+                                                                   htmlFor="checkbox1">2</label>
+                                                    </li>
+                                                    <li>
+                                                        <input className="filter" value=".cores4" type="checkbox"
+                                                               id="checkbox2">
+                                                            <label className="checkbox-label seccolor"
+                                                                   htmlFor="checkbox2">4</label>
+                                                    </li>
+                                                    <li>
+                                                        <input className="filter" value=".cores6" type="checkbox"
+                                                               id="checkbox3">
+                                                            <label className="checkbox-label seccolor"
+                                                                   htmlFor="checkbox3">6</label>
+                                                    </li>
+                                                    <li>
+                                                        <input className="filter" value=".cores8" type="checkbox"
+                                                               id="checkbox4">
+                                                            <label className="checkbox-label seccolor"
+                                                                   htmlFor="checkbox4">8</label>
+                                                    </li>
+                                                    <li>
+                                                        <input className="filter" value=".cores12" type="checkbox"
+                                                               id="checkbox5">
+                                                            <label className="checkbox-label seccolor"
+                                                                   htmlFor="checkbox5">12</label>
+                                                    </li>
+                                                    <li>
+                                                        <input className="filter" value=".cores16" type="checkbox"
+                                                               id="checkbox6">
+                                                            <label className="checkbox-label seccolor"
+                                                                   htmlFor="checkbox6">16</label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6">
+                                            <div className="cd-filter-block" data-filter-group>
+                                                <h4 className="mergecolor">RAM</h4>
+                                                <div className="cd-filter-content cd-filters list seccolor">
+                                                    <datalist>
+                                                        <option value="0"> 16</option>
+                                                        <option value="1"> 32</option>
+                                                        <option value="2"> 64</option>
+                                                        <option value="3"> 96</option>
+                                                        <option value="4"> 128</option>
+                                                        <option value="5"> 256</option>
+                                                    </datalist>
+                                                    <div className="range-slider">
+                                                        <input name="minSize"
+                                                               className="range-slider-input tooltip-parent seccolor"
+                                                               type="range" min="0" max="5" value="0"
+                                                               data-list="sizeLegend"/>
+                                                    </div>
+                                                    <div className="range-slider">
+                                                        <input name="maxSize"
+                                                               className="range-slider-input tooltip-parent seccolor"
+                                                               type="range" min="0" max="5" value="5"
+                                                               data-list="sizeLegend"/>
+                                                    </div>
+                                                </div>
+                                                <div className="search-disabled">
+                                                    <input type="text" className="input" data-ref="input-search"
+                                                           placeholder="Enter a domain extension (.com)"/>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <ul className="list-info bg-purple">
-                                        <li><i className="icon-drives"></i> <span className="c-pink">DISK</span><br/>
-                                            <span>2TB SSD</span></li>
-                                        <li><i className="icon-speed"></i> <span className="c-pink">DATA</span><br/>
-                                            <span>Unlimited Bandwidth</span></li>
-                                        <li><i className="icon-emailopen"></i> <span className="c-pink">EMAIL</span><br/>
-                                            <span>Unlimited Emails</span></li>
-                                        <li><i className="icon-domains"></i> <span className="c-pink">TLD</span><br/>
-                                            <span>Unlimited Domains</span></li>
-                                    </ul>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </section>
 
-                <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
+
+                <div className="mixcontainer pb-5 pt-4 sec-bg2 motpath bg-colorstyle" data-ref="container">
+                    <div className="container ">
+                        <div className="pricing special">
+                            <div className="p-0 m-0">
+                                <div className="mix linux data1 cores2" data-size="0">
+                                    <div className="wrapper text-start noshadow">
+                                        <div className="plans badge feat bg-grey">linux</div>
+                                        <div className="top-content bg-seccolorstyle topradius">
+                                            <img className="svg mb-3" src="./assets/fonts/svg/linuxserver.svg"
+                                                 alt="linux" />
+                                                <div className="title">Intel Xeon E3-1231 v5 / 4x 3.20Ghz</div>
+                                                <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
+                                                <div className="price mergecolor"><sup>$</sup>82.00 <span
+                                                    className="period">/month</span></div>
+                                                <a href="" className="btn btn-default-yellow-fill">Configure</a>
+                                        </div>
+                                        <ul className="list-info bg-pink">
+                                            <li><i className="icon-cpu"></i> <span className="c-purple">CPU</span><br/>
+                                                <span>4x 3.20Ghz 2 Cores</span></li>
+                                            <li><i className="icon-ram"></i> <span className="c-purple">RAM</span><br/>
+                                                <span>16GB (up to 32GB)</span></li>
+                                            <li><i className="icon-drivessd"></i> <span
+                                                className="c-purple">DRIVES</span><br/> <span>2 x 1TB SATA 3.5</span>
+                                            </li>
+                                            <li><i className="icon-git"></i> <span
+                                                className="c-purple">UPLINK</span><br/> <span>1Gbps - 20TB</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="mix windows data2 cores4" data-size="1">
+                                    <div className="wrapper text-start noshadow">
+                                        <div className="plans badge feat bg-grey">windows</div>
+                                        <div className="top-content bg-seccolorstyle topradius">
+                                            <img className="svg mb-3" src="./assets/fonts/svg/windowserver.svg"
+                                                 alt="windows" />
+                                                <div className="title">Intel Xeon E3-1230 v6 / 6x 3.20Ghz</div>
+                                                <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
+                                                <div className="price mergecolor"><sup>$</sup>133.00 <span
+                                                    className="period">/month</span></div>
+                                                <a href="" className="btn btn-default-yellow-fill">Configure</a>
+                                        </div>
+                                        <ul className="list-info bg-purple">
+                                            <li><i className="icon-cpu"></i> <span className="c-pink">CPU</span><br/>
+                                                <span>6x 3.20Ghz 4 Cores</span></li>
+                                            <li><i className="icon-ram"></i> <span className="c-pink">RAM</span><br/>
+                                                <span>32GB (up to 64GB)</span></li>
+                                            <li><i className="icon-drivessd"></i> <span className="c-pink">DRIVES</span><br/>
+                                                <span>2 x 1TB SATA 3.0</span></li>
+                                            <li><i className="icon-git"></i> <span className="c-pink">UPLINK</span><br/>
+                                                <span>1Gbps - 20TB</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="mix managed data3 cores6" data-size="2">
+                                    <div className="wrapper text-start noshadow">
+                                        <div className="plans badge feat bg-pink">special</div>
+                                        <div className="top-content bg-seccolorstyle topradius">
+                                            <img className="svg mb-3" src="./assets/fonts/svg/managedserver.svg"
+                                                 alt="managed" />
+                                                <div className="title">Intel Xeon E3-1231 v6 / 8x 3.30Ghz</div>
+                                                <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
+                                                <div className="price mergecolor"><sup>$</sup>184.00 <span
+                                                    className="period">/month</span></div>
+                                                <a href="" className="btn btn-default-yellow-fill">Configure</a>
+                                        </div>
+                                        <ul className="list-info bg-pink">
+                                            <li><i className="icon-cpu"></i> <span className="c-purple">CPU</span><br/>
+                                                <span>8x 3.30Ghz 6 Cores</span></li>
+                                            <li><i className="icon-ram"></i> <span className="c-purple">RAM</span><br/>
+                                                <span>64GB (up to 96GB)</span></li>
+                                            <li><i className="icon-drivessd"></i> <span
+                                                className="c-purple">DRIVES</span><br/> <span>2 x 1TB SATA 3.5</span>
+                                            </li>
+                                            <li><i className="icon-git"></i> <span
+                                                className="c-purple">UPLINK</span><br/> <span>1Gbps - 30TB</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="mix linux data4 cores8" data-size="3">
+                                    <div className="wrapper text-start noshadow">
+                                        <div className="plans badge feat bg-grey">linux</div>
+                                        <div className="top-content bg-seccolorstyle topradius">
+                                            <img className="svg mb-3" src="./assets/fonts/svg/linuxserver.svg"
+                                                 alt="linux" />
+                                                <div className="title">Intel Xeon E3-1231 v5 / 8x 3.40Ghz</div>
+                                                <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
+                                                <div className="price mergecolor"><sup>$</sup>159.00 <span
+                                                    className="period">/month</span></div>
+                                                <a href="" className="btn btn-default-yellow-fill">Configure</a>
+                                        </div>
+                                        <ul className="list-info bg-purple">
+                                            <li><i className="icon-cpu"></i> <span className="c-pink">CPU</span><br/>
+                                                <span>8x 3.40Ghz 8 Cores</span></li>
+                                            <li><i className="icon-ram"></i> <span className="c-pink">RAM</span><br/>
+                                                <span>96GB (up to 128GB)</span></li>
+                                            <li><i className="icon-drivessd"></i> <span className="c-pink">DRIVES</span><br/>
+                                                <span>4 x 1TB SATA 3.0</span></li>
+                                            <li><i className="icon-git"></i> <span className="c-pink">UPLINK</span><br/>
+                                                <span>1Gbps - 20TB</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="mix windows data5 cores12" data-size="4">
+                                    <div className="wrapper text-start noshadow">
+                                        <div className="plans badge feat bg-grey">windows</div>
+                                        <div className="top-content bg-seccolorstyle topradius">
+                                            <img className="svg mb-3" src="./assets/fonts/svg/windowserver.svg"
+                                                 height="65" alt="windows" />
+                                                <div className="title">Intel Xeon E3-1230 v6 / 8x 3.20Ghz</div>
+                                                <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
+                                                <div className="price mergecolor"><sup>$</sup>199.00 <span
+                                                    className="period">/month</span></div>
+                                                <a href="" className="btn btn-default-yellow-fill">Configure</a>
+                                        </div>
+                                        <ul className="list-info bg-pink">
+                                            <li><i className="icon-cpu"></i> <span className="c-purple">CPU</span><br/>
+                                                <span>8x 3.20Ghz 12 Cores</span></li>
+                                            <li><i className="icon-ram"></i> <span className="c-purple">RAM</span><br/>
+                                                <span>128GB (up to 265GB)</span></li>
+                                            <li><i className="icon-drivessd"></i> <span
+                                                className="c-purple">DRIVES</span><br/> <span>4 x 2TB SATA 3.0</span>
+                                            </li>
+                                            <li><i className="icon-git"></i> <span
+                                                className="c-purple">UPLINK</span><br/> <span>1Gbps - 30TB</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="mix managed data6 cores16" data-size="5">
+                                    <div className="wrapper text-start noshadow">
+                                        <div className="plans badge feat bg-grey">managed</div>
+                                        <div className="top-content bg-seccolorstyle topradius">
+                                            <img className="svg mb-3" src="./assets/fonts/svg/managedserver.svg"
+                                                 alt="managed" />
+                                                <div className="title">Intel Xeon E3-1231 v6 / 8x 3.30Ghz</div>
+                                                <div className="fromer seccolor">Excepteur sint occaecat cupidatat</div>
+                                                <div className="price mergecolor"><sup>$</sup>184.00 <span
+                                                    className="period">/month</span></div>
+                                                <a href="" className="btn btn-default-yellow-fill">Configure</a>
+                                        </div>
+                                        <ul className="list-info bg-purple">
+                                            <li><i className="icon-cpu"></i> <span className="c-pink">CPU</span><br/>
+                                                <span>8x 3.30Ghz 16 Cores</span></li>
+                                            <li><i className="icon-ram"></i> <span className="c-pink">RAM</span><br/>
+                                                <span>256GB (up to 512GB)</span></li>
+                                            <li><i className="icon-drivessd"></i> <span className="c-pink">DRIVES</span><br/>
+                                                <span>2 x 1TB SATA 3.5</span></li>
+                                            <li><i className="icon-git"></i> <span className="c-pink">UPLINK</span><br/>
+                                                <span>1Gbps - 30TB</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="gap"></div>
+                                <div className="gap"></div>
+                                <div className="gap"></div>
+                            </div>
+                        </div>
+                        <div className="cd-fail-message bg-seccolorstyle seccolor noshadow">" No items could be found
+                            matching the criteria "
+                        </div>
+                    </div>
+                </div>
+
+
+                <section id="features" className="history-section sec-normal bg-colorstyle">
                     <div className="container">
                         <div className="randomline">
                             <div className="bigline"></div>
                             <div className="smallline"></div>
                         </div>
-                        <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
+                        <div className="sec-main sec-bg1 bg-colorstyle noshadow">
                             <div className="row">
-                                <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
-                                    <img className="svg first" src="/patterns/dns.svg" alt="dns redundant" />
-                                </div>
-                                <div className="col-md-12 col-lg-6 offset-lg-1">
+                                <div className="col-md-10 offset-md-1">
                                     <div className="info-content">
-                                        <h1 className="fw-bold mb-3 mergecolor">Redundant DNS</h1>
+                                        <h2 className="mb-4 mergecolor"><b>SO Installation</b></h2>
                                         <p className="seccolor">But I must explain to you how all this mistaken idea
                                             of <a href="#" className="golink">denouncing pleasure</a> and praising pain
-                                            was born and I will.</p>
+                                            was born and I will. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit, sed do eiusmod tempor incididunt.</p>
+                                        <p className="seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                            ex ea commodo consequat.</p>
                                     </div>
-                                    <a href="#" className="btn btn-default-yellow-fill mt-3">Learn more</a>
+                                </div>
+                                <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
+                                    <img className="svg" src="assets/patterns/os.svg" alt="dns redundant" />
                                 </div>
                             </div>
-                            <hr/>
                             <div className="row">
-                                <div className="col-md-12 col-lg-6">
+                                <div className="col-md-10 offset-md-1">
                                     <div className="info-content">
-                                        <h1 className="fw-bold mb-3 mergecolor">Remote Daily Backups</h1>
-                                        <p className="seccolor">But I must explain to you how all this mistaken idea
-                                            of <a href="#" className="golink">denouncing pleasure</a> and praising
-                                            pain was born and I will.</p>
+                                        <h2 className="mb-4 mergecolor"><b>Maximum Performance</b></h2>
+                                        <p className="seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam, <a href="#" className="golink">quis nostrud exercitation
+                                                ullamco</a> laboris nisi.</p>
+                                        <p className="seccolor">But I must explain to you how all this mistaken idea of
+                                            denouncing pleasure and praising pain was born and I will. Lorem ipsum dolor
+                                            sit amet.</p>
                                     </div>
-                                    <a href="" className="btn btn-default-yellow-fill mt-3">Backup now</a>
                                 </div>
-                                <div className="col-md-12 col-lg-5 offset-lg-1 wow animated fadeInUp fast">
-                                    <img className="svg second" src="/patterns/backups.svg" alt="backups" />
-                                </div>
-                            </div>
-                            <hr/>
-                            <div className="row">
-                                <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
-                                    <img className="svg third" src="/patterns/monitoring.svg"
-                                         alt="monitoring 24/7/365" />
-                                </div>
-                                <div className="col-md-12 col-lg-6 offset-lg-1">
-                                    <div className="info-content">
-                                        <h1 className="fw-bold mb-3 mergecolor">24/7/365 Monitoring</h1>
-                                        <p className="seccolor">But I must explain to you how all this mistaken
-                                            idea of <a href="#" className="golink">denouncing pleasure</a> and
-                                            praising pain was born and I will.</p>
-                                    </div>
-                                    <a href="" className="btn btn-default-yellow-fill mt-3">Learn more</a>
+                                <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
+                                    <img className="svg" src="assets/patterns/ssd.svg" alt="dns redundant" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <svg className="division-ontop bg-white d-none" viewBox="0 0 1440 150">
-                    <path fill="#fdd700" fill-opacity="1"
-                          d="M0,96L120,85.3C240,75,480,53,720,53.3C960,53,1200,75,1320,85.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-                    </path>
-                </svg>
 
-                <section className="services sec-normal motpath sec-bg4 scrollme">
-                    <div className="container">
-                        <div className="service-wrap">
+                <section id="addons" className="sec-normal history-section custom sec-bg3 bg-seccolorstyle">
+                    <div className="faq">
+                        <div className="container">
                             <div className="row">
-                                <div className="col-sm-12 text-center">
-                                    <h2 className="section-heading">Why choose Antler for your hosting?</h2>
-                                    <p className="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt.</p>
+                                <div className="col-md-12 col-sm-12 text-center">
+                                    <h2 className="section-heading text-white mergecolor">Customise with premium
+                                        add-ons</h2>
+                                    <p className="section-subheading text-muted mergecolor">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                                 </div>
-                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
-                                     data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
-                                    <div className="service-section bg-colorstyle">
-                                        <div className="plans badge feat bg-pink">Softaculous</div>
-                                        <img className="svg" src="/fonts/svg/select.svg" height="60" alt="" />
-                                        <div className="title mergecolor">Easy 1-click-installer</div>
-                                        <p className="subtitle seccolor">
-                                            Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
-                                            dolor sit amet, consectetur.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
-                                     data-to="0" data-opacity="1" data-translatey="100" data-easeinout="0">
-                                    <div className="service-section bg-colorstyle">
-                                        <img className="svg" src="/fonts/svg/speed.svg" height="60" alt="" />
-                                        <div className="title mergecolor">Superfast Websites</div>
-                                        <p className="subtitle seccolor">
-                                            Excepteur sint occaecat cupidatat non proident dolor. Lorem ipsum dolor
-                                            sit amet, consectetur.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
-                                     data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
-                                    <div className="service-section bg-colorstyle">
-                                        <div className="plans badge feat bg-pink">Free</div>
-                                        <img className="svg" src="/fonts/svg/inverse.svg" height="60" alt="" />
-                                        <div className="title mergecolor">Website Migrations</div>
-                                        <p className="subtitle seccolor">
-                                            Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
-                                            dolor sit amet, consectetur.
-                                        </p>
+                                <div className="col-md-12 col-sm-12">
+                                    <div className="section-offer services w-100">
+                                        <div className="tabs offers-tabs">
+                                            <div className="tabs-header mb-5">
+                                                <ul>
+                                                    <li className="col-sm-12 col-md-3 col-lg-3 text-white active">
+                                                        <i className="icon-preferences"></i>
+                                                        <div className="mergecolor">Control Panel</div>
+                                                    </li>
+                                                    <li className="col-sm-12 col-md-3  col-lg-3 text-white">
+                                                        <i className="icon-speed"></i>
+                                                        <div className="text-white mergecolor">Bandwidth</div>
+                                                    </li>
+                                                    <li className="col-sm-12 col-md-3  col-lg-3 text-white">
+                                                        <i className="icon-privacy"></i>
+                                                        <div className="mergecolor">SSL Certificates</div>
+                                                    </li>
+                                                    <li className="col-sm-12 col-md-3  col-lg-2 text-white">
+                                                        <i className="icon-protection"></i>
+                                                        <div className="mergecolor">Protection</div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="tabs-content text-start scrollme">
+                                                <div className="tabs-item active">
+                                                    <div className="row">
+                                                        <div className="col-md-12 col-lg-5">
+                                                            <img className="svg" src="assets/patterns/controlpanel.svg"
+                                                                 alt="monitoring 24/7/365" />
+                                                        </div>
+                                                        <div className="col-md-12 col-lg-6 offset-lg-1">
+                                                            <div className="info-content text-white">
+                                                                <h4 className="mergecolor">Easy management with cPanel
+                                                                    or Plesk</h4>
+                                                                <p className="seccolor">But I must explain to you how
+                                                                    all this mistaken idea of <a href="#"
+                                                                                                 className="golink">denouncing
+                                                                        pleasure</a> and praising pain was born and I
+                                                                    will. </p>
+                                                                <p className="seccolor">Lorem ipsum dolor sit amet,
+                                                                    consectetur adipiscing elit, sed do eiusmod tempor
+                                                                    incididunt.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="tabs-item">
+                                                    <div className="row">
+                                                        <div className="col-md-12 col-lg-5">
+                                                            <img className="svg" src="assets/patterns/performance.svg"
+                                                                 alt="performance" />
+                                                        </div>
+                                                        <div className="col-md-12 col-lg-6 offset-lg-1">
+                                                            <div className="info-content text-white">
+                                                                <h4 className="mergecolor">10x more performance with
+                                                                    Bandwidth</h4>
+                                                                <p className="seccolor">But I must explain to you how
+                                                                    all this mistaken idea of <a href="#"
+                                                                                                 className="golink">denouncing
+                                                                        pleasure</a> and praising pain was born and I
+                                                                    will. </p>
+                                                                <p className="seccolor">Lorem ipsum dolor sit amet,
+                                                                    consectetur adipiscing elit, sed do eiusmod tempor
+                                                                    incididunt.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="tabs-item">
+                                                    <div className="row">
+                                                        <div className="col-md-12 col-lg-5">
+                                                            <img className="svg" src="assets/patterns/ssl.svg"
+                                                                 alt="SSL Certificates" />
+                                                        </div>
+                                                        <div className="col-md-12 col-lg-6 offset-lg-1">
+                                                            <div className="info-content text-white">
+                                                                <h4 className="mergecolor">Secure browsing
+                                                                    experience</h4>
+                                                                <p className="seccolor">But I must explain to you how
+                                                                    all this mistaken idea of <a href="#"
+                                                                                                 className="golink">denouncing
+                                                                        pleasure</a> and praising pain was born and I
+                                                                    will. </p>
+                                                                <p className="seccolor">Lorem ipsum dolor sit amet,
+                                                                    consectetur adipiscing elit, sed do eiusmod tempor
+                                                                    incididunt.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="tabs-item">
+                                                    <div className="row">
+                                                        <div className="col-md-12 col-lg-5">
+                                                            <img className="svg"
+                                                                 src="assets/patterns/protectvisitors.svg"
+                                                                 alt="Protection" />
+                                                        </div>
+                                                        <div className="col-md-12 col-lg-6 offset-lg-1">
+                                                            <div className="info-content text-white">
+                                                                <h4 className="mergecolor">Maximum Physical
+                                                                    Security</h4>
+                                                                <p className="seccolor">But I must explain to you how
+                                                                    all this mistaken idea of <a href="#"
+                                                                                                 className="golink">denouncing
+                                                                        pleasure</a> and praising pain was born and I
+                                                                    will. </p>
+                                                                <p className="seccolor">Lorem ipsum dolor sit amet,
+                                                                    consectetur adipiscing elit, sed do eiusmod tempor
+                                                                    incididunt.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="sec-normal sec-bg1 bg-colorstyle  nobottompadding">
+
+
+                <section className="sec-normal sec-bg1 bg-colorstyle">
                     <div className="best-plans pricing">
                         <div className="container">
                             <div className="row">
                                 <div className="col-sm-12 text-center">
-                                    <h2 className="section-heading mergecolor">Hosting Technical Specifications</h2>
+                                    <h2 className="section-heading mergecolor">Dedicated Technical Specifications</h2>
                                     <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod tempor incididunt.</p>
                                 </div>
@@ -272,13 +530,12 @@ export default function Home() {
                                         <table className="table sample mt-5">
                                             <thead>
                                             <tr>
-                                                <td><span className="title">Software </span> <span
-                                                    className="badge bg-pink">PLUS</span></td>
+                                                <td><span className="title">Features </span></td>
                                                 <td>
-                                                    <div className="title">Databases</div>
+                                                    <div className="title">Performance</div>
                                                 </td>
                                                 <td>
-                                                    <div className="title">Additional Software</div>
+                                                    <div className="title">Boosters</div>
                                                 </td>
                                             </tr>
                                             </thead>
@@ -288,43 +545,45 @@ export default function Home() {
                                                     <div className="title-table" data-bs-toggle="popover"
                                                          data-bs-trigger="hover" data-bs-placement="top"
                                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                                                        <span className="fas fa-check-circle me-2"></span> PHP
-                                                        5.5/5.6/7.0/7.1
+                                                        <span className="fas fa-check-circle me-2 f-20"></span> Instant
+                                                        Provisioning
                                                     </div>
                                                 </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> MySQL 5.6</td>
-                                                <td><span className="fas fa-check-circle me-2"></span> Zend Engine</td>
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> Intel Xeon
+                                                </td>
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> Free cPanel
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div className="title-table" data-bs-toggle="popover"
                                                          data-bs-trigger="hover" data-bs-placement="top"
                                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                                                        <span className="fas fa-check-circle me-2"></span> Perl
+                                                        <span className="fas fa-check-circle me-2 f-20"></span> CentOS /
+                                                        Ubuntu
                                                     </div>
                                                 </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> phpMyAdmin 4.6.6
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> SuperMicro
                                                 </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> Zend Optimizer
-                                                </td>
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> WHMCS</td>
                                             </tr>
                                             <tr>
                                                 <td className="title-table"><span
-                                                    className="fas fa-check-circle me-2"></span> Python 2.6.6
+                                                    className="fas fa-check-circle me-2"></span> CloudLinux
                                                 </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> FTPES Supported
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> Juniper
+                                                    Networks
                                                 </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> Zend Guard Loader
-                                                </td>
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> IPs</td>
                                             </tr>
                                             <tr>
                                                 <td className="title-table"><span
-                                                    className="fas fa-check-circle me-3"></span> PostgreSQL
+                                                    className="fas fa-check-circle me-3"></span> Server Rebuild
                                                 </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> MSSQL Stored
-                                                    Procedures
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> DDos
+                                                    mitigation
                                                 </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> ionCube Loader
+                                                <td><span className="fas fa-check-circle me-2 f-20"></span> SAN storage
                                                 </td>
                                             </tr>
                                             <tr>
@@ -346,112 +605,72 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <img className="blobright svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
 
-                <section className="sec-normal sec-bg2 bg-colorstyle">
-                    <div className="faq">
-                        <div className="container">
+
+                <section id="highlights"
+                         className="sec-normal best-plans pricing cpupath sec-bg4 scrollme bg-colorstyle">
+                    <div className="container">
+                        <div className="sec-main sec-bg1 animateme">
+                            <div className="plans badge feat bg-pink hideelement">highlights</div>
                             <div className="row">
-                                <div className="col-md-12 col-sm-12 text-center">
-                                    <h2 className="section-heading mergecolor">Frequently Asked Questions
-                                        Hosting</h2>
-                                    <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                </div>
                                 <div className="col-sm-12">
-                                    <div className="accordion faq pt-5">
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor active">
-                                                <span>What is Cloud Hosting?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse inlinecss d-block" >
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor">
-                                                <span>Does Shared Web Hosting include Email Hosting as well?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse">
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor">
-                                                <span>Is an upgrade possible from my current Linux Shared Hosting Plan?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse">
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor">
-                                                <span>Is there any money back guarantee with the Linux Web Hosting services?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse">
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div className="table-responsive-lg">
+                                        <table className="table compare">
+                                            <thead>
+                                            <tr>
+                                                <td className="bb-green title">Dedicated Processors</td>
+                                                <td className="bb-green title">Memory</td>
+                                                <td className="bb-green title">Storage</td>
+                                                <td className="bb-green title">Monthly</td>
+                                                <td className="bb-green title">Availability</td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div className="badge bg-pink me-1">HOT</div>
+                                                    E3-1230 v3 3.3GHz Haswell | 4 Cores
+                                                </td>
+                                                <td>32GB</td>
+                                                <td>320GB SSD</td>
+                                                <td><span className="ltgh">$99.00</span> <b
+                                                    className="c-black mergecolor">$59.00</b></td>
+                                                <td><a href="" className="btn btn-default-yellow-fill">Config</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div className="badge bg-pink me-1">SALE</div>
+                                                    E3-1230 v5 3.4GHz Skylake | 4 Cores
+                                                </td>
+                                                <td>32GB</td>
+                                                <td>520GB SSD</td>
+                                                <td><span className="ltgh">$177.00</span> <b
+                                                    className="c-black mergecolor">$120.00</b></td>
+                                                <td><a href="" className="btn btn-default-yellow-fill">Config</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div className="badge bg-grey me-1">OUT</div>
+                                                    E3-1230 v5 3.4GHz Skylake | 8 Cores
+                                                </td>
+                                                <td>64GB</td>
+                                                <td>960GB SSD</td>
+                                                <td><b className="c-black mergecolor">$239.00</b></td>
+                                                <td><a href="" className="btn btn-default-fill disabled">Sold out</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="border-0">2x E5-2620 v4 2.1GHz Broadwell | 16 Cores</td>
+                                                <td className="border-0">128GB</td>
+                                                <td className="border-0">4x 960GB SSD</td>
+                                                <td className="border-0"><b className="c-black mergecolor">$410.00</b>
+                                                </td>
+                                                <td className="border-0"><a href=""
+                                                                            className="btn btn-default-yellow-fill">Config</a>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -459,61 +678,43 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="circle-section sec-normal sec-bg1 bg-seccolorstyle bottomhalfpadding">
+                
+                <section className="help pt-4 pb-80 bg-colorstyle">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-md-12 col-sm-12 text-center">
-                                <h2 className="section-heading mergecolor">Our Statistics</h2>
-                                <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt consectetur adipiscing.</p>
-                            </div>
-                            <div className="col-sm-12 col-md-12 col-lg-12 text-center pt-5">
-                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
-                                    <div className="skill-section">
-                                        <div className="circle-wrapper">
-                                            <div className="circle-entry clearfix">
-                                                <div className="circle center-block color-dark-2"
-                                                     data-startdegree="0" data-dimension="180"
-                                                     data-text="<strong class='number seccolor'>19.322</strong><div class='title-round'>Clients</div>"
-                                                     data-width="5" data-fontsize="17" data-percent="90"
-                                                     data-fgcolor="#808080" data-bgcolor="transparent"
-                                                     data-bordersize="1"></div>
+                        <div className="service-wrap">
+                            <div className="row">
+                                <div className="col-sm-12 col-md-6 col-lg-6">
+                                    <div className="help-container bg-seccolorstyle noshadow">
+                                        <div className="plans badge feat left bg-grey"><i
+                                            className="fas fa-long-arrow-alt-left"></i></div>
+                                        <a href="hosting" className="help-item">
+                                            <div className="img">
+                                                <img className="svg ico" src="./assets/fonts/svg/cloudfiber.svg" alt="" />
                                             </div>
-                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur
-                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                        </div>
+                                            <div className="inform">
+                                                <div className="title mergecolor">Go to Cloud Reseller</div>
+                                                <div className="description seccolor">Do you need to host multiple
+                                                    Websites?
+                                                </div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
-                                    <div className="skill-section">
-                                        <div className="circle-wrapper">
-                                            <div className="circle-entry clearfix">
-                                                <div className="circle center-block color-dark-2 seccolor"
-                                                     data-startdegree="0" data-dimension="180"
-                                                     data-text="<strong class='number seccolor'>9.510</strong><div class='title-round'>Equipment</div>"
-                                                     data-width="5" data-fontsize="17" data-percent="65"
-                                                     data-fgcolor="#808080" data-bgcolor="transparent"
-                                                     data-bordersize="1"></div>
+                                <div className="col-sm-12 col-md-6 col-lg-6">
+                                    <div className="help-container bg-seccolorstyle noshadow">
+                                        <div className="plans badge feat bg-grey"><i
+                                            className="fas fa-long-arrow-alt-right"></i></div>
+                                        <a href="vps" className="help-item">
+                                            <div className="img">
+                                                <img className="svg ico" src="./assets/fonts/svg/vps.svg" alt="" />
                                             </div>
-                                            <p className="seccolor">Excepteur sint occaecat cupidatat non proident,
-                                                sunt in culpa qui officia deserunt mollit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
-                                    <div className="skill-section">
-                                        <div className="circle-wrapper">
-                                            <div className="circle-entry clearfix">
-                                                <div className="circle center-block color-dark-2 seccolor"
-                                                     data-startdegree="0" data-dimension="180"
-                                                     data-text="<strong class='number seccolor'>1231</strong><div class='title-round'>Projects</div>"
-                                                     data-width="5" data-fontsize="17" data-percent="45"
-                                                     data-fgcolor="#808080" data-bgcolor="transparent"
-                                                     data-bordersize="1"></div>
+                                            <div className="inform">
+                                                <div className="title mergecolor">Go to VPS Server</div>
+                                                <div className="description seccolor">Needs scalable resources in
+                                                    Hosting Environment?
+                                                </div>
                                             </div>
-                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur
-                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
