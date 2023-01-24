@@ -34,3 +34,7 @@
 [data-background=light] .box-container .footer .logo-bg {
     opacity: .1;
 }
+
+.menu-wrap .logo-menu {
+    cursor: pointer;
+}
