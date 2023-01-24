@@ -14,10 +14,10 @@ export default function Footer() {
                             <div className="col-sm-6 col-md-3">
                                 <div className="heading">Hosting</div>
                                 <ul className="footer-menu">
-                                    <li className="menu-item"><a href="hosting">Shared Hosting</a></li>
-                                    <li className="menu-item"><a href="dedicated">Dedicated Server</a></li>
-                                    <li className="menu-item"><a href="vps">Cloud Virtual (VPS)</a></li>
-                                    <li className="menu-item"><a href="domains">Domain Names</a></li>
+                                    <li className="menu-item"><Link href="/web-hosting/shared-linux-hosting">Shared Hosting</Link></li>
+                                    <li className="menu-item"><Link href="/server/dedicated-servers">Dedicated Server</Link></li>
+                                    <li className="menu-item"><Link href="/server/cloud-vps">Cloud Virtual (VPS)</Link></li>
+                                    <li className="menu-item"><Link href="/domains">Domain Names</Link></li>
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3">

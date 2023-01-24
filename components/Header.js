@@ -68,7 +68,7 @@ export default function Header() {
                                                       <img className="svg" src="/fonts/svg/cloudfiber.svg"
                                                            alt="Shared Hosting" />
                                                           <div className="media-body">
-                                                              <Link className="menu-item mergecolor" href="/web-hosting/shared-linux-hosting/"
+                                                              <Link className="menu-item mergecolor" href="/web-hosting/shared-linux-hosting"
                                                                  data-i18n="[html]submenu.sharedhosting">Linux Shared Hosting </Link>
                                                               <p className="seccolor">Directadmin fast shared hosting</p>
                                                           </div>
@@ -78,8 +78,8 @@ export default function Header() {
                                                       <img className="svg" src="/fonts/svg/dedicated.svg"
                                                            alt="Dedicated Server" />
                                                           <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="dedicated"
-                                                                 data-i18n="[html]submenu.dedicated">Dedicated Servers</a>
+                                                              <Link className="menu-item mergecolor" href="/server/dedicated-servers"
+                                                                 data-i18n="[html]submenu.dedicated">Dedicated Servers</Link>
                                                               <div className="menu badge feat bg-pink">FILTER</div>
                                                               <p className="seccolor">Fast and cheap plan for self/managed server</p>
                                                           </div>
@@ -87,8 +87,8 @@ export default function Header() {
                                                   <div className="service">
                                                       <img className="svg" src="/fonts/svg/vps.svg" alt="Cloud VPS" />
                                                           <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="vps"
-                                                                 data-i18n="[html]submenu.vps">VPS</a>
+                                                              <Link className="menu-item mergecolor" href="/server/cloud-vps"
+                                                                 data-i18n="[html]submenu.vps">VPS</Link>
                                                               <div className="menu badge feat bg-grey">SSD</div>
                                                               <p className="seccolor">Fast OpenVZ/KVM multi location's server</p>
                                                           </div>
@@ -97,8 +97,8 @@ export default function Header() {
                                                   <div className="service">
                                                       <img className="svg" src="/fonts/svg/domains.svg" alt="Domains" />
                                                           <div className="media-body">
-                                                              <a className="menu-item mergecolor" href="domains"
-                                                                 data-i18n="[html]submenu.domains">Domains</a>
+                                                              <Link className="menu-item mergecolor" href="/domains"
+                                                                 data-i18n="[html]submenu.domains">Domains</Link>
                                                               <p className="seccolor">Get name for your business</p>
                                                           </div>
                                                   </div>
