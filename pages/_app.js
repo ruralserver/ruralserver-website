@@ -7,8 +7,7 @@ import "/styles/animate.min.css";
 import "/styles/style.min.css";
 import "/styles/theme-change.css";
 import "/styles/mixitup.css";
-
-
+import "/styles/filter.css";
 import "/styles/custom.css";
 
 function Application({ Component, pageProps }) {
