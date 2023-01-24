@@ -19,67 +19,24 @@ export default function Home() {
 
                 <Header />
 
-                <section className="services sec-normal sec-bg4">
-                    <div className="container">
-                        <div className="service-wrap">
-                            <div className="row">
-                                <div className="col-sm-12 text-center pt-5">
-                                    <h2 className="section-heading">404 Page Not Found!</h2>
-                                    <p className="section-subheading">Please check your url.</p>
-                                </div>
+                <section className="sec-normal notfound pt-150 scrollme">
+                    <div className="total-grad-pink-blue-intense"></div>
+                    <div className="container animateme" data-when="exit" data-from="0" data-to="0.75" data-opacity="1"
+                         data-translatey="-50">
+                        <div className="row justify-content-center">
+                            <div className="col-9">
+                                <img className="svg" src="/assets/patterns/notfound.svg" alt="Provisioning notfound" />
                             </div>
+                        </div>
+                        <div className="col-md-12 text-center pt-5">
+                            <p className="text-white">Sorry, it appears that the page you’ve requested cannot be
+                                found.<br> Please press the button below to go home page or <a href="contact"
+                                                                                               className="golink">contact
+                                    us</a></p>
+                            <a href="/" className="btn btn-default-grad-purple-fill mt-3">Go Home Page</a>
                         </div>
                     </div>
                 </section>
-
-                <section className="services maping sec-normal sec-grad-grey-to-grey bg-colorstyle bottompadding">
-                    <div className="container">
-                        <div className="service-wrap">
-                            <div className="row">
-                                <div className="col-sm-12 text-center">
-                                    <h2 className="section-heading text-white mergecolor">Our Datacenters are Located in
-                                        7 Regions</h2>
-                                    <p className="section-subheading text-muted mergecolor"><span className="golink">Lorem ipsum dolor</span> sit
-                                        amet, consectetur adipiscing elit sed, do eiusmod tempor <span
-                                            className="c-pink">incididunt lorem ipsum</span> dolor sit amet</p>
-                                </div>
-                                <div className="col-md-12 pt-5 scrollme position-relative">
-                                    <img src="/patterns/map.svg" className="lazyload w-10 animateme" alt="Load Balancing"
-                                         data-when="view" data-from="1" data-to="0" data-opacity="0" />
-                                    <span className="datacenters montreal" data-bs-toggle="popover"
-                                          data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
-                                          title="Montreal"
-                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-                                    <span className="datacenters newyork" data-bs-toggle="popover"
-                                          data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
-                                          title="New York"
-                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-                                    <span className="datacenters portugal" data-bs-toggle="popover"
-                                          data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
-                                          title="Portugal"
-                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-                                    <span className="datacenters london" data-bs-toggle="popover"
-                                          data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
-                                          title="London"
-                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-                                    <span className="datacenters moskow" data-bs-toggle="popover"
-                                          data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
-                                          title="Moskow"
-                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-                                    <span className="datacenters hongkong" data-bs-toggle="popover"
-                                          data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
-                                          title="Hong Kong"
-                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-                                    <span className="datacenters singapure" data-bs-toggle="popover"
-                                          data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top"
-                                          title="Singapure"
-                                          data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <Footer />
             </div>
             <a href="#0" className="cd-top"> <i className="fas fa-angle-up"></i> </a>
