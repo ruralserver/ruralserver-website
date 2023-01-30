@@ -498,7 +498,7 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-                    <hr className="fullline d-none">
+                    <hr className="fullline d-none" />
 
 
                         <section className="sec-normal sec-bg2 bg-seccolorstyle bottomhalfpadding">
