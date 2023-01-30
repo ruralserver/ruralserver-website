@@ -193,7 +193,7 @@ export default function Header() {
                                                                           <ul>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor" href="payments"
-                                                                                  data-i18n="[html]submenu.payments"> </a>
+                                                                                  data-i18n="[html]submenu.paymentsmethod">Payment Methods</a>
                                                                                   <div
                                                                                       className="badge inside bg-pink">NEW
                                                                                   </div>
@@ -201,39 +201,9 @@ export default function Header() {
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor"
                                                                                   href="configurator"
-                                                                                  data-i18n="[html]submenu.config"> </a>
+                                                                                  data-i18n="[html]submenu.tos">TOS </a>
                                                                                   <div
-                                                                                      className="badge inside bg-grey">HOT
-                                                                                  </div>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="cart"
-                                                                                  data-i18n="[html]submenu.cart"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor"
-                                                                                  href="blog-grid"
-                                                                                  data-i18n="[html]submenu.bloggrid"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="checkout"
-                                                                                  data-i18n="[html]submenu.checkout"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="soon"
-                                                                                  data-i18n="[html]submenu.soon"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="promos"
-                                                                                  data-i18n="[html]submenu.promos"> </a>
-                                                                                  <i className="fas fa-tags c-pink ms-2"></i>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor"
-                                                                                  href="blackfriday"
-                                                                                  data-i18n="[html]submenu.blackfriday"> </a>
-                                                                                  <div
-                                                                                      className="badge inside bg-pink">HOT
+                                                                                      className="badge inside bg-grey">NEW
                                                                                   </div>
                                                                               </li>
                                                                           </ul>
