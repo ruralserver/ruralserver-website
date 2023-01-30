@@ -36,7 +36,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <!-- ***** KNOWLEDGEBASE ***** -->
+                
                 <section id="gotop" className="blog motpath pb-80 bg-colorstyle">
                     <div className="container">
                         <div className="row">
@@ -304,7 +304,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <!-- ***** HELP ***** -->
+
                 <section className="services help pt-4 pb-80 bg-colorstyle">
                     <div className="container">
                         <div className="service-wrap">
