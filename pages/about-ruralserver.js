@@ -105,7 +105,7 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="team-info bg-seccolorstyle noshadow">
-                                            <img className="svg" src="assets/patterns/supportman.svg" alt="team"/>
+                                            <img className="svg" src="/patterns/supportman.svg" alt="team"/>
                                                 <h3 className="heading mergecolor">John T. Erikson</h3>
                                                 <div className="subheading seccolor">Support, Helpdesk</div>
                                                 <div className="desc seccolor">Lorem ipsum dolor sit amet, consectetur
@@ -128,7 +128,7 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="team-info bg-seccolorstyle noshadow">
-                                            <img className="svg" src="assets/patterns/commercialman.svg" alt="team"/>
+                                            <img className="svg" src="/patterns/commercialman.svg" alt="team"/>
                                                 <h3 className="heading mergecolor">Walter T. Adams</h3>
                                                 <div className="subheading seccolor">Commercial Department</div>
                                                 <div className="desc seccolor">Lorem ipsum dolor sit amet, consectetur
@@ -152,7 +152,7 @@ export default function Home() {
                                         </div>
                                         <div className="team-info bg-seccolorstyle noshadow">
                                             <div className="plans badge feat bg-pink">online</div>
-                                            <img className="svg" src="assets/patterns/salesman.svg" alt="team"/>
+                                            <img className="svg" src="/patterns/salesman.svg" alt="team"/>
                                                 <h3 className="heading mergecolor">Verna B. Ahmed</h3>
                                                 <div className="subheading seccolor">Sales Department</div>
                                                 <div className="desc seccolor">Lorem ipsum dolor sit amet, consectetur
@@ -179,7 +179,7 @@ export default function Home() {
                                             className="c-pink">incididunt lorem ipsum</span> dolor sit amet</p>
                                 </div>
                                 <div className="col-md-12 pt-5 scrollme position-relative">
-                                    <img src="assets/patterns/map.svg" className="lazyload w-10 animateme"
+                                    <img src="/patterns/map.svg" className="lazyload w-10 animateme"
                                          alt="Load Balancing" data-when="view" data-from="1" data-to="0"
                                          data-opacity="0"/>
                                         <span className="datacenters montreal" data-bs-toggle="popover"
