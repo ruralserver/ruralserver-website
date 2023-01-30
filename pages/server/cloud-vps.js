@@ -18,509 +18,544 @@ export default function CloudVps() {
 
                 <Header />
 
-                <div className="top-header item5 overlay">
+                <div className="top-header overlay-video">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 col-md-12">
                                 <div className="wrapper">
-                                    <h1 className="heading">Shared Hosting</h1>
-                                    <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure</h3>
-                                    <div id="run-switch" className="run-switch">
-                                        <div className="mo">Monthly Price</div>
-                                        <div className="switch"></div>
-                                        <div className="an active">Anually Price</div>
-                                    </div>
-                                    <div className="included">
-                                        <h4 className="mb-3">All plans include</h4>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> c-Panel or Plesk</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Unlimited email</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Free SSL certificate</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Redundant DNS</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Powerful SSD</li>
-                                        </ul>
-                                        <ul>
-                                            <li><i className="fas fa-check-circle"></i> Support 24/7/365</li>
-                                        </ul>
-                                    </div>
+                                    <h1 className="heading">Cloud VPS</h1>
+                                    <h3 className="subheading mb-3">Enjoy increased flexibility and get the performance
+                                        you need with SSD Storage.</h3>
+                                    <a href="#features" className="golink gocheck"> Features </a>
+                                    <a href="#custom" className="golink gocheck"> Custom VPS </a>
+                                    <a href="#faq" className="golink gocheck"> FAQ </a>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="banner-video">
+                            <div className="cover-wrapper">
+                                <video className="cover-video" autoPlay loop muted>
+                                    <source src="assets/videos/Modem-lights.mp4" type="video/mp4">
+                                </video>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <a className="gocontent godown gocheck" href="#scroll">
-                    <img className="svg" src="/fonts/svg/arrowdown.svg" height="80" alt="features" />
-                    <span>Features</span>
-                </a>
-
-
-                <section className="pricing special sec-uping pb-5 bg-colorstyle specialposition">
-                    <div className="container">
-                        <div className="randomline">
-                            <div className="bigline"></div>
-                            <div className="smallline"></div>
-                        </div>
-                        <div className="row justify-content-end scrollme">
-                            <div className="col-sm-12 col-md-6 col-lg-4 animateme" data-when="enter" data-from="0"
-                                 data-to="1" data-opacity="1" data-translatey="-20">
-                                <div className="wrapper price-container text-start wow animated fadeInUp fast noshadow">
-                                    <div className="plans badge feat bg-pink">30% Discount</div>
-                                    <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/cloudlinux.svg" alt="" />
-                                        <div className="title">Business SSD</div>
-                                        <div className="fromer seccolor">annually get (30% discount)</div>
-                                        <div className="price-content">
-                                            <div className="price seccolor">
-                                                <del className="c-grey seccolor"><small><sup
-                                                    className="coin seccolor">$</sup> <span
-                                                    className="value seccolor">88.24</span></small></del>
-                                            </div>
-                                            <div className="price">
-                                                <sup className="coin mergecolor">$</sup>
-                                                <span className="discount mergecolor">62.00</span>
-                                                <small className="mergecolor">/</small><span
-                                                className="period annually mergecolor">year</span>
-                                            </div>
-                                        </div>
-                                        <a href="http://inebur.com/whmcs/cart.php?a=add&pid=9&carttpl=antler"
-                                           className="btn btn-default-yellow-fill">Order now</a>
-                                    </div>
-
-                                    <ul className="list-info">
-                                        <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br/>
-                                            <span>250GB SSD</span></li>
-                                        <li><i className="icon-speed"></i> <span className="c-purple">DATA</span><br/>
-                                            <span>1TB Bandwidth</span></li>
-                                        <li><i className="icon-emailopen"></i> <span
-                                            className="c-purple">EMAIL</span><br/> <span>120 Emails</span></li>
-                                        <li><i className="icon-domains"></i> <span className="c-purple">TLD</span><br/>
-                                            <span>30 Domains</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-sm-12 col-md-6 col-lg-4 animateme" data-when="span" data-from="0"
-                                 data-to="1" data-opacity="1" data-translatey="50">
-                                <div className="wrapper price-container text-start wow animated fadeInUp noshadow">
-                                    <div className="plans badge feat bg-grey">best value</div>
-                                    <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/cloudwindows.svg" alt="" />
-                                        <div className="title">Pro SSD</div>
-                                        <div className="fromer seccolor">annually get (20% discount)</div>
-                                        <div className="price-content">
-                                            <div className="price">
-                                                <del className="c-grey seccolor"><small><sup
-                                                    className="coin seccolor">$</sup> <span
-                                                    className="value seccolor">112.99</span></small></del>
-                                            </div>
-                                            <div className="price">
-                                                <sup className="coin mergecolor">$</sup>
-                                                <span className="discount mergecolor">90.00</span>
-                                                <small className="mergecolor">/</small><span
-                                                className="period annually mergecolor">year</span>
-                                            </div>
-                                        </div>
-                                        <a href="http://inebur.com/whmcs/cart.php?a=add&pid=10&carttpl=antler"
-                                           className="btn btn-default-yellow-fill">Order now</a>
-                                    </div>
-                                    <ul className="list-info bg-purple">
-                                        <li><i className="icon-drives"></i> <span className="c-pink">DISK</span><br/>
-                                            <span>2TB SSD</span></li>
-                                        <li><i className="icon-speed"></i> <span className="c-pink">DATA</span><br/>
-                                            <span>Unlimited Bandwidth</span></li>
-                                        <li><i className="icon-emailopen"></i> <span className="c-pink">EMAIL</span><br/>
-                                            <span>Unlimited Emails</span></li>
-                                        <li><i className="icon-domains"></i> <span className="c-pink">TLD</span><br/>
-                                            <span>Unlimited Domains</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
-                    <div className="container">
-                        <div className="randomline">
-                            <div className="bigline"></div>
-                            <div className="smallline"></div>
-                        </div>
-                        <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
-                            <div className="row">
-                                <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
-                                    <img className="svg first" src="/patterns/dns.svg" alt="dns redundant" />
-                                </div>
-                                <div className="col-md-12 col-lg-6 offset-lg-1">
-                                    <div className="info-content">
-                                        <h1 className="fw-bold mb-3 mergecolor">Redundant DNS</h1>
-                                        <p className="seccolor">But I must explain to you how all this mistaken idea
-                                            of <a href="#" className="golink">denouncing pleasure</a> and praising pain
-                                            was born and I will.</p>
-                                    </div>
-                                    <a href="#" className="btn btn-default-yellow-fill mt-3">Learn more</a>
-                                </div>
-                            </div>
-                            <hr/>
-                            <div className="row">
-                                <div className="col-md-12 col-lg-6">
-                                    <div className="info-content">
-                                        <h1 className="fw-bold mb-3 mergecolor">Remote Daily Backups</h1>
-                                        <p className="seccolor">But I must explain to you how all this mistaken idea
-                                            of <a href="#" className="golink">denouncing pleasure</a> and praising
-                                            pain was born and I will.</p>
-                                    </div>
-                                    <a href="" className="btn btn-default-yellow-fill mt-3">Backup now</a>
-                                </div>
-                                <div className="col-md-12 col-lg-5 offset-lg-1 wow animated fadeInUp fast">
-                                    <img className="svg second" src="/patterns/backups.svg" alt="backups" />
-                                </div>
-                            </div>
-                            <hr/>
-                            <div className="row">
-                                <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
-                                    <img className="svg third" src="/patterns/monitoring.svg"
-                                         alt="monitoring 24/7/365" />
-                                </div>
-                                <div className="col-md-12 col-lg-6 offset-lg-1">
-                                    <div className="info-content">
-                                        <h1 className="fw-bold mb-3 mergecolor">24/7/365 Monitoring</h1>
-                                        <p className="seccolor">But I must explain to you how all this mistaken
-                                            idea of <a href="#" className="golink">denouncing pleasure</a> and
-                                            praising pain was born and I will.</p>
-                                    </div>
-                                    <a href="" className="btn btn-default-yellow-fill mt-3">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <svg className="division-ontop bg-white d-none" viewBox="0 0 1440 150">
-                    <path fill="#fdd700" fill-opacity="1"
-                          d="M0,96L120,85.3C240,75,480,53,720,53.3C960,53,1200,75,1320,85.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-                    </path>
-                </svg>
-
-                <section className="services sec-normal motpath sec-bg4 scrollme">
-                    <div className="container">
-                        <div className="service-wrap">
-                            <div className="row">
-                                <div className="col-sm-12 text-center">
-                                    <h2 className="section-heading">Why choose Antler for your hosting?</h2>
-                                    <p className="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt.</p>
-                                </div>
-                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
-                                     data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
-                                    <div className="service-section bg-colorstyle">
-                                        <div className="plans badge feat bg-pink">Softaculous</div>
-                                        <img className="svg" src="/fonts/svg/select.svg" height="60" alt="" />
-                                        <div className="title mergecolor">Easy 1-click-installer</div>
-                                        <p className="subtitle seccolor">
-                                            Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
-                                            dolor sit amet, consectetur.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
-                                     data-to="0" data-opacity="1" data-translatey="100" data-easeinout="0">
-                                    <div className="service-section bg-colorstyle">
-                                        <img className="svg" src="/fonts/svg/speed.svg" height="60" alt="" />
-                                        <div className="title mergecolor">Superfast Websites</div>
-                                        <p className="subtitle seccolor">
-                                            Excepteur sint occaecat cupidatat non proident dolor. Lorem ipsum dolor
-                                            sit amet, consectetur.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
-                                     data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
-                                    <div className="service-section bg-colorstyle">
-                                        <div className="plans badge feat bg-pink">Free</div>
-                                        <img className="svg" src="/fonts/svg/inverse.svg" height="60" alt="" />
-                                        <div className="title mergecolor">Website Migrations</div>
-                                        <p className="subtitle seccolor">
-                                            Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
-                                            dolor sit amet, consectetur.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="sec-normal sec-bg1 bg-colorstyle  nobottompadding">
-                    <div className="best-plans pricing">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-sm-12 text-center">
-                                    <h2 className="section-heading mergecolor">Hosting Technical Specifications</h2>
-                                    <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                </div>
-                                <div className="col-sm-12">
-                                    <div className="table-responsive-lg">
-                                        <table className="table sample mt-5">
-                                            <thead>
-                                            <tr>
-                                                <td><span className="title">Software </span> <span
-                                                    className="badge bg-pink">PLUS</span></td>
-                                                <td>
-                                                    <div className="title">Databases</div>
-                                                </td>
-                                                <td>
-                                                    <div className="title">Additional Software</div>
-                                                </td>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div className="title-table" data-bs-toggle="popover"
-                                                         data-bs-trigger="hover" data-bs-placement="top"
-                                                         data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                                                        <span className="fas fa-check-circle me-2"></span> PHP
-                                                        5.5/5.6/7.0/7.1
-                                                    </div>
-                                                </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> MySQL 5.6</td>
-                                                <td><span className="fas fa-check-circle me-2"></span> Zend Engine</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div className="title-table" data-bs-toggle="popover"
-                                                         data-bs-trigger="hover" data-bs-placement="top"
-                                                         data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                                                        <span className="fas fa-check-circle me-2"></span> Perl
-                                                    </div>
-                                                </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> phpMyAdmin 4.6.6
-                                                </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> Zend Optimizer
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="title-table"><span
-                                                    className="fas fa-check-circle me-2"></span> Python 2.6.6
-                                                </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> FTPES Supported
-                                                </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> Zend Guard Loader
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="title-table"><span
-                                                    className="fas fa-check-circle me-3"></span> PostgreSQL
-                                                </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> MSSQL Stored
-                                                    Procedures
-                                                </td>
-                                                <td><span className="fas fa-check-circle me-2"></span> ionCube Loader
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="border-0"><a href=""
-                                                                            className="btn btn-default-pink-fill">All
-                                                    Specs</a></td>
-                                                <td className="border-0"><a href=""
-                                                                            className="btn btn-default-pink-fill">All
-                                                    Specs</a></td>
-                                                <td className="border-0"><a href=""
-                                                                            className="btn btn-default-pink-fill">All
-                                                    Specs</a></td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <img className="blobright svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
-
-                <section className="sec-normal sec-bg2 bg-colorstyle">
-                    <div className="faq">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-12 col-sm-12 text-center">
-                                    <h2 className="section-heading mergecolor">Frequently Asked Questions
-                                        Hosting</h2>
-                                    <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                </div>
-                                <div className="col-sm-12">
-                                    <div className="accordion faq pt-5">
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor active">
-                                                <span>What is Cloud Hosting?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse inlinecss d-block" >
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor">
-                                                <span>Does Shared Web Hosting include Email Hosting as well?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse">
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor">
-                                                <span>Is an upgrade possible from my current Linux Shared Hosting Plan?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse">
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="panel-wrap">
-                                            <div className="panel-title seccolor">
-                                                <span>Is there any money back guarantee with the Linux Web Hosting services?</span>
-                                                <div className="float-end">
-                                                    <i className="fa fa-plus"></i>
-                                                    <i className="fa fa-minus c-pink"></i>
-                                                </div>
-                                            </div>
-                                            <div className="panel-collapse">
-                                                <div className="wrapper-collapse">
-                                                    <div className="info">
-                                                        <ul className="list seccolor">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur
-                                                                adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                                labore et dolore magna.</p><p>Excepteur sint
-                                                                occaecat cupidatat non proident, sunt in culpa qui
-                                                                officia deserunt mollit anim id est laborum.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="circle-section sec-normal sec-bg1 bg-seccolorstyle bottomhalfpadding">
+                <section className="pricing special sec-normal pt-80 pb-0 bg-colorstyle">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 col-sm-12 text-center">
-                                <h2 className="section-heading mergecolor">Our Statistics</h2>
-                                <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt consectetur adipiscing.</p>
+                            <div className="col-sm-12 col-md-4 col-lg-4 wow animated fadeInUp">
+                                <div className="wrapper first text-start noshadow">
+                                    <div className="top-content bg-seccolorstyle topradius">
+                                        <img className="svg mb-3" src="./assets/fonts/svg/vps.svg" alt=""/>
+                                            <div className="title">Business VPS</div>
+                                            <div className="fromer seccolor">Best value-for-money Servers</div>
+                                            <div className="price mergecolor"><sup>$</sup>9.99 <span
+                                                className="period">/month</span></div>
+                                            <a href="http://inebur.com/whmcs/cart.php?a=add&pid=4&carttpl=antler"
+                                               className="btn btn-default-yellow-fill">Order now</a>
+                                    </div>
+                                    <ul className="list-info">
+                                        <li><i className="icon-cpu"></i> <span className="c-purple">CPU</span><br/>
+                                            <span>2 Cores</span></li>
+                                        <li><i className="icon-ram"></i> <span className="c-purple">RAM</span><br/>
+                                            <span>2GB Memory</span></li>
+                                        <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br/>
+                                            <span>60GB Space</span></li>
+                                        <li><i className="icon-speed"></i> <span className="c-purple">DATA</span><br/>
+                                            <span>1TB Bandwidth</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-12 text-center pt-5">
-                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
-                                    <div className="skill-section">
-                                        <div className="circle-wrapper">
-                                            <div className="circle-entry clearfix">
-                                                <div className="circle center-block color-dark-2"
-                                                     data-startdegree="0" data-dimension="180"
-                                                     data-text="<strong class='number seccolor'>19.322</strong><div class='title-round'>Clients</div>"
-                                                     data-width="5" data-fontsize="17" data-percent="90"
-                                                     data-fgcolor="#808080" data-bgcolor="transparent"
-                                                     data-bordersize="1"></div>
-                                            </div>
-                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur
-                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                        </div>
+                            <div className="col-sm-12 col-md-4 col-lg-4 wow animated fadeInUp fast">
+                                <div className="wrapper text-start noshadow">
+                                    <div className="top-content bg-seccolorstyle topradius">
+                                        <img className="svg mb-3" src="./assets/fonts/svg/vps.svg" alt=""/>
+                                            <div className="title">Professional VPS</div>
+                                            <div className="fromer seccolor">Intensive resources, delivered</div>
+                                            <div className="price mergecolor"><sup>$</sup>19.00 <span
+                                                className="period">/month</span></div>
+                                            <a href="http://inebur.com/whmcs/cart.php?a=add&pid=5&carttpl=antler"
+                                               className="btn btn-default-yellow-fill">Order now</a>
                                     </div>
+                                    <ul className="list-info bg-purple">
+                                        <li><i className="icon-cpu"></i> <span className="c-pink">CPU</span><br/> <span>3 Cores</span>
+                                        </li>
+                                        <li><i className="icon-ram"></i> <span className="c-pink">RAM</span><br/> <span>4GB Memory</span>
+                                        </li>
+                                        <li><i className="icon-drives"></i> <span className="c-pink">DISK</span><br/>
+                                            <span>120GB Space</span></li>
+                                        <li><i className="icon-speed"></i> <span className="c-pink">DATA</span><br/>
+                                            <span>2TB Bandwidth</span></li>
+                                    </ul>
                                 </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
-                                    <div className="skill-section">
-                                        <div className="circle-wrapper">
-                                            <div className="circle-entry clearfix">
-                                                <div className="circle center-block color-dark-2 seccolor"
-                                                     data-startdegree="0" data-dimension="180"
-                                                     data-text="<strong class='number seccolor'>9.510</strong><div class='title-round'>Equipment</div>"
-                                                     data-width="5" data-fontsize="17" data-percent="65"
-                                                     data-fgcolor="#808080" data-bgcolor="transparent"
-                                                     data-bordersize="1"></div>
-                                            </div>
-                                            <p className="seccolor">Excepteur sint occaecat cupidatat non proident,
-                                                sunt in culpa qui officia deserunt mollit.</p>
-                                        </div>
+                            </div>
+                            <div className="col-sm-12 col-md-4 col-lg-4 wow animated fadeInUp">
+                                <div className="wrapper third text-start noshadow">
+                                    <div className="plans badge feat bg-pink">recommended</div>
+                                    <div className="top-content bg-seccolorstyle topradius">
+                                        <img className="svg mb-3" src="./assets/fonts/svg/vps.svg" alt=""/>
+                                            <div className="title">Enterprise VPS</div>
+                                            <div className="fromer seccolor">High performance and traffic</div>
+                                            <div className="price mergecolor"><sup>$</sup>34.99 <span
+                                                className="period">/month</span></div>
+                                            <a href="http://inebur.com/whmcs/cart.php?a=add&pid=6&carttpl=antler"
+                                               className="btn btn-default-yellow-fill">Order now</a>
                                     </div>
-                                </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4 float-start">
-                                    <div className="skill-section">
-                                        <div className="circle-wrapper">
-                                            <div className="circle-entry clearfix">
-                                                <div className="circle center-block color-dark-2 seccolor"
-                                                     data-startdegree="0" data-dimension="180"
-                                                     data-text="<strong class='number seccolor'>1231</strong><div class='title-round'>Projects</div>"
-                                                     data-width="5" data-fontsize="17" data-percent="45"
-                                                     data-fgcolor="#808080" data-bgcolor="transparent"
-                                                     data-bordersize="1"></div>
-                                            </div>
-                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur
-                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
+                                    <ul className="list-info">
+                                        <li><i className="icon-cpu"></i> <span className="c-purple">CPU</span><br/>
+                                            <span>4 Cores</span></li>
+                                        <li><i className="icon-ram"></i> <span className="c-purple">RAM</span><br/>
+                                            <span>8GB Memory</span></li>
+                                        <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br/>
+                                            <span>240GB Space</span></li>
+                                        <li><i className="icon-speed"></i> <span className="c-purple">DATA</span><br/>
+                                            <span>3TB Bandwidth</span></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <img className="blobleft svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background"/>
+                    <!-- ***** FEATURES ***** -->
+                    <section id="features" className="history-section sec-normal exapath bg-colorstyle">
+                        <div className="container">
+                            <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
+                                <div className="row">
+                                    <div className="col-md-10 offset-md-1">
+                                        <div className="info-content">
+                                            <h2 className="mb-4 mergecolor"><b>Fully scalable to grow with you</b></h2>
+                                            <p className="seccolor">But I must explain to you how all this mistaken idea
+                                                of <a href="#" className="golink">denouncing pleasure</a> and praising
+                                                pain was born and I will. Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                                ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
+                                        <img className="svg" src="assets/patterns/scalable.svg" alt="scalable"/>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-10 offset-md-1">
+                                        <div className="info-content">
+                                            <h2 className="mb-4 mergecolor"><b>Instant provisioning</b></h2>
+                                            <p className="seccolor">But I must explain to you how all this mistaken idea
+                                                of denouncing pleasure and praising pain was born and I will. Lorem
+                                                ipsum dolor sit amet, <a href="#" className="golink">consectetur
+                                                    adipiscing elit,</a> sed do eiusmod tempor incididunt.</p>
+                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit, sed do eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
+                                        <img className="svg" src="assets/patterns/provisioning.svg" alt="provisioning"/>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-10 offset-md-1">
+                                        <div className="info-content">
+                                            <h2 className="mb-4 mergecolor"><b>Redundant infrastructure</b></h2>
+                                            <p className="seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Ut enim ad minim veniam, <a href="#" className="golink">quis nostrud
+                                                    exercitation ullamco</a> laboris nisi.</p>
+                                            <p className="seccolor">But I must explain to you how all this mistaken idea
+                                                of denouncing pleasure and praising pain was born and I will. Lorem
+                                                ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
+                                        <img className="svg" src="assets/patterns/redundant.svg" alt="redundant"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
+
+                    <section className="getready sec-grad-yellow-to-black-right scrollme bg-seccolorstyle">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-8">
+                                    <div className="column-support-txt animateme" data-when="enter" data-from="1"
+                                         data-to="0" data-opacity="1" data-translatex="-60" data-easeinout="0">
+                                        <div className="column-support-title mergecolor">Watch Antler Data Center</div>
+                                        <div className="column-support-subtitle seccolor">Your services in advanced Data
+                                            Centers and Infrastructures.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4">
+                                    <div className="btn-floats">
+                                        <a className="btn btn-default-yellow-fill me-3 popup-youtube"
+                                           href="http://www.youtube.com/watch?v=0O2aH4XLbto">Video Data Center</a>
+                                        <a href="contact.html" className="btn btn-default-pink-fill">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section className="sec-normal sec-bg1 bg-colorstyle">
+                        <div className="best-plans pricing">
+                            <div className="container">
+                                <div className="randomline">
+                                    <div className="bigline"></div>
+                                    <div className="smallline"></div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12 text-center">
+                                        <h2 className="section-heading mergecolor">VPS Server Technical
+                                            Specifications</h2>
+                                        <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                    <div className="col-sm-12">
+                                        <div className="table-responsive-lg">
+                                            <table className="table sample mt-5">
+                                                <thead>
+                                                <tr>
+                                                    <td><span className="title">Features </span></td>
+                                                    <td>
+                                                        <div className="title">Performance</div>
+                                                    </td>
+                                                    <td>
+                                                        <div className="title">Boosters</div>
+                                                    </td>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div className="title-table" data-bs-toggle="popover"
+                                                             data-bs-trigger="hover" data-bs-placement="top"
+                                                             data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                                            <span className="fas fa-check-circle me-2"></span>
+                                                            CentOS 6/7, Ubuntu 16v
+                                                        </div>
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> SSD Storage
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> cPanel</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div className="title-table" data-bs-toggle="popover"
+                                                             data-bs-trigger="hover" data-bs-placement="top"
+                                                             data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                                            <span className="fas fa-check-circle me-2"></span> Fedora
+                                                            23, Debian 8
+                                                        </div>
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> Tier IV Data
+                                                        Center
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> Plesk Onyx
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="title-table"><span
+                                                        className="fas fa-check-circle me-2"></span> Private Network
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> Juniper
+                                                        Networks
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> WHMCS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="title-table"><span
+                                                        className="fas fa-check-circle me-3"></span> Quick VNC access
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> DDos
+                                                        mitigation
+                                                    </td>
+                                                    <td><span className="fas fa-check-circle me-2"></span> SAN storage
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-0"><a href=""
+                                                                                className="btn btn-default-pink-fill">All
+                                                        Specs</a></td>
+                                                    <td className="border-0"><a href=""
+                                                                                className="btn btn-default-pink-fill">All
+                                                        Specs</a></td>
+                                                    <td className="border-0"><a href=""
+                                                                                className="btn btn-default-pink-fill">All
+                                                        Specs</a></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="custom" className="sec-normal overlay item1">
+                        <div className="container">
+                            <div className="wpc-cloud-range">
+                                <div className="row">
+                                    <div className="col-sm-12 text-center">
+                                        <h2 className="section-heading text-white">Custom Your VPS Server</h2>
+                                        <p className="section-subheading text-white">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                    <div className="col-sm-12">
+                                        <div className="slider-ui" data-handle="1">
+                                            <input className="slider-inp invisible" data-count-step="5" type="text"/>
+                                            <div className="slider-line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="wpc-vps-info position-relative">
+                                <div className="row">
+                                    <div className="col-md-12 col-lg-9">
+                                        <div className="row">
+                                            <div className="col-sm-12 col-md-4">
+                                                <h3 className="title bg-seccolorstyle noshadow">
+                                                    <i className="icon-cpu"></i> <span className="mergecolor">CPU</span>
+                                                    <span id="cpu-val" className="info">---</span>
+                                                </h3>
+                                            </div>
+                                            <div className="col-sm-12 col-md-4">
+                                                <h3 className="title bg-seccolorstyle noshadow">
+                                                    <i className="icon-ram"></i> <span className="mergecolor">RAM</span>
+                                                    <span id="ram-val" className="info">---</span>
+                                                </h3>
+                                            </div>
+                                            <div className="col-sm-12 col-md-4">
+                                                <h3 className="title bg-seccolorstyle noshadow">
+                                                    <i className="icon-drivessd"></i> <span className="mergecolor">Disk Space</span>
+                                                    <span id="disk-val" className="info">---</span>
+                                                </h3>
+                                            </div>
+                                            <div className="col-sm-12 col-md-4">
+                                                <h3 className="title bg-seccolorstyle noshadow">
+                                                    <i className="icon-speed"></i> <span
+                                                    className="mergecolor">Bandwidth</span> <span id="bw-val"
+                                                                                                  className="info">---</span>
+                                                </h3>
+                                            </div>
+                                            <div className="col-sm-12 col-md-4">
+                                                <h3 className="title bg-seccolorstyle noshadow">
+                                                    <i className="icon-repair"></i> <span
+                                                    className="mergecolor">Setup</span> <span id="setup-val"
+                                                                                              className="info">---</span>
+                                                </h3>
+                                            </div>
+                                            <div className="col-sm-12 col-md-4">
+                                                <h3 className="title bg-seccolorstyle noshadow">
+                                                    <i className="icon-network"></i> <span className="mergecolor">IP Address</span>
+                                                    <span id="ip-val" className="info">---</span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 col-lg-3">
+                                        <div className="h-plans-info">
+                                            <div className="content-price price-container bg-seccolorstyle noshadow">
+                                                <div id="run-switch" className="run-switch">
+                                                    <div className="switch m-0" onClick="switchVisible();"></div>
+                                                </div>
+                                                <div className="price-content">
+                                                    <div className="plans badge feat bg-pink period">month</div>
+                                                    <div className="price">
+                                                        <span className="symbol coin mergecolor">$</span>
+                                                        <span id="price-val" className="mergecolor"></span>
+                                                        <span id="priceon-val" className="mergecolor"></span>
+                                                    </div>
+                                                    <div className="infos seccolor">
+                                                        <div className="badge feat bg-grey">Info</div>
+                                                        If you subscribe for an extended period, you will get a discount
+                                                    </div>
+                                                    <a id="orderlink" href="#" className="btn btn-default-yellow-fill">Buy
+                                                        Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="faq" className="sec-normal sec-bg2 bg-colorstyle bottomhalfpadding">
+                        <div className="faq">
+                            <div className="container">
+                                <img className="blobright svg d-none" src="./assets/img/background/blob.svg"
+                                     alt="Blob Background">
+                                    <div className="row">
+                                        <div className="col-md-12 col-sm-12 text-center">
+                                            <h2 className="section-heading mergecolor">Frequently Asked Questions
+                                                VPS</h2>
+                                            <p className="section-subheading mergecolor">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                        </div>
+                                        <div className="col-sm-12">
+                                            <div className="accordion faq pt-5">
+                                                <div className="panel-wrap">
+                                                    <div className="panel-title seccolor active">
+                                                        <span>Do the Virtual Private Servers have a backup policy?</span>
+                                                        <div className="float-end">
+                                                            <i className="fa fa-plus"></i>
+                                                            <i className="fa fa-minus c-pink"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div className="panel-collapse d-block">
+                                                        <div className="wrapper-collapse">
+                                                            <div className="info">
+                                                                <ul className="list seccolor">
+                                                                    <li>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur
+                                                                            adipiscing elit, sed do eiusmod tempor
+                                                                            incididunt ut labore et dolore magna.</p>
+                                                                        <p>Excepteur sint occaecat cupidatat non
+                                                                            proident, sunt in culpa qui officia deserunt
+                                                                            mollit anim id est laborum.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="panel-wrap">
+                                                    <div className="panel-title seccolor">
+                                                        <span>What are the benefits of Cloud VPS?</span>
+                                                        <div className="float-end">
+                                                            <i className="fa fa-plus"></i>
+                                                            <i className="fa fa-minus c-pink"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div className="panel-collapse">
+                                                        <div className="wrapper-collapse">
+                                                            <div className="info">
+                                                                <ul className="list seccolor">
+                                                                    <li>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur
+                                                                            adipiscing elit, sed do eiusmod tempor
+                                                                            incididunt ut labore et dolore magna.</p>
+                                                                        <p>Excepteur sint occaecat cupidatat non
+                                                                            proident, sunt in culpa qui officia deserunt
+                                                                            mollit anim id est laborum.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="panel-wrap">
+                                                    <div className="panel-title seccolor">
+                                                        <span>Is Email Hosting included?</span>
+                                                        <div className="float-end">
+                                                            <i className="fa fa-plus"></i>
+                                                            <i className="fa fa-minus c-pink"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div className="panel-collapse">
+                                                        <div className="wrapper-collapse">
+                                                            <div className="info">
+                                                                <ul className="list seccolor">
+                                                                    <li>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur
+                                                                            adipiscing elit, sed do eiusmod tempor
+                                                                            incididunt ut labore et dolore magna.</p>
+                                                                        <p>Excepteur sint occaecat cupidatat non
+                                                                            proident, sunt in culpa qui officia deserunt
+                                                                            mollit anim id est laborum.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="panel-wrap">
+                                                    <div className="panel-title seccolor">
+                                                        <span>What type of support do you offer?</span>
+                                                        <div className="float-end">
+                                                            <i className="fa fa-plus"></i>
+                                                            <i className="fa fa-minus c-pink"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div className="panel-collapse">
+                                                        <div className="wrapper-collapse">
+                                                            <div className="info">
+                                                                <ul className="list seccolor">
+                                                                    <li>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur
+                                                                            adipiscing elit, sed do eiusmod tempor
+                                                                            incididunt ut labore et dolore magna.</p>
+                                                                        <p>Excepteur sint occaecat cupidatat non
+                                                                            proident, sunt in culpa qui officia deserunt
+                                                                            mollit anim id est laborum.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+
+                
+                    <section className="help pt-4 notoppadding pb-80 bg-colorstyle">
+                        <div className="container">
+                            <div className="service-wrap">
+                                <div className="row">
+                                    <div className="col-sm-12 col-md-6 col-lg-6">
+                                        <div className="help-container bg-seccolorstyle noshadow">
+                                            <div className="plans badge feat left bg-grey"><i
+                                                className="fas fa-long-arrow-alt-left"></i></div>
+                                            <a href="hosting" className="help-item">
+                                                <div className="img">
+                                                    <img className="svg ico" src="./assets/fonts/svg/cloudfiber.svg"
+                                                         alt=""/>
+                                                </div>
+                                                <div className="inform">
+                                                    <div className="title mergecolor">Go to Shared Hosting</div>
+                                                    <div className="description seccolor">Need similar power but a
+                                                        simpler solution?
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-12 col-md-6 col-lg-6">
+                                        <div className="help-container bg-seccolorstyle noshadow">
+                                            <div className="plans badge feat bg-grey"><i
+                                                className="fas fa-long-arrow-alt-right"></i></div>
+                                            <a href="dedicated" className="help-item">
+                                                <div className="img">
+                                                    <img className="svg ico" src="./assets/fonts/svg/dedicated.svg"
+                                                         alt=""/>
+                                                </div>
+                                                <div className="inform">
+                                                    <div className="title mergecolor">Go to Dedicated Server</div>
+                                                    <div className="description seccolor">Need more power and
+                                                        resources?
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
                 <Footer />
             </div>
