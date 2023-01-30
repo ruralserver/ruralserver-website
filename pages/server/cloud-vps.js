@@ -35,7 +35,7 @@ export default function CloudVps() {
                         <div className="banner-video">
                             <div className="cover-wrapper">
                                 <video className="cover-video" autoPlay loop muted>
-                                    <source src="assets/videos/Modem-lights.mp4" type="video/mp4">
+                                    <source src="assets/videos/Modem-lights.mp4" type="video/mp4"/>
                                 </video>
                             </div>
                         </div>
@@ -511,7 +511,7 @@ export default function CloudVps() {
                         </div>
                     </section>
 
-                
+
                     <section className="help pt-4 notoppadding pb-80 bg-colorstyle">
                         <div className="container">
                             <div className="service-wrap">
