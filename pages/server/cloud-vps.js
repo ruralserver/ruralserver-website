@@ -35,7 +35,7 @@ export default function CloudVps() {
                         <div className="banner-video">
                             <div className="cover-wrapper">
                                 <video className="cover-video" autoPlay loop muted>
-                                    <source src="assets/videos/Modem-lights.mp4" type="video/mp4"/>
+                                    <source src="/videos/Modem-lights.mp4" type="video/mp4"/>
                                 </video>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ export default function CloudVps() {
                             <div className="col-sm-12 col-md-4 col-lg-4 wow animated fadeInUp">
                                 <div className="wrapper first text-start noshadow">
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="./assets/fonts/svg/vps.svg" alt=""/>
+                                        <img className="svg mb-3" src="/fonts/svg/vps.svg" alt=""/>
                                             <div className="title">Business VPS</div>
                                             <div className="fromer seccolor">Best value-for-money Servers</div>
                                             <div className="price mergecolor"><sup>$</sup>9.99 <span
@@ -71,7 +71,7 @@ export default function CloudVps() {
                             <div className="col-sm-12 col-md-4 col-lg-4 wow animated fadeInUp fast">
                                 <div className="wrapper text-start noshadow">
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="./assets/fonts/svg/vps.svg" alt=""/>
+                                        <img className="svg mb-3" src="/fonts/svg/vps.svg" alt=""/>
                                             <div className="title">Professional VPS</div>
                                             <div className="fromer seccolor">Intensive resources, delivered</div>
                                             <div className="price mergecolor"><sup>$</sup>19.00 <span
@@ -95,7 +95,7 @@ export default function CloudVps() {
                                 <div className="wrapper third text-start noshadow">
                                     <div className="plans badge feat bg-pink">recommended</div>
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="./assets/fonts/svg/vps.svg" alt=""/>
+                                        <img className="svg mb-3" src="/fonts/svg/vps.svg" alt=""/>
                                             <div className="title">Enterprise VPS</div>
                                             <div className="fromer seccolor">High performance and traffic</div>
                                             <div className="price mergecolor"><sup>$</sup>34.99 <span
@@ -118,7 +118,7 @@ export default function CloudVps() {
                         </div>
                     </div>
                 </section>
-                <img className="blobleft svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background"/>
+                <img className="blobleft svg d-none" src="/img/background/blob.svg" alt="Blob Background"/>
 
 
                     <section id="features" className="history-section sec-normal exapath bg-colorstyle">
@@ -139,7 +139,7 @@ export default function CloudVps() {
                                         </div>
                                     </div>
                                     <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
-                                        <img className="svg" src="assets/patterns/scalable.svg" alt="scalable"/>
+                                        <img className="svg" src="/patterns/scalable.svg" alt="scalable"/>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -155,7 +155,7 @@ export default function CloudVps() {
                                         </div>
                                     </div>
                                     <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
-                                        <img className="svg" src="assets/patterns/provisioning.svg" alt="provisioning"/>
+                                        <img className="svg" src="/patterns/provisioning.svg" alt="provisioning"/>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -172,7 +172,7 @@ export default function CloudVps() {
                                         </div>
                                     </div>
                                     <div className="col-md-10 offset-md-1 pt-5 wow animated fadeInUp fast">
-                                        <img className="svg" src="assets/patterns/redundant.svg" alt="redundant"/>
+                                        <img className="svg" src="/patterns/redundant.svg" alt="redundant"/>
                                     </div>
                                 </div>
                             </div>
@@ -394,7 +394,7 @@ export default function CloudVps() {
                     <section id="faq" className="sec-normal sec-bg2 bg-colorstyle bottomhalfpadding">
                         <div className="faq">
                             <div className="container">
-                                <img className="blobright svg d-none" src="./assets/img/background/blob.svg"
+                                <img className="blobright svg d-none" src="/img/background/blob.svg"
                                      alt="Blob Background" />
                                     <div className="row">
                                         <div className="col-md-12 col-sm-12 text-center">
@@ -523,7 +523,7 @@ export default function CloudVps() {
                                                 className="fas fa-long-arrow-alt-left"></i></div>
                                             <a href="hosting" className="help-item">
                                                 <div className="img">
-                                                    <img className="svg ico" src="./assets/fonts/svg/cloudfiber.svg"
+                                                    <img className="svg ico" src="/fonts/svg/cloudfiber.svg"
                                                          alt=""/>
                                                 </div>
                                                 <div className="inform">
@@ -541,7 +541,7 @@ export default function CloudVps() {
                                                 className="fas fa-long-arrow-alt-right"></i></div>
                                             <a href="dedicated" className="help-item">
                                                 <div className="img">
-                                                    <img className="svg ico" src="./assets/fonts/svg/dedicated.svg"
+                                                    <img className="svg ico" src="/fonts/svg/dedicated.svg"
                                                          alt=""/>
                                                 </div>
                                                 <div className="inform">
