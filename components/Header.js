@@ -167,7 +167,7 @@ export default function Header() {
                                                                               <li className="menu-item"><Link
                                                                                   className="mergecolor"
                                                                                   href="/datacenter"
-                                                                                  data-i18n="[html]submenu.datacenters">Datacenter</Link>
+                                                                                  data-i18n="[html]submenu.datacenters">Datacenter </Link>
                                                                                   <div
                                                                                       className="badge inside bg-grey">TOP
                                                                                   </div>
@@ -193,7 +193,7 @@ export default function Header() {
                                                                           <ul>
                                                                               <li className="menu-item"><Link
                                                                                   className="mergecolor" href="/payment-methods"
-                                                                                  data-i18n="[html]submenu.paymentsmethod">Payment Methods</Link>
+                                                                                  data-i18n="[html]submenu.paymentsmethod">Payment Methods </Link>
                                                                                   <div
                                                                                       className="badge inside bg-pink">NEW
                                                                                   </div>
