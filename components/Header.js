@@ -122,7 +122,7 @@ export default function Header() {
                                                                                alt="Services" />
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
-                                                                                  data-i18n="[html]submenu.services"></div>
+                                                                                  data-i18n="[html]submenu.services">Services</div>
                                                                       </div>
                                                                       <hr/>
                                                                           <ul>
@@ -177,7 +177,7 @@ export default function Header() {
                                                                                alt="Infrastructure" />
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
-                                                                                  data-i18n="[html]submenu.infrastructure"></div>
+                                                                                  data-i18n="[html]submenu.infrastructure">Infrastructure</div>
                                                                       </div>
                                                                       <hr/>
                                                                           <ul>
@@ -226,7 +226,7 @@ export default function Header() {
                                                                                src="/fonts/svg/global.svg" alt="Global"/>
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
-                                                                                  data-i18n="[html]submenu.others"></div>
+                                                                                  data-i18n="[html]submenu.others">others</div>
                                                                       </div>
                                                                       <hr/>
                                                                           <ul>
