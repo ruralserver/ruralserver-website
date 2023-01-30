@@ -135,15 +135,16 @@ export default function Header() {
                                                                                   className="mergecolor" href="ssl"
                                                                                   data-i18n="[html]submenu.windowsreseller">Windows Reseller Hosting</a>
                                                                               </li>
-                                                                              </li>
+
+
                                                                               <li className="menu-item"><a
-                                                                                  className="mergecolor" href="gaming"
+                                                                                  className="mergecolor"
+                                                                                  href="radiostream"
                                                                                   data-i18n="[html]submenu.websecurity">Web Security </a>
                                                                                   <div
                                                                                       className="badge inside bg-pink">NEW
                                                                                   </div>
                                                                               </li>
-                                                                              
                                                                           </ul>
                                                                   </div>
                                                               </div>
