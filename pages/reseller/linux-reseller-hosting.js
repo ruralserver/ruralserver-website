@@ -59,7 +59,7 @@ export default function Home() {
 
 
                 <a className="gocontent godown gocheck" href="#scroll">
-                    <img className="svg" src="./assets/fonts/svg/arrowdown.svg" height="80" alt="features" />
+                    <img className="svg" src="/fonts/svg/arrowdown.svg" height="80" alt="features" />
                         <span>Features</span>
                 </a>
 
@@ -75,7 +75,7 @@ export default function Home() {
                                  data-to="1" data-opacity="1" data-translatey="-20">
                                 <div className="wrapper price-container text-start wow animated fadeInUp noshadow">
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="./assets/fonts/svg/reseller.svg" height="65"
+                                        <img className="svg mb-3" src="/fonts/svg/reseller.svg" height="65"
                                              alt="" />
                                             <div className="title">Linux 30 Accounts</div>
                                             <div className="fromer seccolor">annually get (20% discount)</div>
@@ -106,7 +106,7 @@ export default function Home() {
                                 <div className="wrapper price-container text-start wow animated fadeInUp fast noshadow">
                                     <div className="plans badge feat bg-pink">best value</div>
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="./assets/fonts/svg/cloudlinux.svg" height="65"
+                                        <img className="svg mb-3" src="/fonts/svg/cloudlinux.svg" height="65"
                                              alt="" />
                                             <div className="title">Linux 80 accounts</div>
                                             <div className="fromer seccolor">annually get (20% discount)</div>
@@ -135,7 +135,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <img className="blobleft svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background" />
+                <img className="blobleft svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
 
 
                     <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
@@ -147,7 +147,7 @@ export default function Home() {
                             <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
                                 <div className="row">
                                     <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
-                                        <img className="svg first" src="assets/patterns/api.svg" alt="api automation" />
+                                        <img className="svg first" src="/patterns/api.svg" alt="api automation" />
                                     </div>
                                     <div className="col-md-12 col-lg-6 offset-lg-1">
                                         <div className="info-content">
@@ -171,14 +171,14 @@ export default function Home() {
                                             <a href="" className="btn btn-default-yellow-fill mt-3">Learn more</a>
                                         </div>
                                         <div className="col-md-12 col-lg-5 offset-lg-1 wow animated fadeInUp fast">
-                                            <img className="svg second" src="assets/patterns/performance.svg"
+                                            <img className="svg second" src="/patterns/performance.svg"
                                                  alt="performance" />
                                         </div>
                                     </div>
                                     <hr/>
                                         <div className="row">
                                             <div className="col-md-12 col-lg-6 wow animated fadeInUp fast ">
-                                                <img className="svg third" src="assets/patterns/install.svg"
+                                                <img className="svg third" src="/patterns/install.svg"
                                                      alt="1-click-installer" />
                                             </div>
                                             <div className="col-md-12 col-lg-5 offset-lg-1">
@@ -208,7 +208,7 @@ export default function Home() {
                                     <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
                                          data-to="0" data-opacity="1" data-translatex="-60" data-easeinout="0">
                                         <div className="service-section bg-seccolorstyle noshadow">
-                                            <img className="svg" src="./assets/fonts/svg/hierarchy.svg" alt="" />
+                                            <img className="svg" src="/fonts/svg/hierarchy.svg" alt="" />
                                                 <div className="title mergecolor">Seamless Upgrades</div>
                                                 <p className="subtitle seccolor">
                                                     Excepteur sint occaecat cupidatat non proident voluptate. Lorem
@@ -219,7 +219,7 @@ export default function Home() {
                                     <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
                                          data-to="0" data-opacity="1" data-translatey="60" data-easeinout="0">
                                         <div className="service-section bg-seccolorstyle noshadow">
-                                            <img className="svg" src="./assets/fonts/svg/cloudmanaged.svg" alt="" />
+                                            <img className="svg" src="/fonts/svg/cloudmanaged.svg" alt="" />
                                                 <div className="title mergecolor">Perfomance Optimized</div>
                                                 <p className="subtitle seccolor">
                                                     Excepteur sint occaecat cupidatat non proident dolor. Lorem ipsum
@@ -231,7 +231,7 @@ export default function Home() {
                                          data-to="0" data-opacity="1" data-translatex="60" data-easeinout="0">
                                         <div className="service-section bg-seccolorstyle noshadow">
                                             <div className="plans badge feat bg-pink">control panel</div>
-                                            <img className="svg" src="./assets/fonts/svg/window.svg" alt="" />
+                                            <img className="svg" src="/fonts/svg/window.svg" alt="" />
                                                 <div className="title mergecolor">Free cPanel & WHM</div>
                                                 <p className="subtitle seccolor">
                                                     Excepteur sint occaecat cupidatat non proident voluptate. Lorem
@@ -465,7 +465,7 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-                    <img className="blobright svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background" />
+                    <img className="blobright svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
 
 
                     <Footer />
