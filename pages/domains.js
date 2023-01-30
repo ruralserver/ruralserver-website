@@ -27,7 +27,7 @@ export default function Home() {
                                     <h3 className="subheading mb-4">Choose from hundreds of extensions and put your
                                         website in the world.</h3>
                                     <form className="mb-5 nomargin"
-                                          action="http://inebur.com/whmcs/domainchecker.php?carttpl=antler&systpl=antler"
+                                          action="https://inebur.com/whmcs/domainchecker.php?carttpl=antler&systpl=antler"
                                           method="post">
                                         <div className="general-input w-50">
                                             <input type="text" name="domain"
