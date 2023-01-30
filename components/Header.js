@@ -164,10 +164,10 @@ export default function Header() {
                                                                                   className="mergecolor" href="ddos"
                                                                                   data-i18n="[html]submenu.ddosprotections"> DDoS Protections</a>
                                                                               </li>
-                                                                              <li className="menu-item"><a
+                                                                              <li className="menu-item"><Link
                                                                                   className="mergecolor"
-                                                                                  href="datacenter"
-                                                                                  data-i18n="[html]submenu.datacenters">Datacenter</a>
+                                                                                  href="/datacenter"
+                                                                                  data-i18n="[html]submenu.datacenters">Datacenter</Link>
                                                                                   <div
                                                                                       className="badge inside bg-grey">TOP
                                                                                   </div>
@@ -198,10 +198,10 @@ export default function Header() {
                                                                                       className="badge inside bg-pink">NEW
                                                                                   </div>
                                                                               </li>
-                                                                              <li className="menu-item"><a
+                                                                              <li className="menu-item"><Link
                                                                                   className="mergecolor"
-                                                                                  href="configurator"
-                                                                                  data-i18n="[html]submenu.tos">TOS </a>
+                                                                                  href="/tos"
+                                                                                  data-i18n="[html]submenu.tos">TOS </Link>
                                                                                   <div
                                                                                       className="badge inside bg-grey">NEW
                                                                                   </div>
