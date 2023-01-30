@@ -191,9 +191,9 @@ export default function Header() {
                                                                       </div>
                                                                       <hr/>
                                                                           <ul>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="payments"
-                                                                                  data-i18n="[html]submenu.paymentsmethod">Payment Methods</a>
+                                                                              <li className="menu-item"><Link
+                                                                                  className="mergecolor" href="/payment-methods"
+                                                                                  data-i18n="[html]submenu.paymentsmethod">Payment Methods</Link>
                                                                                   <div
                                                                                       className="badge inside bg-pink">NEW
                                                                                   </div>
