@@ -36,11 +36,11 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                
+
                 <section id="gotop" className="blog motpath pb-80 bg-colorstyle">
                     <div className="container">
                         <div className="row">
-                            <!-- sidebar -->
+                            
                             <div className="col-md-12 col-lg-4">
                                 <aside id="sidebar" className="sidebar mt-80 sec-bg1 bg-seccolorstyle noshadow">
                                     <div className="menu categories clear">
