@@ -162,39 +162,21 @@ export default function Header() {
                                                                           <ul>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor" href="ddos"
-                                                                                  data-i18n="[html]submenu.ddos"> </a>
+                                                                                  data-i18n="[html]submenu.ddosprotections"> DDoS Protections</a>
                                                                               </li>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor"
                                                                                   href="datacenter"
-                                                                                  data-i18n="[html]submenu.datacenter"> </a>
+                                                                                  data-i18n="[html]submenu.datacenters">Datacenter</a>
                                                                                   <div
                                                                                       className="badge inside bg-grey">TOP
                                                                                   </div>
                                                                               </li>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor" href="about"
-                                                                                  data-i18n="[html]submenu.about"> </a>
+                                                                                  data-i18n="[html]submenu.aboutruralserver">About Ruralserver</a>
                                                                               </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="database"
-                                                                                  data-i18n="[html]submenu.database"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="elements"
-                                                                                  data-i18n="[html]submenu.elements"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="voip"
-                                                                                  data-i18n="[html]submenu.voip"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="voice"
-                                                                                  data-i18n="[html]submenu.voice"> </a>
-                                                                                  <div
-                                                                                      className="badge inside bg-pink">NEW
-                                                                                  </div>
-                                                                              </li>
+
                                                                           </ul>
                                                                   </div>
                                                               </div>
