@@ -128,7 +128,7 @@ export default function Header() {
                                                                           <ul>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor"
-                                                                                  href="emailsecurity"
+                                                                                  href="/reseller/linux-reseller-hosting"
                                                                                   data-i18n="[html]submenu.linuxreseller"> Linux Reseller Hosting</a>
                                                                               </li>
                                                                               <li className="menu-item"><a
