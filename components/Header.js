@@ -278,8 +278,8 @@ export default function Header() {
                                                                            alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
-                                                                      <a className="menu-item mergecolor" href="legal"
-                                                                         data-i18n="[html]submenu.termsofservice">Terms of Service</a>
+                                                                      <Link className="menu-item mergecolor" href="/tos"
+                                                                         data-i18n="[html]submenu.termsofservice">Terms of Service</Link>
                                                                       <div className="badge inside bg-grey ms-1">NEW
                                                                       </div>
                                                                       <p className="seccolor">Know here your basic and easy terms and condition </p>
