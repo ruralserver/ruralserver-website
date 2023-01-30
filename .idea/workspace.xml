@@ -956,10 +956,14 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\shivs\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0f0dfbeb-5b9a-4a46-bed3-314c096bc70d" name="Changes" comment="" />
@@ -972,6 +976,7 @@
       <workItem from="1650034319533" duration="1629000" />
       <workItem from="1653640909624" duration="1630000" />
       <workItem from="1675080164818" duration="1060000" />
+      <workItem from="1675081346304" duration="351000" />
     </task>
     <servers />
   </component>
@@ -988,5 +993,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
