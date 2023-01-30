@@ -32,7 +32,7 @@ export default function Footer() {
                             <div className="col-sm-6 col-md-3">
                                 <div className="heading">Company</div>
                                 <ul className="footer-menu">
-                                    <li className="menu-item"><a href="about"> About RuralServer</a></li>
+                                    <li className="menu-item"><Link href="/about-ruralserver"> About RuralServer</Link></li>
                                     <li className="menu-item"><Link href="/tos"> Terms of Service</Link></li>
                                     <li className="menu-item"><a href="blog-details">Acceptable Use Policy</a></li>
                                     <li className="menu-item"><a href="legal">Privacy Policy</a></li>

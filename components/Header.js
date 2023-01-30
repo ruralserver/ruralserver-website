@@ -126,14 +126,14 @@ export default function Header() {
                                                                       </div>
                                                                       <hr/>
                                                                           <ul>
-                                                                              <li className="menu-item"><a
+                                                                              <li className="menu-item"><Link
                                                                                   className="mergecolor"
                                                                                   href="/reseller/linux-reseller-hosting"
-                                                                                  data-i18n="[html]submenu.linuxreseller"> Linux Reseller Hosting</a>
+                                                                                  data-i18n="[html]submenu.linuxreseller"> Linux Reseller Hosting</Link>
                                                                               </li>
-                                                                              <li className="menu-item"><a
+                                                                              <li className="menu-item"><Link
                                                                                   className="mergecolor" href="/reseller/windows-reseller-hosting"
-                                                                                  data-i18n="[html]submenu.windowsreseller">Windows Reseller Hosting</a>
+                                                                                  data-i18n="[html]submenu.windowsreseller">Windows Reseller Hosting</Link>
                                                                               </li>
 
 
@@ -172,9 +172,9 @@ export default function Header() {
                                                                                       className="badge inside bg-grey">TOP
                                                                                   </div>
                                                                               </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="about"
-                                                                                  data-i18n="[html]submenu.aboutruralserver">About Ruralserver</a>
+                                                                              <li className="menu-item"><Link
+                                                                                  className="mergecolor" href="/about-ruralserver"
+                                                                                  data-i18n="[html]submenu.aboutruralserver">About Ruralserver</Link>
                                                                               </li>
 
                                                                           </ul>
