@@ -129,43 +129,21 @@ export default function Header() {
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor"
                                                                                   href="emailsecurity"
-                                                                                  data-i18n="[html]submenu.emailsecurity"> </a>
+                                                                                  data-i18n="[html]submenu.linuxreseller"> Linux Reseller Hosting</a>
                                                                               </li>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor" href="ssl"
-                                                                                  data-i18n="[html]submenu.ssl"> </a>
+                                                                                  data-i18n="[html]submenu.windowsreseller">Windows Reseller Hosting</a>
                                                                               </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="email"
-                                                                                  data-i18n="[html]submenu.email"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="magento"
-                                                                                  data-i18n="[html]submenu.magento"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="gsuite"
-                                                                                  data-i18n="[html]submenu.gsuite"> </a>
-                                                                              </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="iptv"
-                                                                                  data-i18n="[html]submenu.iptv"> </a>
                                                                               </li>
                                                                               <li className="menu-item"><a
                                                                                   className="mergecolor" href="gaming"
-                                                                                  data-i18n="[html]submenu.gaming"> </a>
+                                                                                  data-i18n="[html]submenu.websecurity">Web Security </a>
                                                                                   <div
                                                                                       className="badge inside bg-pink">NEW
                                                                                   </div>
                                                                               </li>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor"
-                                                                                  href="radiostream"
-                                                                                  data-i18n="[html]submenu.radiostream"> </a>
-                                                                                  <div
-                                                                                      className="badge inside bg-pink">NEW
-                                                                                  </div>
-                                                                              </li>
+                                                                              
                                                                           </ul>
                                                                   </div>
                                                               </div>
