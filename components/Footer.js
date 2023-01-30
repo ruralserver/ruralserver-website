@@ -53,7 +53,6 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div className="footer-bottom pt-35">
                     <div className="container pt-35">
