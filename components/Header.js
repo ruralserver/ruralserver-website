@@ -160,9 +160,9 @@ export default function Header() {
                                                                       </div>
                                                                       <hr/>
                                                                           <ul>
-                                                                              <li className="menu-item"><a
-                                                                                  className="mergecolor" href="ddos"
-                                                                                  data-i18n="[html]submenu.ddosprotections"> DDoS Protections</a>
+                                                                              <li className="menu-item"><Link
+                                                                                  className="mergecolor" href="/ddos"
+                                                                                  data-i18n="[html]submenu.ddosprotections"> DDoS Protections</Link>
                                                                               </li>
                                                                               <li className="menu-item"><Link
                                                                                   className="mergecolor"
