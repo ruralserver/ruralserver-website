@@ -119,7 +119,8 @@ export default function CloudVps() {
                     </div>
                 </section>
                 <img className="blobleft svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background"/>
-                    <!-- ***** FEATURES ***** -->
+
+                
                     <section id="features" className="history-section sec-normal exapath bg-colorstyle">
                         <div className="container">
                             <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
