@@ -132,7 +132,7 @@ export default function Header() {
                                                                                   data-i18n="[html]submenu.linuxreseller"> Linux Reseller Hosting</a>
                                                                               </li>
                                                                               <li className="menu-item"><a
-                                                                                  className="mergecolor" href="ssl"
+                                                                                  className="mergecolor" href="/reseller/windows-reseller-hosting"
                                                                                   data-i18n="[html]submenu.windowsreseller">Windows Reseller Hosting</a>
                                                                               </li>
 
