@@ -302,7 +302,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <img className="blobleft svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background" />
+                <img className="blobleft svg d-none" src="/img/background/blob.svg" alt="Blob Background" />
 
 
                     <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
@@ -619,7 +619,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </section>
-                        <img className="blobright svg d-none" src="./assets/img/background/blob.svg"
+                        <img className="blobright svg d-none" src="/img/background/blob.svg"
                              alt="Blob Background"/>
 
 
