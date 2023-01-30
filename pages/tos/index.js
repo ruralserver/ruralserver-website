@@ -45,7 +45,7 @@ export default function Home() {
                                 <aside id="sidebar" className="sidebar mt-80 sec-bg1 bg-seccolorstyle noshadow">
                                     <div className="menu categories clear">
                                         <h5 className="mergecolor"><b>Terms</b></h5>
-                                        <hr>
+                                        <hr/>
                                             <div className="heading pt-2"><a href="#gotop" id="showall"
                                                                              className="gocheck active seccolor"><img
                                                 className="svg me-3" src="/fonts/svg/select.svg"
@@ -90,7 +90,7 @@ export default function Home() {
                                             <div id="div3" className="wrapper targetDiv mt-5 bg-seccolorstyle noshadow">
                                                 <h5><a href="" className="category"><b>Cookie Statement</b></a> <span
                                                     className="float-end c-grey seccolor">[v2 04/2017]</span></h5>
-                                                <hr>
+                                                <hr/>
                                                     <a href="">[1] Cookies and crawling</a>
                                                     <div className="blog-info">
                                                         <p className="seccolor">Lorem ipsum, or lipsum as it is
@@ -101,13 +101,13 @@ export default function Home() {
                                                                 className="text-dark seccolor">the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with.</span>
                                                         </p>
                                                     </div>
-                                                    <br>
+                                                    <br/>
                                                         <div className="blog-info">
                                                             <p className="seccolor">[a] Lorem ipsum, or lipsum as it is
                                                                 sometimes known, is dummy text used in laying out print,
                                                                 graphic or web designs. The passage is.</p>
                                                         </div>
-                                                        <br>
+                                                        <br/>
                                                             <div className="blog-info">
                                                                 <p className="seccolor">[b] From its medieval origins to
                                                                     the digital era, learn everything there is to know
@@ -117,7 +117,7 @@ export default function Home() {
                                             <div id="div2" className="wrapper targetDiv mt-5 bg-seccolorstyle noshadow">
                                                 <h5><a href="" className="category"><b>Privacy Policy</b></a> <span
                                                     className="float-end c-grey seccolor">[v2 04/2017]</span></h5>
-                                                <hr>
+                                                <hr/>
                                                     <a href="">[1] Registration and use of personal data</a>
                                                     <div className="blog-info">
                                                         <p className="seccolor">Lorem ipsum, or lipsum as it is
@@ -128,26 +128,26 @@ export default function Home() {
                                                                 className="text-dark seccolor">the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with.</span>
                                                         </p>
                                                     </div>
-                                                    <br>
+                                                    <br/>
                                                         <div className="blog-info">
                                                             <p className="seccolor">[1.1] From its medieval origins to
                                                                 the digital era, learn everything there is to know about
                                                                 the ubiquitous lorem ipsum passage.</p>
                                                         </div>
-                                                        <br>
+                                                        <br/>
                                                             <div className="blog-info">
                                                                 <p className="seccolor">[a] Lorem ipsum, or lipsum as it
                                                                     is sometimes known, is dummy text used in laying out
                                                                     print, graphic or web designs. The passage is.</p>
                                                             </div>
-                                                            <br>
+                                                            <br/>
                                                                 <div className="blog-info">
                                                                     <p className="seccolor">[b] From its medieval
                                                                         origins to the digital era, learn everything
                                                                         there is to know about the ubiquitous lorem
                                                                         ipsum passage.</p>
                                                                 </div>
-                                                                <br>
+                                                                <br/>
                                                                     <a href="">[2] Data for service provision</a>
                                                                     <div className="blog-info">
                                                                         <p className="seccolor">Lorem ipsum, or lipsum
@@ -161,7 +161,7 @@ export default function Home() {
                                                                             use in a type specimen book. It usually
                                                                             begins with</p>
                                                                     </div>
-                                                                    <br>
+                                                                    <br/>
                                                                         <div className="blog-info">
                                                                             <p className="seccolor">[2.1] From its
                                                                                 medieval origins to the digital era,
@@ -172,7 +172,7 @@ export default function Home() {
                                             <div id="div1" className="wrapper targetDiv mt-5 bg-seccolorstyle noshadow">
                                                 <h5><b><a href="" className="category">Servers Policies</a></b> <span
                                                     className="float-end c-grey seccolor">[v2 09/2018]</span></h5>
-                                                <hr>
+                                                <hr/>
                                                     <a href="">[1] Cloud Servers Agreement</a>
                                                     <div className="blog-info">
                                                         <p className="seccolor">Lorem ipsum, or lipsum as it is
@@ -183,19 +183,19 @@ export default function Home() {
                                                                 className="text-dark seccolor">the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with.</span>
                                                         </p>
                                                     </div>
-                                                    <br>
+                                                    <br/>
                                                         <div className="blog-info">
                                                             <p className="seccolor">[1.1] From its medieval origins to
                                                                 the digital era, learn everything there is to know about
                                                                 the ubiquitous lorem ipsum passage.</p>
                                                         </div>
-                                                        <br>
+                                                        <br/>
                                                             <div className="blog-info">
                                                                 <p className="seccolor">[a] Lorem ipsum, or lipsum as it
                                                                     is sometimes known, is dummy text used in laying out
                                                                     print, graphic or web designs. The passage is.</p>
                                                             </div>
-                                                            <br>
+                                                            <br/>
                                                                 <a href="">[2] Support and Monitoring Servers</a>
                                                                 <div className="blog-info">
                                                                     <p className="seccolor">Lorem ipsum, or lipsum as it
@@ -207,7 +207,7 @@ export default function Home() {
                                                                         Finibus Bonorum et Malorum for use in a type
                                                                         specimen book. It usually begins with</p>
                                                                 </div>
-                                                                <br>
+                                                                <br/>
                                                                     <div className="blog-info">
                                                                         <p className="seccolor">[2.1] From its medieval
                                                                             origins to the digital era, learn everything
@@ -218,7 +218,7 @@ export default function Home() {
                                             <div id="div4" className="wrapper targetDiv mt-5 bg-seccolorstyle noshadow">
                                                 <h5><a href="" className="category"><b>Legal</b></a> <span
                                                     className="float-end c-grey seccolor">[v3 01/2018]</span></h5>
-                                                <hr>
+                                                <hr/>
                                                     <a href="">[1] Procedure for Changing Authorised Email</a>
                                                     <div className="blog-info">
                                                         <p className="seccolor">Lorem ipsum, or lipsum as it is
@@ -229,13 +229,13 @@ export default function Home() {
                                                                 className="text-dark seccolor">the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with.</span>
                                                         </p>
                                                     </div>
-                                                    <br>
+                                                    <br/>
                                                         <div className="blog-info">
                                                             <p className="seccolor">[a] Lorem ipsum, or lipsum as it is
                                                                 sometimes known, is dummy text used in laying out print,
                                                                 graphic or web designs. The passage is.</p>
                                                         </div>
-                                                        <br>
+                                                        <br/>
                                                             <div className="blog-info">
                                                                 <p className="seccolor">[b] From its medieval origins to
                                                                     the digital era, learn everything there is to know
@@ -245,7 +245,7 @@ export default function Home() {
                                             <div id="div5" className="wrapper targetDiv mt-5 bg-seccolorstyle noshadow">
                                                 <h5><a href="" className="category"><b>Affiliate Status</b></a> <span
                                                     className="float-end c-grey seccolor">[v2 04/2017]</span></h5>
-                                                <hr>
+                                                <hr/>
                                                     <a href="">[1] Obligations while affiliate Antler</a>
                                                     <div className="blog-info">
                                                         <p className="seccolor">Lorem ipsum, or lipsum as it is
@@ -256,26 +256,26 @@ export default function Home() {
                                                                 className="text-dark seccolor">the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with.</span>
                                                         </p>
                                                     </div>
-                                                    <br>
+                                                    <br/>
                                                         <div className="blog-info">
                                                             <p className="seccolor">[1.1] From its medieval origins to
                                                                 the digital era, learn everything there is to know about
                                                                 the ubiquitous lorem ipsum passage.</p>
                                                         </div>
-                                                        <br>
+                                                        <br/>
                                                             <div className="blog-info">
                                                                 <p className="seccolor">[a] Lorem ipsum, or lipsum as it
                                                                     is sometimes known, is dummy text used in laying out
                                                                     print, graphic or web designs. The passage is.</p>
                                                             </div>
-                                                            <br>
+                                                            <br/>
                                                                 <div className="blog-info">
                                                                     <p className="seccolor">[b] From its medieval
                                                                         origins to the digital era, learn everything
                                                                         there is to know about the ubiquitous lorem
                                                                         ipsum passage.</p>
                                                                 </div>
-                                                                <br>
+                                                                <br/>
                                                                     <a href="">[2] Advantages of affiliate Antler</a>
                                                                     <div className="blog-info">
                                                                         <p className="seccolor">Lorem ipsum, or lipsum
@@ -289,7 +289,7 @@ export default function Home() {
                                                                             use in a type specimen book. It usually
                                                                             begins with</p>
                                                                     </div>
-                                                                    <br>
+                                                                    <br/>
                                                                         <div className="blog-info">
                                                                             <p className="seccolor">[2.1] From its
                                                                                 medieval origins to the digital era,
