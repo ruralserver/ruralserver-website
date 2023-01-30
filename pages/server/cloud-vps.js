@@ -120,7 +120,7 @@ export default function CloudVps() {
                 </section>
                 <img className="blobleft svg d-none" src="./assets/img/background/blob.svg" alt="Blob Background"/>
 
-                
+
                     <section id="features" className="history-section sec-normal exapath bg-colorstyle">
                         <div className="container">
                             <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
@@ -395,7 +395,7 @@ export default function CloudVps() {
                         <div className="faq">
                             <div className="container">
                                 <img className="blobright svg d-none" src="./assets/img/background/blob.svg"
-                                     alt="Blob Background">
+                                     alt="Blob Background" />
                                     <div className="row">
                                         <div className="col-md-12 col-sm-12 text-center">
                                             <h2 className="section-heading mergecolor">Frequently Asked Questions
