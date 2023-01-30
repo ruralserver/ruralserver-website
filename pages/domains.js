@@ -314,7 +314,7 @@ export default function Home() {
                             <div className="sec-main sec-bg1 bg-colorstyle noshadow nopadding">
                                 <div className="row">
                                     <div className="col-md-12 col-lg-5 wow animated fadeInUp fast first">
-                                        <img className="svg" src="assets/patterns/domainmanage.svg"
+                                        <img className="svg" src="/patterns/domainmanage.svg"
                                              alt="domain management"/>
                                     </div>
                                     <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -340,14 +340,14 @@ export default function Home() {
                                         </div>
                                         <div
                                             className="col-md-12 col-lg-5 offset-lg-1 backups anima wow animated fadeInUp fast second">
-                                            <img className="svg" src="assets/patterns/domainrenewal.svg"
+                                            <img className="svg" src="/patterns/domainrenewal.svg"
                                                  alt="domain renewal"/>
                                         </div>
                                     </div>
                                     <hr/>
                                         <div className="row">
                                             <div className="col-md-12 col-lg-5 wow animated fadeInUp fast third">
-                                                <img className="svg" src="assets/patterns/support.svg"
+                                                <img className="svg" src="/patterns/support.svg"
                                                      alt="support 24/7/365"/>
                                             </div>
                                             <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -404,7 +404,7 @@ export default function Home() {
                                                         <div className="row">
                                                             <div className="col-md-12 col-lg-5">
                                                                 <img className="svg"
-                                                                     src="assets/patterns/controlpanel.svg"
+                                                                     src="/patterns/controlpanel.svg"
                                                                      alt="monitoring 24/7/365"/>
                                                             </div>
                                                             <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -427,7 +427,7 @@ export default function Home() {
                                                         <div className="row">
                                                             <div className="col-md-12 col-lg-5">
                                                                 <img className="svg"
-                                                                     src="assets/patterns/performance.svg"
+                                                                     src="/patterns/performance.svg"
                                                                      alt="monitoring 24/7/365"/>
                                                             </div>
                                                             <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -449,7 +449,7 @@ export default function Home() {
                                                     <div className="tabs-item">
                                                         <div className="row">
                                                             <div className="col-md-12 col-lg-5">
-                                                                <img className="svg" src="assets/patterns/ssl.svg"
+                                                                <img className="svg" src="/patterns/ssl.svg"
                                                                      alt="monitoring 24/7/365"/>
                                                             </div>
                                                             <div className="col-md-12 col-lg-6 offset-lg-1">
@@ -471,7 +471,7 @@ export default function Home() {
                                                     <div className="tabs-item">
                                                         <div className="row">
                                                             <div className="col-md-12 col-lg-5">
-                                                                <img className="svg" src="assets/patterns/support.svg"
+                                                                <img className="svg" src="/patterns/support.svg"
                                                                      alt="monitoring 24/7/365"/>
                                                             </div>
                                                             <div className="col-md-12 col-lg-6 offset-lg-1">
