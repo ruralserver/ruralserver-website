@@ -187,7 +187,7 @@ export default function Header() {
                                                                                src="/fonts/svg/global.svg" alt="Global"/>
                                                                               <div
                                                                                   className="menu-item c-grey mergecolor"
-                                                                                  data-i18n="[html]submenu.others">others</div>
+                                                                                  data-i18n="[html]submenu.others">Others</div>
                                                                       </div>
                                                                       <hr/>
                                                                           <ul>
