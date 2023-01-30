@@ -31,9 +31,9 @@ export default function Home() {
                                           method="post">
                                         <div className="general-input w-50">
                                             <input type="text" name="domain"
-                                                   placeholder="Get your next domain name here" className="fill-input">
+                                                   placeholder="Get your next domain name here" className="fill-input"/>
                                                 <input type="submit" value="Search"
-                                                       className="btn btn-default-yellow-fill initial-transform">
+                                                       className="btn btn-default-yellow-fill initial-transform"/>
                                         </div>
                                     </form>
                                     <a className="btn btn-default-pink-fill cd-filter-trigger wow animated shake delay-2s"><i
@@ -65,19 +65,19 @@ export default function Home() {
                                                     </li>
                                                     <li>
                                                         <input value=".sale" type="radio" name="radioButton"
-                                                               id="radio2">
+                                                               id="radio2"/>
                                                             <label className="radio-label seccolor"
                                                                    htmlFor="radio2">Sales</label>
                                                     </li>
                                                     <li>
                                                         <input value=".newest" type="radio" name="radioButton"
-                                                               id="radio3">
+                                                               id="radio3"/>
                                                             <label className="radio-label seccolor"
                                                                    htmlFor="radio3">Newest</label>
                                                     </li>
                                                     <li>
                                                         <input value=".popular" type="radio" name="radioButton"
-                                                               id="radio4">
+                                                               id="radio4"/>
                                                             <label className="radio-label seccolor"
                                                                    htmlFor="radio4">Popular</label>
                                                     </li>
@@ -90,19 +90,19 @@ export default function Home() {
                                                 <ul className="cd-filter-content cd-filters list">
                                                     <li>
                                                         <input className="filter" value=".gtld" type="checkbox"
-                                                               id="checkbox1">
+                                                               id="checkbox1"/>
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox1">gtld (Generic)</label>
                                                     </li>
                                                     <li>
                                                         <input className="filter" value=".cctld" type="checkbox"
-                                                               id="checkbox2">
+                                                               id="checkbox2"/>
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox2">cctld (Country)</label>
                                                     </li>
                                                     <li>
                                                         <input className="filter" value=".ngtld" type="checkbox"
-                                                               id="checkbox3">
+                                                               id="checkbox3"/>
                                                             <label className="checkbox-label seccolor"
                                                                    htmlFor="checkbox3">ngtld (News)</label>
                                                     </li>
@@ -622,7 +622,7 @@ export default function Home() {
                         <img className="blobright svg d-none" src="./assets/img/background/blob.svg"
                              alt="Blob Background"/>
 
-                        
+
                             <section className="help pt-4 pb-80 bg-seccolorstyle notoppadding">
                                 <div className="container">
                                     <div className="service-wrap">
