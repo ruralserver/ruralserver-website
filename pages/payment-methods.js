@@ -401,17 +401,17 @@ export default function Home() {
                                                 <div className="col-md-6 position-relative">
                                                     <label><i className="fas fa-user-tie"></i></label>
                                                     <input id="name" type="text" name="name" placeholder="Full Name"
-                                                           required="">
+                                                           required=""/>
                                                 </div>
                                                 <div className="col-md-6 position-relative">
                                                     <label><i className="fas fa-envelope"></i></label>
                                                     <input id="email" type="email" name="email"
-                                                           placeholder="Email Address" required="">
+                                                           placeholder="Email Address" required=""/>
                                                 </div>
                                                 <div className="col-md-6 position-relative">
                                                     <label><i className="fas fa-file-alt"></i></label>
                                                     <input id="subject" type="text" name="subject" placeholder="Subject"
-                                                           required>
+                                                           required/>
                                                 </div>
                                                 <div className="col-md-6 position-relative">
                                                     <div className="cd-select mt-4">
@@ -436,7 +436,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-md-6 position-relative mt-5">
                                                     <input name="newsletter" type="checkbox" id="checkbox"
-                                                           className="filter">
+                                                           className="filter"/>
                                                         <label htmlFor="checkbox"
                                                                className="checkbox-label c-grey mb-4 seccolor"><span>I have read and accept the terms of the privacy policy - <a
                                                             href="legal" className="golink">RGPD</a></span></label>
