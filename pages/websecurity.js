@@ -54,7 +54,7 @@ export default function Home() {
                             <div className="col-sm-12 col-md-4 col-lg-4">
                                 <div className="wrapper first text-start noshadow">
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/dedicated.svg" alt="">
+                                        <img className="svg mb-3" src="/fonts/svg/dedicated.svg" alt=""/>
                                             <div className="title">Minecraft Server</div>
                                             <div className="fromer seccolor">High Performance starting at:</div>
                                             <div className="price mergecolor"><sup>$</sup>3.00 <span
@@ -81,7 +81,7 @@ export default function Home() {
                                 <div className="wrapper text-start noshadow">
                                     <div className="plans badge feat bg-pink">premium</div>
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/dedicated.svg" alt="">
+                                        <img className="svg mb-3" src="/fonts/svg/dedicated.svg" alt=""/>
                                             <div className="title">Counter Strike Server</div>
                                             <div className="fromer seccolor">Powerful Performance starting at:</div>
                                             <div className="price mergecolor"><sup>$</sup>7.20 <span
@@ -107,7 +107,7 @@ export default function Home() {
                             <div className="col-sm-12 col-md-4 col-lg-4">
                                 <div className="wrapper third text-start noshadow">
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/dedicated.svg" alt="">
+                                        <img className="svg mb-3" src="/fonts/svg/dedicated.svg" alt=""/>
                                             <div className="title seccolor">Starbound Server</div>
                                             <div className="fromer seccolor">Extreme Performance starting at:</div>
                                             <div className="price mergecolor"><sup>$</sup>9.99 <span
@@ -147,7 +147,7 @@ export default function Home() {
                                 <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
                                      data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
                                     <div className="service-section bg-seccolorstyle noshadow">
-                                        <img className="svg" src="/fonts/svg/gaming.svg" alt="">
+                                        <img className="svg" src="/fonts/svg/gaming.svg" alt=""/>
                                             <div className="title mergecolor">MC:PC & MC:PE Support</div>
                                             <p className="subtitle seccolor">
                                                 Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
@@ -158,7 +158,7 @@ export default function Home() {
                                 <div className="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1"
                                      data-to="0" data-opacity="1" data-translatey="100" data-easeinout="0">
                                     <div className="service-section bg-seccolorstyle noshadow">
-                                        <img className="svg" src="/fonts/svg/speed.svg" alt="">
+                                        <img className="svg" src="/fonts/svg/speed.svg" alt=""/>
                                             <div className="title mergecolor">Fast Activation</div>
                                             <p className="subtitle seccolor">
                                                 Excepteur sint occaecat cupidatat non proident dolor. Lorem ipsum dolor
@@ -170,7 +170,7 @@ export default function Home() {
                                      data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
                                     <div className="service-section bg-seccolorstyle noshadow">
                                         <div className="plans badge feat bg-pink">manage</div>
-                                        <img className="svg" src="/fonts/svg/window.svg" alt="">
+                                        <img className="svg" src="/fonts/svg/window.svg" alt=""/>
                                             <div className="title mergecolor">Intuitive Control Panel</div>
                                             <p className="subtitle seccolor">
                                                 Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum
@@ -193,7 +193,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-md-12 col-lg-5 wow animated fadeInUp fast first">
                                     <img className="svg" src="/patterns/protectvisitors.svg"
-                                         alt="DDoS Protection">
+                                         alt="DDoS Protection"/>
                                 </div>
                                 <div className="col-md-12 col-lg-6 offset-lg-1">
                                     <div className="info-content">
@@ -218,14 +218,14 @@ export default function Home() {
                                     </div>
                                     <div className="col-md-12 col-lg-5 offset-lg-1 wow animated fadeInUp fast">
                                         <img className="svg second" src="/patterns/performance.svg"
-                                             alt="performance">
+                                             alt="performance"/>
                                     </div>
                                 </div>
                                 <hr/>
                                     <div className="row">
                                         <div className="col-md-12 col-lg-5 wow animated fadeInUp fast">
                                             <img className="svg third" src="/patterns/monitoring.svg"
-                                                 alt="monitoring 24/7/365">
+                                                 alt="monitoring 24/7/365"/>
                                         </div>
                                         <div className="col-md-12 col-lg-6 offset-lg-1">
                                             <div className="info-content">
@@ -254,7 +254,7 @@ export default function Home() {
                                         <a href="hosting" className="help-item">
                                             <div className="img">
                                                 <img className="svg ico" src="/fonts/svg/cloudfiber.svg"
-                                                     height="65" alt="">
+                                                     height="65" alt=""/>
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Go to Shared Hosting</div>
@@ -272,7 +272,7 @@ export default function Home() {
                                         <a href="dedicated" className="help-item">
                                             <div className="img">
                                                 <img className="svg ico" src="/fonts/svg/dedicated.svg"
-                                                     height="65" alt="">
+                                                     height="65" alt=""/>
                                             </div>
                                             <div className="inform">
                                                 <div className="title mergecolor">Go to Dedicated Server</div>
