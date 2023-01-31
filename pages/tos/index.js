@@ -26,12 +26,7 @@ export default function Home() {
                                     <div className="heading mb-0">General Terms And Conditions</div>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
-                                <div className="cd-filter-block checkbox-group mb-0">
-                                    <label><a href=""><i className="fas fa-search"></i></a></label>
-                                    <input type="text" className="input" placeholder="Search.."/>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -104,7 +99,7 @@ export default function Home() {
                                                         about the ubiquitous lorem ipsum passage.</p>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
