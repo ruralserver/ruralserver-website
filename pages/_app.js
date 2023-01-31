@@ -1,5 +1,7 @@
 import "/styles/fonts/cloudicon/cloudicon.css";
 import "/styles/fonts/fontawesome/css/all.css";
+import "/styles/fonts/evafeat/evafeat.css";
+import "/styles/filter.css";
 import "/styles/bootstrap.min.css";
 import "/styles/owl.carousel.min.css";
 import "/styles/swiper.min.css";
