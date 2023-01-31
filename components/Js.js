@@ -16,6 +16,12 @@ export default function Js() {
         <script async src="/js/lazysizes.min.js"></script>
         <script src="/js/wow.min.js"></script>
         <script>new WOW().init();</script>
+
+
+
+
+          <script defer src="/js/flickity.pkgd.min.js"></script>
+
         <script defer src="/js/scripts.js"></script>
     </>
   )
