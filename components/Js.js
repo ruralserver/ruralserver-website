@@ -20,10 +20,7 @@ export default function Js() {
         <script defer src="/js/flickity-fade.min.js"></script>
         <script defer src="/js/aos.min.js"></script>
 
-        <script defer src="/js/mixitup.min.js"></script>
-        <script defer src="/js/mixitup.multifilter.min.js"></script>
-        <script defer src="/js/mixevents.js"></script>
-        <script src="/js/filter.js"></script>
+      
 
         <script src="/js/wow.min.js"></script>
         <script>new WOW().init();</script>
