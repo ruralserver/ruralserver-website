@@ -53,32 +53,23 @@ export default function Home() {
                                                                          className="gocheck showSingle seccolor"
                                                                          target="1"><img className="svg me-3"
                                                                                          src="/fonts/svg/managedserver.svg"
-                                                                                         alt="Shared Hosting"/> Servers
-                                            Policies</a></div>
+                                                                                         alt="Shared Hosting"/> Terms of Service</a></div>
                                         <div className="heading pt-2"><a href="#gotop"
                                                                          className="gocheck showSingle seccolor"
                                                                          target="2"><img className="svg me-3"
                                                                                          src="/fonts/svg/privacy.svg"
-                                                                                         alt="Cloud Reseller"/> Privacy
-                                            Policy</a></div>
+                                                                                         alt="Cloud Reseller"/> Acceptable Use Policy</a></div>
                                         <div className="heading pt-2"><a href="#gotop"
                                                                          className="gocheck showSingle seccolor"
                                                                          target="3"><img className="svg me-3"
                                                                                          src="/fonts/svg/network.svg"
-                                                                                         alt="Dedicated Server"/> Cookie
-                                            Statement</a></div>
+                                                                                         alt="Dedicated Server"/> Privacy Policy</a></div>
                                         <div className="heading pt-2"><a href="#gotop"
                                                                          className="gocheck showSingle seccolor"
                                                                          target="4"><img className="svg me-3"
                                                                                          src="/fonts/svg/learning.svg"
-                                                                                         alt="Dedicated Server"/> Legal</a>
+                                                                                         alt="Dedicated Server"/> DMCA/Abuse Report</a>
                                         </div>
-                                        <div className="heading pt-2"><a href="#gotop"
-                                                                         className="gocheck showSingle seccolor"
-                                                                         target="5"><img className="svg me-3"
-                                                                                         src="/fonts/svg/meeting.svg"
-                                                                                         alt="Dedicated Server"/> Affiliate
-                                            Status</a></div>
                                     </div>
                                 </aside>
                             </div>
