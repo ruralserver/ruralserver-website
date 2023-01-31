@@ -34,10 +34,11 @@ export default function Footer() {
                                 <ul className="footer-menu">
                                     <li className="menu-item"><Link href="/about-ruralserver"> About RuralServer</Link></li>
                                     <li className="menu-item"><Link href="/payment-methods"> Payment Methods</Link></li>
-                                    <li className="menu-item"><Link href="/tos"> Terms of Service</Link></li>
-                                    <li className="menu-item"><a href="blog-details">Acceptable Use Policy</a></li>
-                                    <li className="menu-item"><a href="legal">Privacy Policy</a></li>
-                                    <li className="menu-item"><a href="legal">DMCA/Abuse Report</a></li>
+                                    <li className="menu-item"><Link href="/tos"> All General Terms</Link></li>
+                                    <li className="menu-item"><Link href="/tos/terms-of-service"> Terms of Service</Link></li>
+                                    <li className="menu-item"><Link href="/tos/acceptable-use-policy">Acceptable Use Policy</Link></li>
+                                    <li className="menu-item"><Link href="/tos/privacy-policy">Privacy Policy</Link></li>
+                                    <li className="menu-item"><Link href="/tos/dmca-abuse-report">DMCA/Abuse Report</Link></li>
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3">

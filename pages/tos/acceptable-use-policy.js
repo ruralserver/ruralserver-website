@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <Meta/>
             <Head>
-                <title>All General Terms</title>
+                <title>Acceptable Use Policy</title>
                 <meta name="description" content=""/>
             </Head>
 
