@@ -15,7 +15,7 @@ export default function Js() {
         <script defer src="/js/swiper.min.js"></script>
         <script async src="/js/lazysizes.min.js"></script>
 
-          
+
 
 
 
