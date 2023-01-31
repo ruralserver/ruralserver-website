@@ -14,13 +14,18 @@ export default function Js() {
         <script defer src="/js/jquery.scrollme.min.js"></script>
         <script defer src="/js/swiper.min.js"></script>
         <script async src="/js/lazysizes.min.js"></script>
-        <script src="/js/wow.min.js"></script>
-        <script>new WOW().init();</script>
 
+          
 
 
 
           <script defer src="/js/flickity.pkgd.min.js"></script>
+          <script defer src="/js/flickity-fade.min.js"></script>
+
+          <script defer src="/js/aos.min.js"></script>
+
+          <script src="/js/wow.min.js"></script>
+          <script>new WOW().init();</script>
 
         <script defer src="/js/scripts.js"></script>
     </>
