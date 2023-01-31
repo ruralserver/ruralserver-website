@@ -34,7 +34,6 @@ export default function Footer() {
                                 <ul className="footer-menu">
                                     <li className="menu-item"><Link href="/about-ruralserver"> About RuralServer</Link></li>
                                     <li className="menu-item"><Link href="/payment-methods"> Payment Methods</Link></li>
-                                    <li className="menu-item"><Link href="/tos"> All General Terms</Link></li>
                                     <li className="menu-item"><Link href="/tos/terms-of-service"> Terms of Service</Link></li>
                                     <li className="menu-item"><Link href="/tos/acceptable-use-policy">Acceptable Use Policy</Link></li>
                                     <li className="menu-item"><Link href="/tos/privacy-policy">Privacy Policy</Link></li>

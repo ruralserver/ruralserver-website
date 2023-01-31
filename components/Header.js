@@ -292,9 +292,9 @@ export default function Header() {
                                                                   </div>
                                                                   <div className="media-body">
                                                                       <div>
-                                                                          <a className="menu-item mergecolor"
-                                                                             href="blog-details"
-                                                                             data-i18n="[html]submenu.usespolicy">Uses Policy</a>
+                                                                          <Link className="menu-item mergecolor"
+                                                                             href="tos/acceptable-use-policy"
+                                                                             data-i18n="[html]submenu.usespolicy">Uses Policy</Link>
                                                                           <div
                                                                               className="badge inside bg-pink ms-1">Updated
                                                                           </div>
@@ -308,8 +308,8 @@ export default function Header() {
                                                                            alt="Knowledgebase" />
                                                                   </div>
                                                                   <div className="media-body">
-                                                                      <a className="menu-item mergecolor" href="faq"
-                                                                         data-i18n="[html]submenu.privacypolicy">Privacy Policy</a>
+                                                                      <Link className="menu-item mergecolor" href="/tos/privacy-policy"
+                                                                         data-i18n="[html]submenu.privacypolicy">Privacy Policy</Link>
                                                                       <p className="seccolor">We care about your privacy</p>
                                                                   </div>
                                                               </div>
