@@ -633,7 +633,7 @@ export default function Home() {
                                                         className="fas fa-long-arrow-alt-left"></i></div>
                                                     <a href="hosting" className="help-item">
                                                         <div className="img">
-                                                            <img className="svg ico" src="fonts/svg/cloudfiber.svg"
+                                                            <img className="svg ico" src="/fonts/svg/cloudfiber.svg"
                                                                  alt=""/>
                                                         </div>
                                                         <div className="inform">
@@ -651,7 +651,7 @@ export default function Home() {
                                                         className="fas fa-long-arrow-alt-right"></i></div>
                                                     <a href="vps" className="help-item">
                                                         <div className="img">
-                                                            <img className="svg ico" src="fonts/svg/vps.svg" alt=""/>
+                                                            <img className="svg ico" src="/fonts/svg/vps.svg" alt=""/>
                                                         </div>
                                                         <div className="inform">
                                                             <div className="title mergecolor">Go to VPS Server</div>
