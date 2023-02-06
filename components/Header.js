@@ -293,7 +293,7 @@ export default function Header() {
                                                                   <div className="media-body">
                                                                       <div>
                                                                           <Link className="menu-item mergecolor"
-                                                                             href="tos/acceptable-use-policy"
+                                                                             href="/tos/acceptable-use-policy"
                                                                              data-i18n="[html]submenu.usespolicy">Uses Policy</Link>
                                                                           <div
                                                                               className="badge inside bg-pink ms-1">Updated
