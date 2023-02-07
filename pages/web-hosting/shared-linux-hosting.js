@@ -529,7 +529,7 @@ function SharedLinuxHosting({ name }) {
 }
 
 SharedLinuxHosting.getInitialProps = async (ctx) => {
-    const res = await fetch('https://api.github.com/repos/vercel/next.js')
+    const res = await fetch('https://client.ruralserver.com/api.php?type=product&pid=117')
     const json = await res.json()
     return { name: json.name }
 }
