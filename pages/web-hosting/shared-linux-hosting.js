@@ -7,7 +7,7 @@ import Js from '@components/Js'
 
 
 
-function SharedLinuxHosting({ product }) {
+function SharedLinuxHosting({ stars }) {
     return (
         <>
             <Meta />
@@ -27,7 +27,7 @@ function SharedLinuxHosting({ product }) {
                                 <div className="wrapper">
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure { product }</h3>
+                                        infrastructure {stars}</h3>
 
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
@@ -529,9 +529,9 @@ function SharedLinuxHosting({ product }) {
 }
 
 SharedLinuxHosting.getInitialProps = async (ctx) => {
-    const res = await fetch('https://client.ruralserver.com/api.php?type=product&pid=117')
+    const res = await fetch('https://api.github.com/repos/vercel/next.js')
     const json = await res.json()
-    return { product: json.products.product }
+    return { stars: json.stargazers_count }
 }
 
 export default SharedLinuxHosting
