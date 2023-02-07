@@ -27,7 +27,7 @@ function SharedLinuxHosting({ data }) {
                                 <div className="wrapper">
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure {data.name}</h3>
+                                        infrastructure {data.pricing.INR.prefix}</h3>
 
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
