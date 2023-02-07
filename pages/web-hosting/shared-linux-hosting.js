@@ -11,6 +11,7 @@ export async function getStaticProps() {
     const res = await fetch(`https://client.ruralserver.com/api.php?type=product&pid=117`)
     const data = await res.json()
 
+    console.log(data);
     // Pass data to the page via props
     return { props: { data } }
 }
