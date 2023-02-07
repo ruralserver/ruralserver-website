@@ -34,7 +34,7 @@ export default function SharedLinuxHosting() {
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
                                         <ul>
-                                            <li><i className="fas fa-check-circle"></i> c-Panel or Plesk</li>
+                                            <li><i className="fas fa-check-circle"></i> Direct Admin</li>
                                         </ul>
                                         <ul>
                                             <li><i className="fas fa-check-circle"></i> Unlimited email</li>
