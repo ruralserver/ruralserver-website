@@ -6,16 +6,8 @@ import Footer from '@components/Footer'
 import Js from '@components/Js'
 
 
-export async function getStaticProps() {
-    // Fetch data from external API
-    const res = await fetch(`https://client.ruralserver.com/api.php?type=product&pid=117`)
-    const data = await res.json()
 
-    // Pass data to the page via props
-    return { props: { data } }
-}
-
-export default function SharedLinuxHosting({ data }) {
+function SharedLinuxHosting({ product }) {
     return (
         <>
             <Meta />
@@ -35,7 +27,7 @@ export default function SharedLinuxHosting({ data }) {
                                 <div className="wrapper">
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure</h3>
+                                        infrastructure { product }</h3>
 
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
@@ -535,3 +527,11 @@ export default function SharedLinuxHosting({ data }) {
         </>
     )
 }
+
+SharedLinuxHosting.getInitialProps = async (ctx) => {
+    const res = await fetch('https://client.ruralserver.com/api.php?type=product&pid=117')
+    const json = await res.json()
+    return { product: json.products.product }
+}
+
+export default SharedLinuxHosting
