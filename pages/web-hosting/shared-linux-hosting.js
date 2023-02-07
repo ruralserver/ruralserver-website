@@ -7,7 +7,7 @@ import Js from '@components/Js'
 
 
 
-function SharedLinuxHosting({ stars }) {
+function SharedLinuxHosting({ name }) {
     return (
         <>
             <Meta />
@@ -27,7 +27,7 @@ function SharedLinuxHosting({ stars }) {
                                 <div className="wrapper">
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure {stars}</h3>
+                                        infrastructure {name}</h3>
 
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
@@ -531,7 +531,7 @@ function SharedLinuxHosting({ stars }) {
 SharedLinuxHosting.getInitialProps = async (ctx) => {
     const res = await fetch('https://api.github.com/repos/vercel/next.js')
     const json = await res.json()
-    return { stars: json.stargazers_count }
+    return { name: json.name }
 }
 
 export default SharedLinuxHosting
