@@ -7,7 +7,7 @@ import Js from '@components/Js'
 
 
 
-function SharedLinuxHosting({ name }) {
+function SharedLinuxHosting({ data }) {
     return (
         <>
             <Meta />
@@ -27,7 +27,7 @@ function SharedLinuxHosting({ name }) {
                                 <div className="wrapper">
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure {name}</h3>
+                                        infrastructure {data.name}</h3>
 
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
@@ -531,7 +531,7 @@ function SharedLinuxHosting({ name }) {
 SharedLinuxHosting.getInitialProps = async (ctx) => {
     const res = await fetch('https://client.ruralserver.com/api.php?type=product&pid=117')
     const json = await res.json()
-    return { name: json.name }
+    return { data: json }
 }
 
 export default SharedLinuxHosting
