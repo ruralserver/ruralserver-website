@@ -11,7 +11,6 @@ export async function getStaticProps() {
     const res = await fetch(`https://client.ruralserver.com/api.php?type=product&pid=117`)
     const data = await res.json()
 
-    console.log(data);
     // Pass data to the page via props
     return { props: { data } }
 }
@@ -36,7 +35,7 @@ export default function SharedLinuxHosting({ data }) {
                                 <div className="wrapper">
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure</h3>
+                                        infrastructure{ data }</h3>
 
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
