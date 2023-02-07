@@ -119,7 +119,7 @@ export default function SharedLinuxHosting({ data }) {
                                 <div className="wrapper price-container text-start wow animated fadeInUp noshadow">
                                     <div className="plans badge feat bg-grey">best value</div>
                                     <div className="top-content bg-seccolorstyle topradius">
-                                        <img className="svg mb-3" src="/fonts/svg/cloudwindows.svg" alt="" />
+                                        <img className="svg mb-3" src="/fonts/svg/cloudlinux.svg" alt="" />
                                         <div className="title">Pro SSD</div>
                                         <div className="fromer seccolor">annually get (20% discount)</div>
                                         <div className="price-content">
