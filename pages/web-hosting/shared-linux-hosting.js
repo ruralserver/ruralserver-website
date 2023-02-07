@@ -5,7 +5,17 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Js from '@components/Js'
 
-export default function SharedLinuxHosting() {
+
+export async function getServerSideProps() {
+    // Fetch data from external API
+    const res = await fetch(`https://client.ruralserver.com/api.php?type=product&pid=117`)
+    const data = await res.json()
+
+    // Pass data to the page via props
+    return { props: { data } }
+}
+
+export default function SharedLinuxHosting({ data }) {
     return (
         <>
             <Meta />
@@ -26,11 +36,7 @@ export default function SharedLinuxHosting() {
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
                                         infrastructure</h3>
-                                    <div id="run-switch" className="run-switch">
-                                        <div className="mo">Monthly Price</div>
-                                        <div className="switch"></div>
-                                        <div className="an active">Anually Price</div>
-                                    </div>
+                                    
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
                                         <ul>
