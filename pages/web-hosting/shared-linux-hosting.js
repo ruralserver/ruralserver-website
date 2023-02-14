@@ -112,13 +112,13 @@ function SharedLinuxHosting({ data }) {
                                     <div className="plans badge feat bg-grey">best value</div>
                                     <div className="top-content bg-seccolorstyle topradius">
                                         <img className="svg mb-3" src="/fonts/svg/cloudlinux.svg" alt="" />
-                                        <div className="title">Pro SSD</div>
+                                        <div className="title">{data.p_3.name}</div>
                                         <div className="fromer seccolor">annually get (20% discount)</div>
                                         <div className="price-content">
                                             <div className="price">
                                                 <del className="c-grey seccolor"><small><sup
-                                                    className="coin seccolor">$</sup> <span
-                                                    className="value seccolor">112.99</span></small></del>
+                                                    className="coin seccolor">{data.p_3.pricing.INR.prefix}</sup> <span
+                                                    className="value seccolor">{data.p_3.pricing.INR.annually}</span></small></del>
                                             </div>
                                             <div className="price">
                                                 <sup className="coin mergecolor">$</sup>
@@ -529,7 +529,7 @@ function SharedLinuxHosting({ data }) {
 }
 
 SharedLinuxHosting.getInitialProps = async (ctx) => {
-    const res = await fetch('https://client.ruralserver.com/api.php?type=product&pid=117')
+    const res = await fetch('https://client.ruralserver.com/api.php?type=product&pid=117,3')
     const json = await res.json()
     return { data: json }
 }
