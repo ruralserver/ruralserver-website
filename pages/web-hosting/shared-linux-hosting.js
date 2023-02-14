@@ -81,7 +81,7 @@ function SharedLinuxHosting({ data }) {
                                             <div className="price seccolor">
                                                 <del className="c-grey seccolor"><small><sup
                                                     className="coin seccolor">{data.p_117.pricing.INR.prefix}</sup> <span
-                                                    className="value seccolor">88.24</span></small></del>
+                                                    className="value seccolor">{data.p_117.pricing.INR.annually}</span></small></del>
                                             </div>
                                             <div className="price">
                                                 <sup className="coin mergecolor">$</sup>
