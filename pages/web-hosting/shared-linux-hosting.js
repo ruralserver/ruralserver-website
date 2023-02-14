@@ -75,7 +75,7 @@ function SharedLinuxHosting({ data }) {
                                     <div className="plans badge feat bg-pink">30% Discount</div>
                                     <div className="top-content bg-seccolorstyle topradius">
                                         <img className="svg mb-3" src="/fonts/svg/cloudlinux.svg" alt="" />
-                                        <div className="title">Business SSD</div>
+                                        <div className="title">{data.p_117.name}</div>
                                         <div className="fromer seccolor">annually get (30% discount)</div>
                                         <div className="price-content">
                                             <div className="price seccolor">
