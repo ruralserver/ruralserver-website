@@ -27,7 +27,7 @@ function SharedLinuxHosting({ data }) {
                                 <div className="wrapper">
                                     <h1 className="heading">Shared Hosting</h1>
                                     <h3 className="subheading col-sm-8">Blazing fast & stable hosting
-                                        infrastructure {data.pricing.INR.prefix}</h3>
+                                        infrastructure</h3>
 
                                     <div className="included">
                                         <h4 className="mb-3">All plans include</h4>
@@ -80,7 +80,7 @@ function SharedLinuxHosting({ data }) {
                                         <div className="price-content">
                                             <div className="price seccolor">
                                                 <del className="c-grey seccolor"><small><sup
-                                                    className="coin seccolor">$</sup> <span
+                                                    className="coin seccolor">{data.p_117.pricing.INR.prefix}</sup> <span
                                                     className="value seccolor">88.24</span></small></del>
                                             </div>
                                             <div className="price">
