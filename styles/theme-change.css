@@ -3,15 +3,15 @@
   --heading-color: #1f2044;
 }
 
-[data-theme="dark"] {
+[data-background="dark"] {
   --ggs: 1;
   --heading-color: #eeeeee;
 }
 
-[data-theme="dark"] img {
+[data-background="dark"] img {
   filter: brightness(0.8) contrast(1.2);
 }
-[data-theme="dark"] .nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a {
+[data-background="dark"] .nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a {
   color: #55bde5;
 }
 
