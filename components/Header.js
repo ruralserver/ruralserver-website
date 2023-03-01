@@ -3,8 +3,16 @@ import Image from 'next/image'
 
 
 const ThemeChange = (e) =>  {
-    console.log('Free pizza!');
-    console.log(e);
+    //console.log('Free pizza!');
+    //console.log(e);
+    if (e.target.checked) {
+        document.querySelector("body").setAttribute("data-background", 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {
+        document.querySelector("body").setAttribute("data-background", 'light');
+        localStorage.setItem('theme', 'light');
+    }
 }
 export default function Header() {
     return (
