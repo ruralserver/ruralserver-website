@@ -1,5 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
+
+
+const ThemeChange = (e) =>  {
+    console.log('Free pizza!');
+    console.log(e);
+}
 export default function Header() {
     return (
       <>
