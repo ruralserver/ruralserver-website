@@ -200,6 +200,31 @@ function setCookie(name,value,days) {
     }
   }
 
+  antlerSettings.prototype.manageBackground = function() {
+    switch(this.background){
+        case "origin":
+            body.attr("data-background","origin");
+            setCookie("background","origin",365);
+            break;
+        case "dark":
+            body.attr("data-background","dark");
+            setCookie("background","dark",365);
+            break;
+        case "light":
+            body.attr("data-background","light");
+            setCookie("background","light",365);
+            break;
+        case "modern":
+            body.attr("data-background","modern");
+            setCookie("background","modern",365);
+            break;
+        default:
+            body.attr("data-background","origin");
+            setCookie("background","origin",365);
+            break;
+    }
+}
+
 antlerSettings.prototype.manageFont = function() {
     switch(this.font){
         case "opensans":
