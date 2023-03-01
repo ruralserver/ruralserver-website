@@ -11,7 +11,7 @@
 [data-background="dark"] img {
   filter: brightness(0.8) contrast(1.2);
 }
-[data-background="dark"] .nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a {
+[data-background="dark"] .nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a, [data-background="dark"] .megamenu .service-list .service .media-body a {
   color: #55bde5;
 }
 
