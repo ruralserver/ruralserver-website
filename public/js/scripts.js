@@ -1152,20 +1152,7 @@ function accordHeight() {
 /*          SKILLS         */
 /*-------------------------*/
 function loadSkills() {
-//Circle skills
-$('.circle')
-.not('.animated')
-.each(function() {
-    if ($(window)
-        .scrollTop() >= $(this)
-        .offset()
-        .top - $(window)
-        .height() * 0.7) {
-        $(this)
-    .addClass('animated')
-    .circliful();
-}
-});
+
 }
 /*-------------------------*/
 /*           Select        */
