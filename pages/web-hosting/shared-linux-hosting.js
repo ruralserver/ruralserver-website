@@ -78,14 +78,15 @@ function SharedLinuxHosting({ data }) {
                                         <div className="title">{data.p_117.name}</div>
                                         <div className="fromer seccolor">annually get (30% discount)</div>
                                         <div className="price-content">
-                                            <div className="price seccolor">
-                                                <del className="c-grey seccolor"><small><sup
-                                                    className="coin seccolor">{data.p_117.pricing.INR.prefix}</sup> <span
-                                                    className="value seccolor">{data.p_117.pricing.INR.annually}</span></small></del>
+                                            <div className="price">
+                                                <sup className="coin mergecolor">{data.p_117.pricing.INR.prefix}</sup>
+                                                <span className="discount mergecolor">{data.p_117.pricing.INR.annually}</span>
+                                                <small className="mergecolor">/</small><span
+                                                className="period annually mergecolor">year</span>
                                             </div>
                                             <div className="price">
-                                                <sup className="coin mergecolor">$</sup>
-                                                <span className="discount mergecolor">62.00</span>
+                                                <sup className="coin mergecolor">{data.p_117.pricing.USD.prefix}</sup>
+                                                <span className="discount mergecolor">{data.p_117.pricing.USD.annually}</span>
                                                 <small className="mergecolor">/</small><span
                                                 className="period annually mergecolor">year</span>
                                             </div>
