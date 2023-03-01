@@ -21,3 +21,8 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+
+$('.theme-switcher').click(function (){
+    console.log('Theme chnaged');
+});
