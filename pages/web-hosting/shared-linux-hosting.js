@@ -117,8 +117,8 @@ function SharedLinuxHosting({ data }) {
                                         <div className="fromer seccolor">annually get (20% discount)</div>
                                         <div className="price-content">
                                             <div className="price">
-                                                <sup className="coin mergecolor">{data.p_3.pricing.USD.prefix}</sup>
-                                                <span className="discount mergecolor">{data.p_3.pricing.USD.annually}</span>
+                                                <sup className="coin mergecolor">{data.p_3.pricing.INR.prefix}</sup>
+                                                <span className="discount mergecolor">{data.p_3.pricing.INR.annually}</span>
                                                 <small className="mergecolor">/</small><span
                                                 className="period annually mergecolor">year</span>
                                             </div>
