@@ -147,6 +147,7 @@ function SharedLinuxHosting({ data }) {
                         </div>
                     </div>
                 </section>
+                
                 <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
                     <div className="container">
                         <div className="randomline">
