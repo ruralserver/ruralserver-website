@@ -97,13 +97,13 @@ function SharedLinuxHosting({ data }) {
 
                                     <ul className="list-info">
                                         <li><i className="icon-drives"></i> <span className="c-purple">DISK</span><br/>
-                                            <span>250GB SSD</span></li>
+                                            <span>50GB SSD</span></li>
                                         <li><i className="icon-speed"></i> <span className="c-purple">DATA</span><br/>
                                             <span>1TB Bandwidth</span></li>
                                         <li><i className="icon-emailopen"></i> <span
                                             className="c-purple">EMAIL</span><br/> <span>120 Emails</span></li>
                                         <li><i className="icon-domains"></i> <span className="c-purple">TLD</span><br/>
-                                            <span>30 Domains</span></li>
+                                            <span>1 Domains</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ function SharedLinuxHosting({ data }) {
                                         <li><i className="icon-emailopen"></i> <span className="c-pink">EMAIL</span><br/>
                                             <span>Unlimited Emails</span></li>
                                         <li><i className="icon-domains"></i> <span className="c-pink">TLD</span><br/>
-                                            <span>Unlimited Domains</span></li>
+                                            <span>5 Domains</span></li>
                                     </ul>
                                 </div>
                             </div>
