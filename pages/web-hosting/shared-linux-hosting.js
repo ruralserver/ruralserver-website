@@ -86,7 +86,7 @@ function SharedLinuxHosting({ data }) {
                                             </div>
                                             <div className="price">
                                                 <sup className="coin mergecolor">{data.p_117.pricing.USD.prefix}</sup>
-                                                <span className="discount mergecolor">{data.p_117.pricing.USD.annually}</span>
+                                                <span className="discount mergecolor"> {data.p_117.pricing.USD.annually}</span>
                                                 <small className="mergecolor">/</small><span
                                                 className="period annually mergecolor">year</span>
                                             </div>
@@ -124,7 +124,7 @@ function SharedLinuxHosting({ data }) {
                                             </div>
                                             <div className="price">
                                                 <sup className="coin mergecolor">{data.p_3.pricing.USD.prefix}</sup>
-                                                <span className="discount mergecolor">{data.p_3.pricing.USD.annually}</span>
+                                                <span className="discount mergecolor"> {data.p_3.pricing.USD.annually}</span>
                                                 <small className="mergecolor">/</small><span
                                                 className="period annually mergecolor">year</span>
                                             </div>
@@ -147,7 +147,7 @@ function SharedLinuxHosting({ data }) {
                         </div>
                     </div>
                 </section>
-                
+
                 <section id="scroll" className="history-section feat01 sec-normal bg-colorstyle">
                     <div className="container">
                         <div className="randomline">
