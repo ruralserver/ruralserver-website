@@ -331,7 +331,7 @@ export default function Header() {
                                       <div className="tech-box">
                                           <div className="theme-switch-wrapper">
                                               <label className="theme-switch">
-                                                  <input type="checkbox" className="theme-switcher"/>
+                                                  <input type="checkbox" className="theme-switcher" onClick={ThemeChange}/>
                                                       <div className="mode-container">
                                                           <i className="gg-sun"></i>
                                                           <i className="gg-moon"></i>
